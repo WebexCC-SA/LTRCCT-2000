@@ -2,54 +2,6 @@
 #icon: material/folder-open-outline
 icon: material/bullseye-arrow
 ---
-<script>
-    // Function to initialize and handle form submission
-    function setupAttendeeForm() {
-        const form = document.getElementById('attendee-form');
-        const displayAttendee = document.getElementById('display-attendee');
-        const attendeeInput = document.getElementById('attendee');
-
-        // Load stored Attendee ID on page load
-        const storedAttendeeID = localStorage.getItem('attendeeID');
-        if (storedAttendeeID) {
-            attendeeInput.value = storedAttendeeID;
-            displayAttendee.textContent = storedAttendeeID;
-        }
-
-        // Restrict input to only allow three digits
-        attendeeInput.addEventListener('input', function() {
-            this.value = this.value.replace(/\D/g, '').slice(0, 3);
-        });
-
-        // Handle form submission
-        form.addEventListener('submit', function(event) {
-            event.preventDefault();
-            const attendeeIDInput = attendeeInput.value;
-
-            if (attendeeIDInput && attendeeIDInput.length === 3) {
-                // Store the Attendee ID in local storage
-                localStorage.setItem('attendeeID', attendeeIDInput);
-
-                // Update the displayed Attendee ID
-                displayAttendee.textContent = attendeeIDInput;
-            } else {
-                alert('Please enter exactly 3 digits.');
-            }
-        });
-    }
-
-    // Wait for the DOM content to be fully loaded
-    document.addEventListener('DOMContentLoaded', setupAttendeeForm);
-    
-    document.addEventListener('DOMContentLoaded', function() {
-        const attendeeID = localStorage.getItem('attendeeID') || 'Not Set';
-        const attendeePlaceholder = document.getElementById('attendee-id-placeholder');
-
-        if (attendeePlaceholder) {
-            attendeePlaceholder.textContent = attendeeID;
-        }
-    });
-</script>
 
 <style>
     /* Style for the button */
@@ -72,15 +24,15 @@ icon: material/bullseye-arrow
 <div>
     <h2>Please submit the form below with your Attendee ID.</h2> 
     <h3>All configuration entries in the lab guide will be renamed to include your Attendee ID.</h3>
-    <form id="attendee-form">
+    <form id="info">
         <label for="attendee">Attendee ID:</label>
         <input type="text" id="attendee" name="attendee" placeholder="Enter 3 digits" required>
-        <button type="submit">Save</button>
+        <button onclick="setValues()">Save</button>
     </form>
 
     <br>
 
-    <p>Your stored Attendee ID is: <b><span id="display-attendee">No ID stored</span></b></p>
+    <p>Your stored Attendee ID is:<w class="attendee"> No ID stored</w></p>
 </div>
 
 # Overview

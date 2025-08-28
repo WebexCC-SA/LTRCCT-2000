@@ -30,7 +30,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
     ![Profiles](../graphics/Lab1_AI_Agent/2.56.png)
 
 
-3. Ignore if already logged-in into Control hub with your Admin user. Login into [Webex Control Hub](https://admin.webex.com){:target="_blank"} by using your Admin profile **<span class="attendee-id-container">wxcclabs+admin_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+admin_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy" title="Click to copy!"></span></span>**. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you.
+3. Ignore if already logged-in into Control hub with your Admin user. Login into [Webex Control Hub](https://admin.webex.com){:target="_blank"} by using your Admin profile **<copy>wxcclabs+admin_ID<w class="attendee"></w>@gmail.com</copy>**. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you.
 
 4. Go to Contact Center from the left side navigation panel, and under Quick Links, click on **Webex AI Agent**
 
