@@ -38,7 +38,8 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 5. In AI Agent Builder navigate to **Knowledge** from left hand side menu panel. 
 
-6. Click **Create Knowledge Base**, provide Knowledge base name as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**, then click **Create**.
+6. Click **Create Knowledge Base**, provide Knowledge base name as **<copy><w class="attendee"></w>_2000_AI_KB</copy>**, then click **Create**.
+
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.1.gif)
 
@@ -56,7 +57,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 11. New section **Add the essential details** will appear. Provide the following information, then click **Create**:
 
-    > Agent Name: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
+    > Agent Name: **<copy><w class="attendee"></w>_2000_AutoAI_Lab</copy>**
     >
     > System ID is created automatically
     >
@@ -118,7 +119,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 
 
-14.  Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AI_KB">Your_Attendee_ID</span>_2000_AI_KB<span class="copy" title="Click to copy!"></span></span>**. Click **Save Changes**.
+14.  Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<copy><w class="attendee"></w>_2000_AI_KB</copy>**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)
 
 15.  Click **Publish**. Provide any version name in popped up window (ex. "1.0").<br>
