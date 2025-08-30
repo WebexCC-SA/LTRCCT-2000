@@ -40,7 +40,7 @@ Understand the provisioning process and Control Hub settings required to activat
 1. Login to the Agent Desktop.
    ![Profiles](../graphics/Lab1_AI_Agent/3.15.png)
 
-2. Confirm that your Channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** is still configured with the flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
+2. Confirm that your Channel **<w class="attendee"></w>_2000_Channel** is still configured with the flow **AutonomousAI_Flow_2000_<w class="attendee"></w>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
    ![Profiles](../graphics/Lab1_AI_Agent/3.7.gif)
 
 3. Place a test call and ask to talk to an agent. 
