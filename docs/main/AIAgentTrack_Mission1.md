@@ -63,13 +63,12 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
     >
     > AI engine: **Webex AI Pro 1.0**
     > 
-    > Agent's goal: ***This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation SMS with the order details.***<span class="copy-static" title="Click to copy!" data-copy-text="This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation SMS with the order details."><span class="copy"></span></span>
+    > Agent's goal: ***<copy>This is Flower Shop. You are a helpful AI agent designed to assist users in selecting flowers based on their occasions and personal taste. You can also set up delivery and send a confirmation SMS with the order details.</copy>***
 
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.3.gif)
 
-12. Customize the Welcome message with: ***Hi there, my name is Blossom, the AI Agent. How can I assist you?***<span class="copy-static" title="Click to copy!" data-copy-text="Hi there, my name is Blossom, the AI Agent. How can I assist you?"><span class="copy"></span></span>
-
+12. Customize the Welcome message with: ***<copy>Hi there, my name is Blossom, the AI Agent. How can I assist you?</copy>***
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.16.png)
 
@@ -128,7 +127,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 ### Task 2. Test your AI Agent
 
-1. Click on **Preview** and testing the AI Agent to understnad how it behaives using Chat channel. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
+1. Click on **Preview** and testing the AI Agent to understnad how it behaives using Chat channel. You can start the conversation with: **<copy>I need flower for my friend</copy>**. And try to customize you order. 
 
 ![Profiles](../graphics/Lab1_AI_Agent/2.59.gif)
 
