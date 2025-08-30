@@ -50,7 +50,7 @@ Your mission is to:
 3. Make sure you can see Agent Assistant widget.
    ![Profiles](../graphics/Lab1_AI_Agent/3.6.png)
 
-4. Confirm that your Channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** is still configured with the flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
+4. Confirm that your Channel **<w class="attendee"></w>_2000_Channel** is still configured with the flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
    ![Profiles](../graphics/Lab1_AI_Agent/3.7.gif)
 
 5. Place a test call and, for example, mention that you need some flowers for a wedding party. **Allow the AI Agent to complete its response before requesting to transfer the call to a live human agent**. 
