@@ -16,7 +16,7 @@ Integrate the AI Agent with the Voice Flow.
 1. In Control Hub navigate to **Flows**, click on **Manage Flows** dropdown list and select **Create Flows**. Select **Start Fresh**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.47.gif)
 
-2.  Name the new flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow**.
+2.  Name the new flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** and click **Create Flow**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.48.png)
 
 3. Make sure the **Edit** mode at the top is set to **ON**. Then, drag and drop the **Virtual Agent V2** and **DisconnectContact** activities from the left panel onto the canvas.
@@ -34,7 +34,7 @@ Integrate the AI Agent with the Voice Flow.
     >
     > Select Contact Center AI Config as **Webex AI Agent (Autonomous)**
     >
-    > Virtual Agent: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_AutoAI_Lab">Your_Attendee_ID</span>_2000_AutoAI_Lab<span   class="copy" title="Click to copy!"></span></span>**
+    > Virtual Agent: **<copy><w class="attendee"></w>_2000_AutoAI_Lab</copy>**
     ![Profiles](../graphics/Lab1_AI_Agent/2.49.gif)  
 
 4. Drag and drop **Queue Contact** and **Play Music** nodes. Configure them as the following:
@@ -50,7 +50,7 @@ Integrate the AI Agent with the Voice Flow.
       > 
       > Click on **Queue Contact** node and select **Static Queue**.
       > 
-      > Queue name: **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Voice_Queue">Your_Attendee_ID</span>_2000_Voice_Queue<span class="copy" title="Click to copy!"></span></span>**
+      > Queue name: **<copy><w class="attendee"></w>_2000_Voice_Queue</copy>**
       > 
 
     - **Play Music**
@@ -67,12 +67,12 @@ Integrate the AI Agent with the Voice Flow.
 5. **Validate** and **Publish** Flow. In popped up window click on dropdown menu to select **Latest** label (**DO NOT** Select any other tag but only **Latest**), then click **Publish**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.51.gif)  
 
-6. Assign the Flow to your **Channel (Entry Point)** - Do this by first going to **Channel** > Search for your channel **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel**.
-7. Click on **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel**
+6. Assign the Flow to your **Channel (Entry Point)** - Do this by first going to **Channel**, search for your channel **<copy><w class="attendee"></w>_2000_Channel</copy>**.
+7. Click on **<copy><w class="attendee"></w>_2000_Channel</copy>**
     ![Profiles](../graphics/Lab1_AI_Agent/2.52.png)  
-8. In **Entry Point** Settings section change the following:
+8. In **Channel** settings section change the following:
 
-    > Routing Flow: **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**
+    > Routing Flow: **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**
 
     > Version Label: **Latest**
 
@@ -80,18 +80,18 @@ Integrate the AI Agent with the Voice Flow.
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.53.gif)
 
-9. Dial Support Number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** to test the Autonomous AI Agent over a voice call.
+9. Dial Support Number assigned to your **<w class="attendee"></w>_2000_Channel** to test the Autonomous AI Agent over a voice call.
 
 
 ### Task 2. Test Agent Handoff Configurations.
 
 1. From the browser start logging in to [Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} with the same credentials. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you. 
-2. Select **Desktop** endpoint option and choose the team. **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="__2000_Team">Your_Attendee_ID</span>_2000_Team<span class="copy" title="Click to copy!"></span></span>**. Click **Submit**. Allow browser to access Microphone by clicking **Allow** on every visit.
+2. Select **Desktop** endpoint option and choose the team. **<copy><w class="attendee"></w>_2000_Team</copy>**. Click **Submit**. Allow browser to access Microphone by clicking **Allow** on every visit.
 3. Make your agent ***Available*** and you're ready to make a call.
 
     ![profiles](../graphics/Lab1/5-Agent_Login.gif)
 
-4. Dial the support number assigned to your **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** channel, and during the conversation with the AI agent, ask to talk to a representetive or live agent. 
+4. Dial the support number assigned to your **<w class="attendee"></w>_2000_Channel** channel, and during the conversation with the AI agent, ask to talk to a representetive or live agent. 
 
 5. By default, the **Conversation Transcripts** setting is enabled in VirtualAgentV2 block.
     ![Profiles](../graphics/Lab1_AI_Agent/2.54.png)
