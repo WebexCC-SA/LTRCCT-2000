@@ -115,7 +115,8 @@ nav:
           - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
       - Suggested Responses:
           - Lab Guide:
-                - "Lab overview": ./main/AI_Lab_Features_Overview.md
+                - "Lab overview": ./main/AI_Lab_Suggested_Responses_Overview.md
+                - "Mission 1": ./main/AI_Lab_Suggested_Responses_Mission1.md
           - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
   - IVR Campaign:
       - Lab Guide:
