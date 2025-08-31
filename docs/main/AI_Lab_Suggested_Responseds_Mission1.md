@@ -67,3 +67,13 @@ Create a Knowledge Base for the AI Assistant skill to use. This knowledge base w
 4. (Optional) You can adjust your links layout using the Curved Links option. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.14.png)
 
+### Task 5. Test Suggested Respondes Feature.
+
+1. Log in to the Agent Desktop. If you were previously logged in, the suggestion is to re-login, as we did a lot of configurations related to the Queue and the Team.
+    ![Profiles](../graphics/Lab1_AI_Agent/9.15.png)
+
+
+2. end the call to the number that is related to your <copy><w class="attendee"></w>_2000_Channel</copy>.  Once you connect to the AI agent, ask to speak to a human agent.
+
+3. Once the call is connected to your Agent Desktop, click on the AI Assistance module. You will see the option **Get Suggestion**. Click on it and try to order some flowers. You should see that the AI Agent will suggest flower availability and prices to the human agent based on the Knowledge Base.
+    ![Profiles](../graphics/Lab1_AI_Agent/9.14.gif)
