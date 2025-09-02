@@ -4,7 +4,7 @@ icon: material/medal
 ---
 
 
-# Mission 1: Create Knowledgebase.
+# Mission 1: Configure Suggested Responses with Knowledgebase.
 
 
 
