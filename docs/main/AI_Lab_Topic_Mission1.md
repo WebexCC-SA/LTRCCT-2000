@@ -33,7 +33,7 @@ Click on **Edit Topics** on the top-right corner.
 2. In the Name Copy screen, edit the topic collection name. By default, Copy of existing collection name appears in the Topic collection name field. For this lab you can call it with any name you prefare. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.8.png)
 
-3.  Optionally, topics can be merged or deleted. **Please do not do it whle working on this lab**. 
+3.  Optionally, topics can be merged or deleted. **Please do not do it while working on this lab**. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.17.png)
 
 4. Click on Add New
@@ -53,7 +53,7 @@ Click on **Edit Topics** on the top-right corner.
 6. Click on **Next**.
    ![Profiles](../graphics/Lab1_AI_Agent/1.11.png)
 
-7. <span style="color: red;">[Read Only]</span>  Review the **Edits** but for this lab overview **DO NOT click** on  **Create new topic collection**. 
+7. <span style="color: red;">[Read Only]</span>  Review the **Edits** but for this lab overview **DO NOT click** on  **Create new topic collection**, as it would take some time for it to be created. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.12.png)
 
 8. <span style="color: red;">[Read Only]</span>  On the next Windows you would see that new collection is creating.
