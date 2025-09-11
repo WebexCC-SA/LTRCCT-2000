@@ -4,7 +4,7 @@ icon: material/bullseye-arrow
 ---
 
 ## Learning Objectives
-1. Ensure that you have **LTRCCT-2000_LAB_Credential** file on your desktop with instructions and credentials to access your lab. If you do not, please ask your lab proctor now.
+1. Ensure that you have **LAB2342_Credential** file on your desktop with instructions and credentials to access your lab. If you do not, please ask your lab proctor now.
 2. Understand your configuration instructions
 
 
@@ -18,10 +18,9 @@ icon: material/bullseye-arrow
 3. The Human Agent have been configured for you. You will be performing the rest of the configurations for AI Agent and integartion with channels.
 4. All your configurations should contain your attendee ID so the lab users don't step over each other's configurations.
 5. Each of you has been provided with the phone number to dial (Entry point DN), 1 agent and 1 admin.
-6. Please ask for help when you need it. You can do so by:
-   * Dropping your question in the LAB Space **LTRCCT-2000: In Room Lab Support** from Webex App in your Lab PC. 
-   * Raising your hand and calling the proctor.
-       ![Profiles](../graphics/Lab1_AI_Agent/GS8.gif)
+6. Please ask for help when you need it. You can do so by:<br>
+Dropping your question in the LAB Space **LAB-2342: In Room Lab Support** from Webex App in your Lab PC. <br>
+Raising your hand and calling the proctor.<br>
 ---
 
 ### Predefined configuration

@@ -64,7 +64,7 @@ Designing a **Webex AI Agent** for a flower shop to assist customers via **voice
 
 ## Learning Objectives
 
-Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights - LTRCCT-2000"** Instructor-led Lab
+Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights - LAB-2342"**
 
 ![Profiles](../graphics/NewLab/Overview/1.1.png)
 
