@@ -67,3 +67,21 @@ Click on **Edit Topics** on the top-right corner.
 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
+
+#### Task 3. Review the collection results in Analyzer. 
+
+1. From [Control Hub](https://admin.webex.com){:target="_blank"} login to Analyzer. 
+   ![Profiles](../graphics/Lab1_AI_Agent/1.18.png)
+
+2. Click on Dashboard and search for the Dashboard with name **AI Assistant Dashboard**. Open the Deshboard with ID -1284.
+   ![Profiles](../graphics/Lab1_AI_Agent/1.20.png)
+
+3. Scroll down and select the duration as **This Year**
+   ![Profiles](../graphics/Lab1_AI_Agent/1.21.png)
+
+4. To check the graph for flower-related topics, uncheck all other topics, leaving only **Inquiry on Flower and Costs** and **Inquiry on Flower Order and Prices**.
+
+   ![Profiles](../graphics/Lab1_AI_Agent/1.22.png)
+
+5. On the right side, you can see the **Topic Analytics Summary** card with additional information like Interactions, Avg Handle Time, and Average Auto CSAT. You can expand details about the interactions related to the topic by clicking on it.
+   ![Profiles](../graphics/Lab1_AI_Agent/1.23.png)
