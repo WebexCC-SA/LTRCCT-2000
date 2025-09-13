@@ -68,7 +68,7 @@ Click on **Edit Topics** on the top-right corner.
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
 
-#### Task 3. Review the collection results in Analyzer. 
+#### Task 3. Review Topic Analytics reports in AI Assistant Dashboard. 
 
 1. From [Control Hub](https://admin.webex.com){:target="_blank"} login to Analyzer. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.18.png)
@@ -80,8 +80,22 @@ Click on **Edit Topics** on the top-right corner.
    ![Profiles](../graphics/Lab1_AI_Agent/1.21.png)
 
 4. To check the graph for flower-related topics, uncheck all other topics, leaving only **Inquiry on Flower and Costs** and **Inquiry on Flower Order and Prices**.
+   ![Profiles](../graphics/Lab1_AI_Agent/1.24.png)
 
-   ![Profiles](../graphics/Lab1_AI_Agent/1.22.png)
 
 5. On the right side, you can see the **Topic Analytics Summary** card with additional information like Interactions, Avg Handle Time, and Average Auto CSAT. You can expand details about the interactions related to the topic by clicking on it.
-   ![Profiles](../graphics/Lab1_AI_Agent/1.23.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/1.23.gif)
+
+#### Task 4. Review custom Analyzer report for Topic Analytics.
+
+1. While in the Analyzer portal, click on Visualizations and search for the report **LAB-2342-Topic**. Open the report. You should see that there are two new profile variables in Analyzer that could be used to review the Topic details: **Topic Name** and **Contact Driver**.
+   ![Profiles](../graphics/Lab1_AI_Agent/1.26.png)
+
+2. You can filter the report to see specific topics. Select **Inquiry on Flower and Costs** and **Inquiry on Flower Order and Prices**
+   ![Profiles](../graphics/Lab1_AI_Agent/1.28.png)
+
+3. Review the report after applying the filter.
+   ![Profiles](../graphics/Lab1_AI_Agent/1.29.png)
+
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
