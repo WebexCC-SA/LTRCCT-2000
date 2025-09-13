@@ -1,7 +1,7 @@
 
 ## Story
 
-## Webex Contact Center AI Assistant Lab – Context Transfer
+## Webex Contact Center AI Assistant Lab.
 
 This lab demonstrates how to pass contextual intelligence from AI agents to Webex Contact Center agents.
 

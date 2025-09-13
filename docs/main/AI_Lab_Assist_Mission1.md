@@ -29,9 +29,9 @@ Your mission is to:
 3. The Agent needs to be logged in to the Team that is configured with Desktop Layout that has "ai-assistant" features configured. 
     Note: Default desktop layout already incude the AI Agent Assistance widget 
     <br/>Agents Team:
-   ![Profiles](../graphics/Lab1_AI_Agent/3.2.png)    
+   ![Profiles](../graphics/Lab1_AI_Agent/3.41.png)    
     <br/>Desktop Layout:
-   ![Profiles](../graphics/Lab1_AI_Agent/3.4.png) 
+   ![Profiles](../graphics/Lab1_AI_Agent/3.43.png) 
     <br/>Desktop Layout file: </br>
      Make sure **ai-assistant** is configured under the **advancedHeader**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.5.png)
@@ -45,7 +45,7 @@ Your mission is to:
    ![Profiles](../graphics/Lab1_AI_Agent/3.39.png)
 
 2. Select telephony option as **Desktop**.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.40.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/3.44.png)
 
 3. Make sure you can see Agent Assistant widget.
    ![Profiles](../graphics/Lab1_AI_Agent/3.6.png)

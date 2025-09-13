@@ -25,13 +25,13 @@ Raising your hand and calling the proctor.<br>
 
 ### Predefined configuration
 
-> Entry Point/Channels:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Channel">Your_Attendee_ID</span>_2000_Channel<span class="copy"></span></span>**
+> Entry Point/Channels:  **<copy><w class="attendee"></w>_2000_Channel</copy>**
 
-> Queue:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Voice_Queue">Your_Attendee_ID</span>_2000_Voice_Queue<span class="copy"></span></span>**
+> Queue:  **<copy><w class="attendee"></w>_2000_Voice_Queue</copy>**
 
-> Team:  **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Team">Your_Attendee_ID</span>_2000_Team<span class="copy"></span></span>**
+> Team:  **<copy><w class="attendee"></w>_2000_Team</copy>**
 
-> Admin:   **<span class="attendee-id-container">wxcclabs+admin_ID<span class="attendee-id-placeholder" data-prefix="wxcclabs+admin_ID" data-suffix="@gmail.com">Your_Attendee_ID</span>@gmail.com<span class="copy"></span></span>**
+> Admin:   **<copy>wxcclabs+admin_ID<w class="attendee"></w>@gmail.com</copy>**
 
 > Webex App has been pre-installed on your Lab PC
 

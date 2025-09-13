@@ -47,7 +47,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.2.gif)
 
-    Optional: You can also natively create a Knowledge Base document by Clicking **Documents** then **Create Document** and paste the content. **Save** it. 
+    <span style="color: red;">[Read Only]</span> : You can also natively create a Knowledge Base document by Clicking **Documents** then **Create Document** and paste the content. **Save** it. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.75KBDocument.gif)
     
 8. Navigate to **Dashboard** from the right-hand side menu panel and click **Create Agent**
@@ -128,7 +128,6 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 ### Task 2. Test your AI Agent
 
 1. Click on **Preview** and testing the AI Agent to understnad how it behaives using Chat channel. You can start the conversation with: **<copy>I need flower for my friend</copy>**. And try to customize you order. 
-
 ![Profiles](../graphics/Lab1_AI_Agent/2.59.gif)
 
 2. Click on **Preview** and testing the AI Agent to understnad how it behaives using Voice channel. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 

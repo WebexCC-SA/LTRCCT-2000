@@ -38,9 +38,9 @@ Your mission is to:
 
 3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has Agent Assistance features configured. 
     <br/>Agents Team:
-   ![Profiles](../graphics/Lab1_AI_Agent/3.2.png)    
+   ![Profiles](../graphics/Lab1_AI_Agent/3.41.png)    
     <br/>Desktop Layout:
-   ![Profiles](../graphics/Lab1_AI_Agent/3.4.png) 
+   ![Profiles](../graphics/Lab1_AI_Agent/3.43.png) 
     <br/>Desktop Layout file: Make sure **RT_TRANSCRIPT** widget is configured. 
    ![Profiles](../graphics/Lab1_AI_Agent/3.11.png) 
    <br/>You can download preconfigured desktop layout here.

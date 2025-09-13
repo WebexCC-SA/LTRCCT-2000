@@ -39,7 +39,7 @@ Integrate the AI Agent with the Voice Flow.
 
 4. Drag and drop **Queue Contact** and **Play Music** nodes. Configure them as the following:
 
-    - **Queue Contact** activity onto the Flow from the left side panel
+    - **Queue Contact** 
 
       >
       > Connect the **Escalated** path from the **Virtual Agent V2** activity to the **Queue Contact** activity.
