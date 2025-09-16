@@ -9,9 +9,24 @@ You will explore the Webex Campaign User Interface and understand how to configu
 
 ## Featurs Overview.
 
-### Task 1 <span style="color: red;">[OVERVIEW ONLY]</span>. Explore the Webex Campaign User Interface.
+### Task 1 Create new Google Profile
 
-1. Using the following user name and the password (wxcclabscx@gmail.com/TSSumm!t_2024!$%) login to the portal  [Campaign Manager](https://traininglab.wxcc.webexcampaign.us/nextgen/){:target="_blank"}
+1. Currently, users with aliases are not allowed to log in to the new Campaign Management portal. Engineering is working to resolve this issue. However, for this lab, we will all be using one user account (wxcclabscx@gmail.com). Since you are already using the default Chrome profile to log in to Control Hub, you will need to create an additional Chrome profile to log in to the Campaign Management portal.
+
+2. Open up Google Chrome and on the right top sides click on the profiles and then click on **Add Chrome Profile**.
+   ![Profiles](../graphics/Lab1_AI_Agent/7.16.png) 
+
+3. Select **Continue without an account**.
+   ![Profiles](../graphics/Lab1_AI_Agent/7.17.png) 
+
+4. Name your profile, for example, **Webex Campaign** and click **Done**. 
+
+   ![Profiles](../graphics/Lab1_AI_Agent/7.18.png)
+
+### Task 2 <span style="color: red;">[OVERVIEW ONLY]</span>. Explore the Webex Campaign User Interface.
+
+
+1. Using the following user name and the password (**wxcclabscx@gmail.com/TSSumm!t_2024!$%**) login to the portal  [Campaign Manager](https://traininglab.wxcc.webexcampaign.us/nextgen/){:target="_blank"}
 
 2. You will see a welcome message along with a list of required configurations that need to be completed to set up the Campaign Voice Flow. Click on Got it. 
    ![Profiles](../graphics/Lab1_AI_Agent/7.1.png) 
