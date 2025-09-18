@@ -133,3 +133,12 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 
 13. Open up your flow, and you can trace this call. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.40.png)
+
+14. If you need to upload the new list, first **Pause** the campaign. (DO NOT Stop the Campaign)
+   ![Profiles](../graphics/Lab1_AI_Agent/8.48.png)
+
+15. Upload the new contacts.
+   ![Profiles](../graphics/Lab1_AI_Agent/8.49.png)
+
+16. Resume the Campaign.
+   ![Profiles](../graphics/Lab1_AI_Agent/8.50.png)
