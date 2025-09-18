@@ -18,19 +18,18 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 3. Click on **Start Fresh**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.4.png)
 
-4. Name the flow as **<span class="attendee-id-container">OutDial_Flow_2000_<span class="attendee-id-placeholder" data-prefix="OutDial_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow**.
+4. Name the flow as **<copy>OutDial_Flow_2000_<w class="attendee"></w></copy>** and click **Create Flow**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.5.png)
 
-6. In the Main Flow, add **End Flow** block and connect **New Phone Contact** block to the **End Flow** block. 
+5. In the Main Flow, add **End Flow** block and connect **New Phone Contact** block to the **End Flow** block. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.6.gif)
 
-7. Click on the **Event Flows**.
+6. Click on the **Event Flows**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.7.png)
-
-8. Add **GoTo** node and connect it to **Outbound Campaign** node. 
+7. Add **GoTo** node and connect it to **Outbound Campaign** node. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.8.gif)
 
-9. Click on **GoTo** node and configure it with the Flow that you created in earlier labs for AI agent. It could have the name Flow: **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow** if you completed all the previous lab. If you just started from this lab, then you need to create another flow with your Virual Agent. </br></br> Also Validate and Publish the Flow. 
+8. Click on **GoTo** node and configure it with the Flow that you created in earlier labs for AI agent. It could have the name Flow: **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** and click **Create Flow** if you completed all the previous lab. If you just started from this lab, then you need to create another flow with your Virual Agent. </br></br> Also Validate and Publish the Flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.9.gif)
 
 ### Task 2. Create Outdial Channel for the Campaign.
@@ -38,7 +37,7 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 1. Click on **Channels** then click on **Create Channel** 
    ![Profiles](../graphics/Lab1_AI_Agent/8.10.png)
 
-2. Name the Channle as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Channel_Outdial">Your_Attendee_ID</span>_2000_Channel_Outdial<span   class="copy" title="Click to copy!"></span></span>**. Select **Type** as **Outbound Telephony**.
+2. Name the Channle as **<copy><w class="attendee"></w>_2000_Channel_Outdial</copy>**. Select **Type** as **Outbound Telephony**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.11.png)
 
 3. Configure **Service Level Threshold** with **300** seconds, select the flow that you have created in the previous Task, add a music on hold and select the Outdial Queue with name **LTRCCT-2000_Campaign_Q**<span class="copy-static" title="Click to copy!" data-copy-text="LTRCCT-2000_Campaign_Q "><span class="copy"></span></span>

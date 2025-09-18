@@ -11,7 +11,7 @@ You will explore the Webex Campaign User Interface and understand how to configu
 
 ### Task 1 Create new Google Profile
 
-1. Currently, users with aliases are not allowed to log in to the new Campaign Management portal. Engineering is working to resolve this issue. However, for this lab, we will all be using one user account (wxcclabscx@gmail.com). Since you are already using the default Chrome profile to log in to Control Hub, you will need to create an additional Chrome profile to log in to the Campaign Management portal.
+1. Currently, users with aliases are not allowed to log in to the new Campaign Management portal. Engineering is working to resolve this issue. However, for this lab, we will all be using one user account (**wxcclabscx@gmail.com**). Since you are already using the default Chrome profile to log in to Control Hub, you will need to create an additional Chrome profile to log in to the Campaign Management portal.
 
 2. Open up Google Chrome and on the right top sides click on the profiles and then click on **Add Chrome Profile**.
    ![Profiles](../graphics/Lab1_AI_Agent/7.16.png) 
@@ -26,7 +26,7 @@ You will explore the Webex Campaign User Interface and understand how to configu
 ### Task 2 <span style="color: red;">[OVERVIEW ONLY]</span>. Explore the Webex Campaign User Interface.
 
 
-1. Using the following user name and the password (**wxcclabscx@gmail.com/TSSumm!t_2024!$%**) login to the portal  [Campaign Manager](https://traininglab.wxcc.webexcampaign.us/nextgen/){:target="_blank"}
+1. Using the following user name and the password (**wxcclabscx@gmail.com/TSSumm!t_2024!$%**) login to the portal  [Campaign Manager](https://traininglab.wxcc.webexcampaign.us/nextgen/){:target="_blank"}.
 
 2. You will see a welcome message along with a list of required configurations that need to be completed to set up the Campaign Voice Flow. Click on Got it. 
    ![Profiles](../graphics/Lab1_AI_Agent/7.1.png) 
@@ -40,7 +40,7 @@ You will explore the Webex Campaign User Interface and understand how to configu
 5. Click on **Contact modes**. You can create different contact modes in Webex Campaign to attribute a particular phone number as a Home or Office numbers.
    ![Profiles](../graphics/Lab1_AI_Agent/7.4.png) 
 
-6. Click on **DNC List**. You create and manage multiple DNC (Do Not Contact) lists. The contacts in DNC lists will be excluded from Target Groups before deploying a campaign. Most commonly, this is used to manage contacts who have registered for DNC with telecom operators.
+6. Click on **DNC List**. You can create and manage multiple DNC (Do Not Contact) lists. The contacts in DNC lists will be excluded from Target Groups before deploying a campaign. Most commonly, this is used to manage contacts who have registered for DNC with telecom operators.
    ![Profiles](../graphics/Lab1_AI_Agent/7.5.png) 
 
 7. Click on **Field mappings**. This settings refer to the process of uploading a template or sample data and mapping the headers with the headers of dialer system. When you create a campaign, you have to assign the field mappings to a campaign and appropriate contact list has to be uploaded. When you upload a contact list to a campaign, and if the headers of the field mappings do not match, then you will get an error.
@@ -71,6 +71,6 @@ You will explore the Webex Campaign User Interface and understand how to configu
    ![Profiles](../graphics/Lab1_AI_Agent/7.13.png)
 
 15. Click on Edit any of the Wrap-up code to review how it is configured. 
-   ![Profiles](../graphics/Lab1_AI_Agent/7.13.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/7.14.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

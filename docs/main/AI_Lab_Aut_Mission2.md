@@ -173,7 +173,7 @@ Required: <b>Yes</b>
 
 ### Task 4. Deliver data from Webex Connect to AI studio for the response to the customer. 
 
-1. <span style="color: red;">[Read Only]</span> Once the HTTP request is completed a new object will be created on the third pary application. You can see all object by using the this link [https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder](https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder){:target="_blank"}. Below you can see the screenshot with all order informations. Currently there are only 2, but by the time of this lab there could be more.
+1. <span style="color: red;">[Read Only]</span> Once the HTTP request is completed a new object will be created on the third-party application. You can see all objects by using the this link [https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder](https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder){:target="_blank"}. Below you can see the screenshot with all orders information. Currently there are only 2 orders, but by the time of this lab there could be more.
    ![Profiles](../graphics/Lab1_AI_Agent/2.64.png)
 Each order/object will contain all the information that we sent from AI Studio but one - id. This key is created automatically once we create the object. The goal of this Task is to send the value of the **id** back to the AI Agent so AI Agent can provide it to the customer while they are still in live contact, like you can see on the picture below.<br>
    ![Profiles](../graphics/Lab1_AI_Agent/2.31.png)
