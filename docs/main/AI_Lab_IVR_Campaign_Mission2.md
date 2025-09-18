@@ -40,17 +40,17 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 2. Name the Channle as **<copy><w class="attendee"></w>_2000_Channel_Outdial</copy>**. Select **Type** as **Outbound Telephony**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.11.png)
 
-3. Configure **Service Level Threshold** with **300** seconds, select the flow that you have created in the previous Task, add a music on hold and select the Outdial Queue with name **LTRCCT-2000_Campaign_Q**<span class="copy-static" title="Click to copy!" data-copy-text="LTRCCT-2000_Campaign_Q "><span class="copy"></span></span>
-   ![Profiles](../graphics/Lab1_AI_Agent/8.12.png)
+3. Configure **Service Level Threshold** with **300** seconds, select the flow that you have created in the previous Task, add a music on hold and select the Outdial Queue with name **<copy>2000_Campaign_Q</copy>**
+   ![Profiles](../graphics/Lab1_AI_Agent/8.42.png)
 
 
 ### Task 3. Configure new Campaign. 
 
-1. Login to [Webex Campaign Manager](https://traininglab.wxcc.webexcampaign.us/nextgen){:target="_blank"}
-   ![Profiles](../graphics/Lab1_AI_Agent/8.1.png)
+1. Login to [Webex Campaign Manager](https://traininglab.wxcc.webexcampaign.us/nextgen){:target="_blank"} using the Chrome Profile that you created in the previous Mission. 
+   ![Profiles](../graphics/Lab1_AI_Agent/8.44.png)
 
-2. Click on **Campaign groups** and select LABCCL_2000 Group. 
-   ![Profiles](../graphics/Lab1_AI_Agent/8.2.png)
+2. Click on **Campaign groups** and select **2000_Campaign_Group**. 
+   ![Profiles](../graphics/Lab1_AI_Agent/8.43.png)
 
 3. Click on **Creat campaign**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.13.png)
@@ -58,14 +58,14 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 4. Click on Dialer **Configuration**. Select Channel (Entry Point) that you have created in the previous Task. Dialer mode select as **Progressive IVR**. Then **Save changies**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.14.png)
 
-5. Click on **Contact list source**, select **File**. 
-   ![Profiles](../graphics/Lab1_AI_Agent/8.15.png)
+5. Click on **Contact list source**, select **Manual file upload**. 
+   ![Profiles](../graphics/Lab1_AI_Agent/8.45.png)
 
 6. Select preconfigured field mapping with name **2000_Lab**. Select experation value to **30** days. Then click on **Save changies**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.16.png)
 
 7. Select **Daily schedule**. Configure the start day and active hours during the day. Then **Save changies**
-   ![Profiles](../graphics/Lab1_AI_Agent/8.17.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/8.46.png)
 
 8. Click on **Schedule exlusion dates** and just **Save changies**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.18.png)
@@ -86,9 +86,9 @@ Your mission is to create a new campaign that will deliver call to your cellphon
    ![Profiles](../graphics/Lab1_AI_Agent/8.23.png)
 
 14. Click on **Save & exit** the Campaign configuration. 
-   ![Profiles](../graphics/Lab1_AI_Agent/8.24.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/8.47.png)
 
-15. Name the Campaign as **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Campaign**. For **P&L** from the list select **TrainingAB_PL_17748776940323**. For **Purpose** select from the list **Sales**, and click on **Save campaign**.
+15. Name the Campaign as **<copy><w class="attendee"></w>_2000_Campaign</copy>**. For **P&L** from the list select **TrainingAB_PL_17748776940323**. For **Purpose** select from the list **Sales**, and click on **Save campaign**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.26.png)
 
 16. You will see you campaign will show up in the **DRAFT** status. 
