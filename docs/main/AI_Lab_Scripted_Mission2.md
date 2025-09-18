@@ -11,7 +11,7 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 
 #### Task 1. Review the Configurations in AI Studio to track an order. 
 
-1. Go to AI Studio and open AI Agent with name ***180_Scripted_AI_Agent***<span class="copy-static" title="Click to copy!" data-copy-text="180_Scripted_AI_Agent"><span class="copy"></span></span>. 
+1. Go to AI Studio and open AI Agent with name ***<copy>180_Scripted_AI_Agent</copy>***. 
 **Please do not making any changes to this agent, as this lab is for review purposes only for the entire group.**
 
     ![Profiles](../graphics/Lab1_AI_Agent/6.69.png) 
@@ -20,7 +20,7 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 2. Below is the diagram for tracking order flow. If the caller asking to track an order, **track_order** intent should be used as it has utterances like **Can you track my order** and others. This intent is configured to collect required **Entity**, for this the interaction will be moved to the interim response with name **order_number**.  
     ![Profiles](../graphics/Lab1_AI_Agent/6.68.png) 
 
-3. Open up ***180_Scripted_AI_Agent***<span class="copy-static" title="Click to copy!" data-copy-text="180_Scripted_AI_Agent"><span class="copy"></span></span>
+3. Open up ***<copy>180_Scripted_AI_Agent</copy>***
  AI agent. Click on **Script > Intents** and then open up **track_order** intent. 
      ![Profiles](../graphics/Lab1_AI_Agent/6.70.png) 
 
