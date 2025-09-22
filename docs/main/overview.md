@@ -3,6 +3,15 @@
 icon: material/bullseye-arrow
 ---
 
+## Get your login credentials
+
+1. Open the [Credentials list](https://drive.google.com/drive/folders/1-fSiOtHiYdOO7QlSNkh-1Woz-O6ErUei?usp=sharing){:target="_blank"}
+
+2. Find the User Number that is assosiated with you desk and open the folder.
+    ![Profiles](../graphics/Lab1_AI_Agent/10.1.gif) 
+
+3. Open the file and see your Attendee ID and login credentials. 
+    ![Profiles](../graphics/Lab1_AI_Agent/10.2.gif) 
 <style>
     /* Style for the button */
     button {
@@ -22,7 +31,7 @@ icon: material/bullseye-arrow
 
 <!-- Markdown content with embedded HTML -->
 <div>
-    <h2>Please submit the form below with your Attendee ID.</h2> 
+    <h3><b>Please submit the Attendee ID below.</b></h3> 
     <h3>All configuration entries in the lab guide will be renamed to include your Attendee ID.</h3>
     <form id="info">
         <label for="attendee">Attendee ID:</label>
@@ -35,9 +44,7 @@ icon: material/bullseye-arrow
     <p>Your stored Attendee ID is:<w class="attendee"> No ID stored</w></p>
 </div>
 
-# Overview
-
-## Use Case 
+## Overview of the lab's Use Case 
 
 ## Webex AI Agent Design for Flower Shop
 
