@@ -11,7 +11,7 @@ In this mission, you need to complete web chat configuration tasks, including cr
 
 ### Task 1. Find your Service.
 1. Login to Webex Connect Portal.
-Go to **Services** and look for the service that you have created earlier. The name should be **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Service">Your_Attendee_ID</span>_2000_Service<span   class="copy" title="Click to copy!"></span></span>**
+Go to **Services** and look for the service that you have created earlier. The name should be **<copy><w class="attendee"></w>_2000_Service</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/4.1.png)
 
 ### Task 2. Configure and Register Chat Asset.
@@ -20,7 +20,7 @@ Go to **Services** and look for the service that you have created earlier. The n
    ![Profiles](../graphics/Lab1_AI_Agent/4.2.png)
 
 
-2.  Input ***Name*** as **Chat_App_<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000**
+2.  Input ***Name*** as **<copy>Chat_App_<w class="attendee"></w>_2000</copy>**
 
 3.  Toggle/enable ***Live Chat / In-AppMessaging*** to ***ON*** and choose ***Primary Transport Protocol*** as **`MQTT`** & ***Secondary Transport Protocol*** as **`Web Socket`** then tick ***Use Secured Port*** checkbox and press ***Save*** button.
    ![Profiles](../graphics/Lab1_AI_Agent/4.3.png)
@@ -31,7 +31,7 @@ Go to **Services** and look for the service that you have created earlier. The n
 4.  Once asset is saved, press ***Register To Webex Engage*** at the top. 
    ![Profiles](../graphics/Lab1_AI_Agent/4.4.png)
 
-5. Choose **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Service** from the drop-down list and press ***Register*** button.
+5. Choose **<copy><w class="attendee"></w>_2000_Service</copy>** from the drop-down list and press ***Register*** button.
    ![Profiles](../graphics/Lab1_AI_Agent/4.5.png)
 
 6.  Check and make sure the asset has been succesfully registered to the service and  ***Register To Webex Engage*** button has been greyed out.
@@ -64,10 +64,10 @@ Go to **Services** and look for the service that you have created earlier. The n
 
 
 
-2. Input ***Name*** as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Chat_Queue">Your_Attendee_ID</span>_2000_Chat_Queue<span   class="copy" title="Click to copy!"></span></span>**. Also select **`Chat`** in the ***Channel Type*** section.
+2. Input ***Name*** as **<copy><w class="attendee"></w>_2000_Chat_Queue</copy>**. Also select **`Chat`** in the ***Channel Type*** section.
    ![Profiles](../graphics/Lab1_AI_Agent/4.12.png)
 
-3. Scroll down to **Chat Distribution** click on ***Add Group*** and select **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Team">Your_Attendee_ID</span>_2000_Team<span   class="copy" title="Click to copy!"></span></span>**
+3. Scroll down to **Chat Distribution** click on ***Add Group*** and select **<copy><w class="attendee"></w>_2000_Team</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/4.13.gif)
 
 4. Set ***Service Level Threshold*** as **`7200`** seconds (2 hours). Set ***Maximum Time in Queue*** as **`10800`** seconds (3 hours). Click on ***Save*** after comparing your values with the screenshot below.
@@ -80,7 +80,7 @@ Go to **Services** and look for the service that you have created earlier. The n
    ![Profiles](../graphics/Lab1_AI_Agent/4.15.gif)
 
 
-2.  Go to ***Assets*** -> search and edit **Chat_App_<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000** which you have created in Connect Portal.
+2.  Go to ***Assets*** -> search and edit **<copy>Chat_App_<w class="attendee"></w>_2000</copy>** which you have created in Connect Portal.
    ![Profiles](../graphics/Lab1_AI_Agent/4.16.gif)
 
 
