@@ -20,7 +20,7 @@ Remember, customers will trust the AI Agent only when they truly believe it can 
 1. A new call enters the voice flow. </br>
 2. The AI agent will suggest flowers that suit the occasion.</br>
 3. Customers will also be able to design their own bouquets from single flowers.</br>
-4. AI Agent will generate the order details and total price based on the infrmation in knowledge base</br>
+4. AI Agent will generate the order details and total price based on the information in knowledge base</br>
 5. AI Agent will send the information about the order to the third party system. </br>
 6. Customer will receive SMS confirmation with the order details. </br>
 7. The customer can always be transferred to a live agent along with the details of the conversation between the AI agent and the caller.</br>
