@@ -13,11 +13,11 @@ In the previous **Mission 3**, you created intents, entities, and responses to e
 
 1. The fulfillment for Scripted AI Agent currently is done in the WxCC Voice Flow in order to comply with all policies and regulations.
 
-2. Open up **AI Studio** portal go to **Scripts** > **responses** and open up response ***track_order***<span class="copy-static" title="Click to copy!" data-copy-text="track_order"><span class="copy"></span></span>. Go to Voice Channel. 
+2. Open up **AI Studio** portal go to **Scripts** > **responses** and open up response ***<copy>track_order</copy>***. Go to Voice Channel. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.38.gif) 
 
 3. Add **Custom Event** and configure it with the following: </br>
-Event Name: ***order_details***<span class="copy-static" title="Click to copy!" data-copy-text="order_details"><span class="copy"></span></span></br>
+Event Name: ***<copy>order_details</copy>***
 Event payload: **{"ordernumber":"${entity.order_number}"}**.</br>
 **Save** the updated response. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.39.gif) 
@@ -31,16 +31,16 @@ Event payload: **{"ordernumber":"${entity.order_number}"}**.</br>
 
 #### Task 2. Make API call from Voice Flow to retrieve the order status. 
 
-1. From [Control Hub](https://admin.webex.com){:target="_blank"}, go to Contact Center click on flows. Open up your flow. If you follow all lab steps the name should be **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>**. Or if you have different name, find your flow. Click on it to open the Flow. 
+1. From [Control Hub](https://admin.webex.com){:target="_blank"}, go to Contact Center click on flows. Open up your flow. If you follow all lab steps the name should be **<copy>Autonomous_Scripted_Flow_2000_<w class="attendee"></w></copy>**. Or if you have different name, find your flow. Click on it to open the Flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.41.gif) 
 
 2. Select **Edit** for the flow, click anywhere on the gray area in the flow, and look for the **Flow Variables** on the right side.
     ![Profiles](../graphics/Lab1_AI_Agent/6.42.gif) 
 
 3. Create 3 empty String Variables with names:</br>
-***order_id***<span class="copy-static" title="Click to copy!" data-copy-text="order_id"><span class="copy"></span></span></br>
-***MetaData_Scripted_Agent***<span class="copy-static" title="Click to copy!" data-copy-text="MetaData_Scripted_Agent"><span class="copy"></span></span></br>
-***order_status***<span class="copy-static" title="Click to copy!" data-copy-text="order_status"><span class="copy"></span></span>
+***<copy>order_id</copy>***
+***<copy>MetaData_Scripted_Agent</copy>***
+***<copy>order_status</copy>***
     ![Profiles](../graphics/Lab1_AI_Agent/6.43.gif) 
 
 4. The fulfillment will go over the Handled output. So in your Voice flow, remove the **Disconnect Contact** block and add **SetVariable block**. Connect Handled output to the SetVariable block. 

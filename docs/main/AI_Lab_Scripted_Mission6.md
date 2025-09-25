@@ -14,13 +14,13 @@ In the previous **Mission 4**, you configured a fulfillment flow that executes a
 
 Note: To deliver the call back to AI Studio, you need to add an additional **VirtualAgentV2** block to the flow.
 
-1. Open **<span class="attendee-id-container">Autonomous_Scripted_Flow_2000_<span class="attendee-id-placeholder" data-prefix="Autonomous_Scripted_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click **Create Flow** flow. Click on **Edit** the flow. 
+1. Open **<copy>Autonomous_Scripted_Flow_2000_<w class="attendee"></w></copy>**. Click on **Edit** the flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.56.gif)
 
 2. Delete the **Disconnect Contact** node and add **VirtualAgentV2** node. Connect **HttpRequest** block to **VirtualAgentV2** block. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.57.gif)
 
-3. Click on **VirtualAgentV2**. In the Contact Center AI Config search for scripted and select **Webex AI Agent (Scripted)**. Under the Virtual Agent option, search for the Scripted AI Agent with name **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>**.
+3. Click on **VirtualAgentV2**. In the Contact Center AI Config search for scripted and select **Webex AI Agent (Scripted)**. Under the Virtual Agent option, search for the Scripted AI Agent with name **<copy><w class="attendee"></w>_Scripted_AI_Agent</copy>**.
     ![Profiles](../graphics/Lab1_AI_Agent/6.58.gif)
 
 4. Connect Escalated output from the **VirtualAgentV2** node to the **Queue** node.
@@ -52,7 +52,7 @@ Event Data: **{"status":"{{order_status}}"}**
 
 #### Task 3. Review the order_status Response configuration. 
 
-1. Go to AI Studio and open your Scripted Agent. If you followed all the steps the name of the Scripted Agent should be **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_Scripted_AI_Agent">Your_Attendee_ID</span>_Scripted_AI_Agent<span class="copy" title="Click to copy!"></span></span>** 
+1. Go to AI Studio and open your Scripted Agent. If you followed all the steps the name of the Scripted Agent should be **<copy><w class="attendee"></w>_Scripted_AI_Agent</copy>**
     ![Profiles](../graphics/Lab1_AI_Agent/6.65.gif)
 
 2. Go to Script > Responses and search for the Response with the name **order_status**. This response is preconfigured in this lab for you. Go to Voice channel and review the configurations. 
@@ -63,7 +63,7 @@ Event Data: **{"status":"{{order_status}}"}**
 
 #### Task 4. Test Scripted AI agent order status flow.  
 
-1. Dial the number that is assosiated with **<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000_Channel** Channel. 
+1. Dial the number that is assosiated with **<copy><w class="attendee"></w>_2000_Channel</copy>** Channel. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.37.png) 
 
 2. During IVR, press 2 to and say "I want to track my order". Provide the order details that you created earlier, or use the order with number 22 for the example.
