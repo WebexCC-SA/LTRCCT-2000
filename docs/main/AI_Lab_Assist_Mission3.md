@@ -36,7 +36,7 @@ Your mission is to:
    ![Profiles](../graphics/Lab1_AI_Agent/3.10.png)
 
 
-3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has Agent Assistance features configured. 
+3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has Agent Assistance features configured. Default desktop layout already incude the AI Agent Assistance widget.
     <br/>Agents Team:
    ![Profiles](../graphics/Lab1_AI_Agent/3.41.png)    
     <br/>Desktop Layout:

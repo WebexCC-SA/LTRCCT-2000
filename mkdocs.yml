@@ -110,8 +110,9 @@ nav:
                 - "Lab overview": ./main/AI_Lab_Features_Overview.md
                 - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
                 - "Mission 2: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
-                - "(Read Only) Mission 3: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
-                - "(Read Only) Mission 4: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
+                - "Mission 3: Wrap Up Summary": ./main/AI_Lab_Assist_Mission4.md
+                - "(Read Only) Mission 4: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
+                - "(Read Only) Mission 5: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
           - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
       - Suggested Responses:
           - Lab Guide:
