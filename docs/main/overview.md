@@ -5,8 +5,13 @@ icon: material/bullseye-arrow
 
 ## Get your login credentials
 
-Find the folder named **User_ID** at the top right side of your screen. Open the folder, then open the file located inside. 
-    ![Profiles](../graphics/Lab1_AI_Agent/2025-09-29_11h26_45.png)
+1. Open the [Credentials list](https://drive.google.com/drive/folders/1-fSiOtHiYdOO7QlSNkh-1Woz-O6ErUei?usp=sharing){:target="_blank"}
+
+2. Find the User Number that is assosiated with you desk and open the folder.
+    ![Profiles](../graphics/Lab1_AI_Agent/10.1.gif) 
+
+3. Open the file and see your Attendee ID and login credentials. 
+    ![Profiles](../graphics/Lab1_AI_Agent/10.2.gif) 
 
 <style>
     /* Style for the button */
