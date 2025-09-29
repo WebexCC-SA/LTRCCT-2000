@@ -66,14 +66,12 @@ Click on **Edit Topics** on the top-right corner.
    ![Profiles](../graphics/Lab1_AI_Agent/1.15.png)
 
 
-<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
-
 #### Task 3. Review Topic Analytics reports in AI Assistant Dashboard. 
 
 1. From [Control Hub](https://admin.webex.com){:target="_blank"} login to Analyzer. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.18.png)
 
-2. Click on Dashboard and search for the Dashboard with name **AI Assistant Dashboard**. Open the Deshboard with ID -1284.
+2. Click on Dashboard and search for the Dashboard with name ***<copy>AI Assistant Dashboard</copy>***. Open the Deshboard with ID -1284.
    ![Profiles](../graphics/Lab1_AI_Agent/1.20.png)
 
 3. Scroll down and select the duration as **This Year**
