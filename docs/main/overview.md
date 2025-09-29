@@ -5,8 +5,8 @@ icon: material/bullseye-arrow
 
 ## Get your login credentials
 
-Find the folder on your PC Desktop with name **Login Details LAB 2342**.
-    ![Profiles](../graphics/Lab1_AI_Agent/10.3.png)
+Find the folder named **User_ID** at the top right side of your screen. Open the folder, then open the file located inside. 
+    ![Profiles](../graphics/Lab1_AI_Agent/2025-09-29_11h26_45.png)
 
 <style>
     /* Style for the button */
