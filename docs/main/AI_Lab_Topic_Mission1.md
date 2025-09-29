@@ -62,8 +62,8 @@ Click on **Edit Topics** on the top-right corner.
 9. <span style="color: red;">[Read Only]</span>  From Topic Analytytics you would see that a new Topic collection will be creating, and if you have enough calls with the provided reason, the data will show up in the Topic.
    ![Profiles](../graphics/Lab1_AI_Agent/1.14.png)
 
-10. For this lab open up topic with name **Flower Delivery 2** to see the expected results.
-   ![Profiles](../graphics/Lab1_AI_Agent/1.15.png)
+10. For this lab open up topic with name **Flower Delivery_2** to see the expected results.
+   ![Profiles](../graphics/Lab1_AI_Agent/1.30.png)
 
 
 #### Task 3. Review Topic Analytics reports in AI Assistant Dashboard. 

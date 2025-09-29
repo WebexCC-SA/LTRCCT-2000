@@ -30,9 +30,9 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
     ![Profiles](../graphics/Lab1_AI_Agent/2.56.png)
 
 
-3. Ignore if already logged-in into Control hub with your Admin user. Login into [Webex Control Hub](https://admin.webex.com){:target="_blank"} by using your Admin profile **<copy>wxcclabs+admin_ID<w class="attendee"></w>@gmail.com</copy>**. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you.
+3. Go to [Webex Control Hub](https://admin.webex.com){:target="_blank"}
 
-4. Go to Contact Center from the left side navigation panel, and under Quick Links, click on **Webex AI Agent**
+4. Open Contact Center from the left side navigation panel, and under Quick Links, click on **Webex AI Agent**
 
     ![Profiles](../graphics/Lab1/L1M6_OpenWebexAI.gif)  
 
@@ -127,7 +127,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 ### Task 2. Test your AI Agent
 
-1. Click on **Preview** and testing the AI Agent to understnad how it behaives using Chat channel. You can start the conversation with: **<copy>I need flower for my friend</copy>**. And try to customize you order. 
+1. Click on **Preview** and testing the AI Agent to understnad how it behaives using Chat channel. You can start the conversation with: **<copy>I need flower for my friend</copy>**. And try to ask what is the flower availabiliyt and prices and what would be the total for some floewr that you select. 
 ![Profiles](../graphics/Lab1_AI_Agent/2.59.gif)
 
 2. Click on **Preview** and testing the AI Agent to understnad how it behaives using Voice channel. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
