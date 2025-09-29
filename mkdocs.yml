@@ -144,5 +144,5 @@ nav:
                 - "Mission 2: Upload and configure Webex Connect flow": ./main/AI_Lab_Digital_Mission2.md
                 - "Mission 3: Test the AI Agent integration with the Digital Channel": ./main/AI_Lab_Digital_Mission3.md
           - Conclusion: ./main/AI_Lab_Digital_Overview.md
-  - Related Sessions: ./main/Related_Sessions.md
+#  - Related Sessions: ./main/Related_Sessions.md
 ###  - Ask a Question<i class="fa-solid fa-hand" style="color:#63E6BE;"></i>: slido-QA-iFrame.md
