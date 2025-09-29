@@ -40,13 +40,13 @@ Click on **Edit Topics** on the top-right corner.
    ![Profiles](../graphics/Lab1_AI_Agent/1.9.png)
 
 5. Configure the tops with the contact reason examples.</br>
-    Add Topic Labol: ***Flower Reason***<span class="copy-static" title="Click to copy!" data-copy-text="Flower Reason"><span class="copy"></span></span></br>
+    Add Topic Labol: ***<copy>Flower Reason</copy>***
     
     Contact Reasons: </br>
     
-    ***I need flowers for the party***<span class="copy-static" title="Click to copy!"data-copy-text="I need flowers for the party"><span class="copy"></span></span></br>
-    ***Need to order flower for Birthday***<span class="copy-static" title="Click to copy!" data-copy-text="Need to order flower for Birthday"><span class="copy"></span></span></br>
-    ***Anniversary***<span class="copy-static" title="Click to copy!" data-copy-text="Anniversary"><span class="copy"></span></span>
+    ***<copy>I need flowers for the party</copy>***</br>
+    ***<copy>Need to order flower for Birthday</copy>***</br>
+   ***<copy>Anniversary</copy>***</br>
     >
    ![Profiles](../graphics/Lab1_AI_Agent/1.10.png)
 
