@@ -3,12 +3,6 @@
 icon: material/bullseye-arrow
 ---
 
-## Feedback, improvment
-
-For any feedback or quesiton please reach out to:</br>
-**ktyagi@cisco.com**</br>
-**mdanylch@cisco.com**
-
 
 
 ## Get your login credentials
