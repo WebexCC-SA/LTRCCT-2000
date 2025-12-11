@@ -34,7 +34,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 4. Open Contact Center from the left side navigation panel, and under Quick Links, click on **Webex AI Agent**
 
-    ![Profiles](../graphics/Lab1/L1M6_OpenWebexAI.gif)  
+    ![Profiles](../graphics/Lab1_AI_Agent/L1M6_OpenWebexAI1.gif)
 
 5. In AI Agent Builder navigate to **Knowledge** from left hand side menu panel. 
 
@@ -55,7 +55,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 9. Select **Start from Scratch** and click **Next**
 10. On **Create an AI agent** page select the following select the type of agent: **Autonomous**
 
-11. New section **Add the essential details** will appear. Provide the following information, then click **Create**:
+11. Provide the following information in the **Add the essential details**, then click **Create**:
 
     > Agent Name: **<copy><w class="attendee"></w>_2000_AutoAI_Lab</copy>**
     >
@@ -113,7 +113,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
     >Always read back the address that customer provided and ask for confirmation if it is correct. If it is not correct, ask to provide the address again.
 
     >Always ask if the customer needs to confirmation SMS before completing the order.</br></br>
-    ![Profiles](../graphics/Lab1_AI_Agent/2.4.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/2.4.png)
 
 
 
