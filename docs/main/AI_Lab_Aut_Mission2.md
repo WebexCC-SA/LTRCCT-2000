@@ -28,7 +28,7 @@ Configure an action to collect order details from the customer and send them to 
 
 ### Task 1. Create Service and AI Agent Flow in Webex Connect. 
 
-1. From Control Hub, go to **Contact Center** and open up **Webex Connect** Portal. 
+1. From Control Hub, go to **Contact Center** > **Overview** and open up **Webex Connect** Portal. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.9.gif)
 
 
@@ -55,10 +55,13 @@ Configure an action to collect order details from the customer and send them to 
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.17.gif)
 
-3. Click on creat <b>New Action</b>. Configure it with name ***<copy>Create_New_Order</copy>*** and the Action Description ***<copy>Collect order details, delivery address, total and response with the orderNumber once the order is completed.</copy>***. In the Action score select <b>Slot filling and fulfillment</b>.
+3. Click on creat <b>New Action</b>. Select **Integration** > **Fulfillment action**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.18.gif)
 
-4. Scroll down and click to create **New input entity**. Fill up the table with the following and then click on **Add**. <br>
+4. Configure it with name ***<copy>Create_New_Order</copy>*** and the Action Description ***<copy>Collect order details, delivery address, total and response with the orderNumber once the order is completed.</copy>***. In the Action score select <b>Slot filling and fulfillment</b>.
+    ![Profiles](../graphics/Lab1_AI_Agent/2.18a.gif)
+
+5. Scroll down and click to create **New input entity**. Fill up the table with the following and then click on **Add**. <br>
 Entity Name: ***<copy>address</copy>*** <br>
 Entity Typs: <b>string</b> <br>
 Description: ***<copy>Collect the customer's delivery address</copy>***<br>
