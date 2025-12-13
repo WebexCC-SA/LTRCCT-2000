@@ -76,8 +76,6 @@ Integrate the AI Agent with the Voice Flow.
 
     > Version Label: **Latest**
 
-    > Music on Hold: **defaultmusic_on_hold.wav**
-
     ![Profiles](../graphics/Lab1_AI_Agent/2.53.gif)
 
 9. Dial Support Number assigned to your **<w class="attendee"></w>_2000_Channel** to test the Autonomous AI Agent over a voice call.
@@ -85,11 +83,12 @@ Integrate the AI Agent with the Voice Flow.
 
 ### Task 2. Test Agent Handoff Configurations.
 
-1. From the browser start logging in to [Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} with the same credentials. You will see another login screen with OKTA on it where you may need to enter the email address again and the password provided to you. 
+1. From the browser start logging in to [Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} with the same credentials that you use to login to Control Hub. You will see another login screen with SSO process where you may need to enter the email address again and the password provided to you. 
 2. Select **Desktop** endpoint option and choose the team. **<copy><w class="attendee"></w>_2000_Team</copy>**. Click **Submit**. Allow browser to access Microphone by clicking **Allow** on every visit.
 3. Make your agent ***Available*** and you're ready to make a call.
 
-    ![profiles](../graphics/Lab1/5-Agent_Login.gif)
+    ![profiles](../graphics/Lab1_AI_Agent/5-Agent_Login.gif)
+
 
 4. Dial the support number assigned to your **<w class="attendee"></w>_2000_Channel** channel, and during the conversation with the AI agent, ask to talk to a representetive or live agent. 
 
