@@ -1,3 +1,4 @@
+---
 #icon: material/folder-open-outline
 icon: material/medal
 ---
@@ -28,7 +29,7 @@ Your mission is to:
 
 1. You should purchase the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW.
 
-2. Currently, Wrap-up Summary is not even in early access, so you will not be able to see its enablement in the Control Hub. However, once the feature is in General Access, you will see the toggle under the General Summaries section.
+2. nce you purchase the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. After purchasing the offer, the customer can enable/disable the **Wrap-up summaries**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.45.png)
 
 3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has Agent Assistance features configured. Default desktop layout already incude the AI Agent Assistance widget.
