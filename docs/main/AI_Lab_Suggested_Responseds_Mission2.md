@@ -29,12 +29,12 @@ Configure the fulfillment flow to track the status of existing orders. This func
 3. Creat new flow. Name it **<copy>Track_Order_Flowers</copy>**.
     ![Profiles](../graphics/Lab1_AI_Agent/9.18.gif)
 
-4. Select **Integration** as **AI Agent**. Parse the values in the AI Agent block and **Make Live** the flow. We will configure it in a later Task. For now, we just need to create the flow that will be used to complete the Action Configuration on the AI Studio side.
+4. Select **Integration** as **AI Agent**. **Parse** the values in the AI Agent block and click on **Save**. Then **Make Live** the flow. We will configure it in a later Task. For now, we just need to create the flow that will be used to complete the Action Configuration on the AI Studio side.
     ![Profiles](../graphics/Lab1_AI_Agent/9.19.gif)
 
 ### Task 2. Configure Action in AI Studio portal. 
 
-1. Go to the **AI Studio** portal. 
+1. Go to the **Webex AI Agent Studio** portal. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.20.png)
 
 2. Select AI Dashboard and find the **Skill** that you created earlier - **<copy><w class="attendee"></w>_Suggested_Responses_Skill</copy>**.
@@ -43,25 +43,29 @@ Configure the fulfillment flow to track the status of existing orders. This func
 3. Select **Actions** and create new Action. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.22.gif)
 
-4. Name the Action as **<copy>track_order</copy>**. <br>
+4. Click on Integrations and select Fulfillment action.
+    ![Profiles](../graphics/Lab1_AI_Agent/SR.Fulfillment.png)
+
+5. Name the Action as **<copy>track_order</copy>**. <br>
 <br>
  In the **Action description** provide the following: **<copy>If the customer want to track and order, collect the order number. With the order number execute the fulfillment and return the customer the order status. </copy>**. <br>
  <br>
   Select the **Action scope** as **Slot filling and fulfillment.** 
     ![Profiles](../graphics/Lab1_AI_Agent/9.23.png)
 
-5. Add **New input entity**. Configure it with the following: <br>
+6. Add **New input entity**. Configure it with the following: <br>
 Name: **<copy>orderNumber</copy>**. <br>
 Entity type: **String**. <br>
 Entiry description: **<copy>If the customer wants to track an order, collect the order number to this entity. </copy>**. <br>
 Entity example: **<copy>17</copy>**. <br>
 Required: **Yes**
+Input field display name: **orderNumber**
     ![Profiles](../graphics/Lab1_AI_Agent/9.24.png)
 
-6. For the fulfillment flow select the Service **<copy><w class="attendee"></w>_Service</copy>** and the flow **<copy>Track_Order_Flowers</copy>**, that you have created in the previous Tasks. Then click **Add**.
+7. For the fulfillment flow select the Service **<copy><w class="attendee"></w>_Service</copy>** and the flow **<copy>Track_Order_Flowers</copy>**, that you have created in the previous Tasks. Then click **Add**.
     ![Profiles](../graphics/Lab1_AI_Agent/9.25.png)
 
-7. Publish the recent changies of the Skill. 
+8. Publish the recent changies of the Skill. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.26.png)
 
 ### Task 3. Configure Fulfillment flow in Webex Connect. 
@@ -92,7 +96,7 @@ Required: **Yes**
     > Output Variable Type: <b>JSON</b><br>
     > Click on **+Add Variable**<br>
     > Output Variable Name: ***<copy>orderStatus</copy>***<br>
-    > Response Entity: ***<copy>Body</copy>***<br>
+    > Response Entity: ***Body***<br>
     > Response Path ***<copy>$[0].status</copy>***<br>
     > 
     >    ![Profiles](../graphics/Lab1_AI_Agent/9.30.png)

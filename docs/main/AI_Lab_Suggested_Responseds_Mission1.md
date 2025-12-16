@@ -74,4 +74,4 @@ Create a Knowledge Base for the AI Assistant skill to use. This knowledge base w
 2. Call to the number that is related to your **<copy><w class="attendee"></w>_2000_Channel</copy>**.  Once you connect to the AI agent, ask to speak to a human agent.
 
 3. Once the call is connected to your Agent Desktop, click on the AI Assistance module. You will see the option **Get Suggestion**. Click on it and try to order some flowers. You should see that the AI Agent will suggest flower availability and prices to the human agent based on the Knowledge Base.
-    ![Profiles](../graphics/Lab1_AI_Agent/9.14.gif)
+    ![Profiles](../graphics/Lab1_AI_Agent/9.14a.png)
