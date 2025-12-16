@@ -126,8 +126,11 @@ Input field display name: **orderNumber**
 5. As the caller say that you would like to track an order. You will see the suggestion will come up to ask for the order number. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.35.png)
 
-6. As the caller, provide your order number, and you should see the AI execute the fulfillment to place an API call to the third-party application to retrieve the response. For this lab, all order statuses are "new," so you should see that the AI responds that the order status is "new."
+6. As the caller, provide your order number, and you should see review window show up where agent can confirm the order number that needs to be tracked. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.36.png)
+
+7.  For this lab, all order statuses are "new," so you should see that the AI responds that the order status is "new."
+    ![Profiles](../graphics/Lab1_AI_Agent/9.36a.png)
 
 7. (Optional) To see all order infomations you can by placing this URL in your browser. <br>
 https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder  <br>
