@@ -41,13 +41,11 @@ Your mission is to:
 
 ### Task 2. Test Wrap-up Summary feature.
 
-1. This feature is currently is only available in alpha desktop version. Open up new window in your browser and enter the the URL: ***<copy>https://alpha-desktop.wxcc-us1.cisco.com</copy>***.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.46.gif)
 
-2. Make the agent availabe in the alpha desktop. 
-   ![Profiles](../graphics/Lab1_AI_Agent/3.47.gif)
+1. Make sure the agent is in the availabe status.
+   ![Profiles](../graphics/Lab1_AI_Agent/3.47.png)
 
-3. Place a call to your channel. While connecting to the AI Agent, request a transfer to a human agent. Answer the call on the alpha Agent Desktop and engage in small talk about flower ordering. After disconnecting the call, the Wrap Up Summary window should appear, displaying a summary of the call between the caller and the agent.
+2. Place a call to your channel. While connecting to the AI Agent, request a transfer to a human agent. Answer the call on the alpha Agent Desktop and engage in small talk about flower ordering. After disconnecting the call, the Wrap Up Summary window should appear, displaying a summary of the call between the caller and the agent.
    ![Profiles](../graphics/Lab1_AI_Agent/3.49.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
