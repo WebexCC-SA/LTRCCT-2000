@@ -5,7 +5,7 @@ icon: material/medal
 
 
 
-# Mission 2: Configure Action and create an order.
+# Mission 3: Configure Fulfilment Action and create an order.
 
  **<details><summary>What is Action? <span style="color: orange;">[Optional]</span></summary>**
 Fulfilment Action is a task that an AI agent performs by understanding user intents and completes by connecting to external systems over API.

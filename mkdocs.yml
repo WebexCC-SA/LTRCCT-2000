@@ -102,8 +102,9 @@ nav:
                 - "Lab overview": ./main/AI_Lab_Overview.md
                 - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md
                 - "Mission 2: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
-                - "Mission 3: Customize AI Agent Language": ./main/AI_Lab_Aut_Mission.Language.md     
-                - "Mission 4: Configure Fulfilment Action and create an order": ./main/AI_Lab_Aut_Mission2.md
+                - "Mission 3: Configure Fulfilment Action to create an order": ./main/AI_Lab_Aut_Mission2.md
+                - "Mission 4: Configure Transfer Action": ./main/AI_Lab_Aut_Mission2.md
+                - "Mission 5: Customize AI Agent Language": ./main/AI_Lab_Aut_Mission.Language.md
           - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
       - AI Assistant Featurs:
           - Lab Guide:
@@ -120,6 +121,10 @@ nav:
                 - "Mission 1": ./main/AI_Lab_Suggested_Responseds_Mission1.md
                 - "Mission 2": ./main/AI_Lab_Suggested_Responseds_Mission2.md
           - Conclusion: ./main/AI_Lab_Suggested_Responseds_Conclusion.md
+  - Supervisor experience with AI:
+          - Lab Guide:
+                - "Lab overview": ./main/AI_Lab_Suggested_Responses_Overview.md
+                - "Mission 1": ./main/AI_Lab_Suggested_Responseds_Mission1.md
   - IVR Campaign:
       - Lab Guide:
             - "Lab overview": ./main/AI_Lab_IVR_Campaign_Overview.md
