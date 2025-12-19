@@ -8,7 +8,7 @@ icon: material/medal
 # Mission 2: Configure Action and create an order.
 
  **<details><summary>What is Action? <span style="color: orange;">[Optional]</span></summary>**
-Action is a task that an AI agent performs by understanding user intents and completes by connecting to external systems.
+Fulfilment Action is a task that an AI agent performs by understanding user intents and completes by connecting to external systems over API.
 
 For more information visit [Webex Documentation](https://help.webex.com/en-us/article/ncs9r37/Webex-AI-Agent-Studio-Administration-guide#concept-template_5ea99e1f-a679-4cf9-8e33-7a4f83d9f66a){:target="_blank"}
 
@@ -20,7 +20,7 @@ For more information visit [Webex Documentation](https://help.webex.com/en-us/ar
 ## Mission overview
 Your mission is to:
 
-Configure an action to collect order details from the customer and send them to a third-party application via APIs.
+Configure Fulfilment action to collect order details from the customer and send them to a third-party application via APIs.
 
 ---
 
@@ -55,8 +55,8 @@ Configure an action to collect order details from the customer and send them to 
 
     ![Profiles](../graphics/Lab1_AI_Agent/2.17.gif)
 
-3. Click on creat <b>New Action</b>. Select **Integration** > **Fulfillment action**.
-    ![Profiles](../graphics/Lab1_AI_Agent/2.18.gif)
+3. Click on creat <b>New Action</b>. From drop-down option select **Fulfillment action**.
+    ![Profiles](../graphics/Lab1_AI_Agent/2.18.png)
 
 4. Configure it with name ***<copy>Create_New_Order</copy>*** and the Action Description ***<copy>Collect order details, delivery address, total and response with the orderNumber once the order is completed.</copy>***. In the Action score select <b>Slot filling and fulfillment</b>.
     ![Profiles](../graphics/Lab1_AI_Agent/2.18a.gif)
