@@ -106,15 +106,16 @@ nav:
                 - "Mission 4: Configure Transfer Action": ./main/AI_Lab_Aut_Mission2.md
                 - "Mission 5: Customize AI Agent Language": ./main/AI_Lab_Aut_Mission.Language.md
           - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
+  - AI Assistant:
       - AI Assistant Featurs:
-          - Lab Guide:
-                - "Lab overview": ./main/AI_Lab_Features_Overview.md
-                - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
-                - "Mission 2: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
-                - "Mission 3: Wrap Up Summary": ./main/AI_Lab_Assist_Mission4.md
-                - "(Read Only) Mission 4: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
-                - "(Read Only) Mission 5: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
-          - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
+        - Lab Guide:
+            - "Lab overview": ./main/AI_Lab_Features_Overview.md
+            - "Mission 1: AI Agent Transfer Summary": ./main/AI_Lab_Assist_Mission1.md
+            - "Mission 2: Real Time Transcript": ./main/AI_Lab_Assist_Mission3.md
+            - "Mission 3: Wrap Up Summary": ./main/AI_Lab_Assist_Mission4.md
+            - "(Read Only) Mission 4: Call Drop Summary": ./main/AI_Lab_Assist_Mission_2.md
+            - "(Read Only) Mission 5: AutoCSAT": ./main/AI_Lab_Assist_AutoCSAT.md
+        - Conclusion: ./main/AI_Lab_Assist_Conclusion.md
       - Suggested Responses:
           - Lab Guide:
                 - "Lab overview": ./main/AI_Lab_Suggested_Responses_Overview.md
@@ -125,13 +126,13 @@ nav:
           - Lab Guide:
                 - "Lab overview": ./main/AI_Lab_Suggested_Responses_Overview.md
                 - "Mission 1": ./main/AI_Lab_Suggested_Responseds_Mission1.md
-  - IVR Campaign:
-      - Lab Guide:
-            - "Lab overview": ./main/AI_Lab_IVR_Campaign_Overview.md
-            - "Mission 1: Portal Overview": ./main/AI_Lab_IVR_Campaign_Mission1.md
-            - "Mission 2: Configure Campaign": ./main/AI_Lab_IVR_Campaign_Mission2.md
-      - Conclusion: ./main/AI_Lab_IVR_Campaign_Conclusion.md
   - BONUS Labs:
+      - IVR Campaign with AI Agent:
+        - Lab Guide:
+              - "Lab overview": ./main/AI_Lab_IVR_Campaign_Overview.md
+              - "Mission 1: Portal Overview": ./main/AI_Lab_IVR_Campaign_Mission1.md
+              - "Mission 2: Configure Campaign": ./main/AI_Lab_IVR_Campaign_Mission2.md
+        - Conclusion: ./main/AI_Lab_IVR_Campaign_Conclusion.md
       - Scripted AI Agent:
           - Lab Guide:
                 - "Lab overview": ./main/AI_Lab_Scripted_Overview_New.md
