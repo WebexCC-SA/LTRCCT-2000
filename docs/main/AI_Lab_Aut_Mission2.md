@@ -69,48 +69,48 @@ Example: ***<copy>548 Catalina Drive, Cary, NC 27515</copy>*** <br>
 Required: <b>Yes</b>
     ![Profiles](../graphics/Lab1_AI_Agent/2.19.gif)
 
-5. By following the same pattern, create an entity that specifies whether the customer requires delivery. <br>
+6. By following the same pattern, create an entity that specifies whether the customer requires delivery. <br>
 Entity Name: ***<copy>delivery</copy>***<br>
 Entity Types: <b>string</b> <br>
 Description: ***<copy>Check if the customer needs delivery or not. Event if they want to proceed with order without specifying the delivery details. If the customer wants to confirm the order but didn't specify if they need delivery or not, ask one more time if they need the delivery or not.</copy>***<br>
 Example: ***<copy>Yes,No</copy>***<br>
 Required: <b>Yes</b>
 
-6. By following the same pattern, create an entity to collect the customer's phone number.<br>
+7. By following the same pattern, create an entity to collect the customer's phone number.<br>
 Entity Name: ***<copy>phoneNumber</copy>***<br>
 Entity Typs: <b>string</b> <br>
 Description: ***<copy>Collect customer's phone number. Before the customer complete the order, ask if they would like to receive confirmation over the SMS. If so, collect the phone number.</copy>***<br>
 Example: ***<copy>3477579861</copy>***<br>
 Required: <b>Yes</b>
 
-7. By following the same pattern, create an entity to collect the customer's order details.<br>
+8. By following the same pattern, create an entity to collect the customer's order details.<br>
 Entity Name: ***<copy>orderDetails</copy>***<br>
 Entity Typs: <b>string</b> <br>
 Description: ***<copy>Collect the flowers and bouquets information that customer orders. Make sure to do correct math. If one rose is 20 dollars and the customer would like buy 9 roses then the price should be 180 dollars. Don't use double quotes (") in the generated responses.</copy>***<br>
 Example: ***<copy>Romantic Roses standard bouquet and one more bouquet with 9 roses</copy>***<br>
 Required: <b>Yes</b>
 
-8. By following the same pattern, create an entity to store the total price information of the order.<br>
+9. By following the same pattern, create an entity to store the total price information of the order.<br>
 Entity Name: ***<copy>orderTotal</copy>***<br>
 Entity Typs: <b>string</b> <br>
 Description: ***<copy>After the customer inform if they need delivery or not, and confirm that they would like to proceed with completing the order, collect the Total information and assigned it to this slot.</copy>***<br>
 Example: ***<copy>150 dollars, 70 dollars</copy>***<br>
 Required: <b>Yes</b>
 
-9. By following the same pattern, create an entity to store the order status information.<br>
+10. By following the same pattern, create an entity to store the order status information.<br>
 Entity Name: ***<copy>status</copy>***<br>
 Entity Typs: <b>string</b> <br>
 Description: ***<copy>Always create it as "new"</copy>***<br>
 Example: ***<copy>new</copy>***<br>
 Required: <b>Yes</b>
 
-10. At this point you should see 6 created entities. Please double check it. 
+11. At this point you should see 6 created entities. Please double check it. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.61.png)
 
-11. In the Webex Connect Builder Fulfillment select Service: **<copy><w class="attendee"></w>_2000_Service</copy>** and Flow: <b>Create_Order_Flowers</b> Click **Add**
-   ![Profiles](../graphics/Lab1_AI_Agent/2.22.gif)
+12. In the Webex Connect Builder Fulfillment select Service: **<copy><w class="attendee"></w>_2000_Service</copy>** and Flow: <b>Create_Order_Flowers</b> Click **Add**
+   ![Profiles](../graphics/Lab1_AI_Agent/2.22.png)
 
-12. Publish the update of your AI Agent. 
+13. Publish the update of your AI Agent. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.23.gif)
 
 ### Task 3. Deliver collected order information to Webex Connect for fulfillment.
@@ -118,7 +118,11 @@ Required: <b>Yes</b>
 1. Login to the Webex Connect, go to the Service **<copy><w class="attendee"></w>_2000_Service</copy>** and click on <b>Manage</b> the flow that you have created earlier.
    ![Profiles](../graphics/Lab1_AI_Agent/2.24.gif)
 
-2. Click on **Edit** the flow on the right top. Then double click on the AI Agent event. In the Provide Sample JSON, replace the standard JSON body with the following: 
+2. Click on **Edit** the flow on the right top. Then double click on the AI Agent event.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.62a.gif)
+
+
+3. In the Provide Sample JSON, replace the standard JSON body with the following: 
 <br>
     ``` JSON
     {
@@ -161,7 +165,7 @@ Required: <b>Yes</b>
     > Output Variable Type: <b>JSON</b><br>
     > Click on **+Add Variable**<br>
     > Output Variable Name: ***<copy>orderNumber</copy>***<br>
-    > Response Entity: ***<copy>Body</copy>***<br>
+    > Response Entity: ***Body***<br>
     > Response Path ***<copy>$.id</copy>***<br>
     > 
     >    ![Profiles](../graphics/Lab1_AI_Agent/2.63.gif)
@@ -187,8 +191,8 @@ Each order/object will contain all the information that we sent from AI Studio b
 3. While on your Webex Connect flow, click on **Edit** the flow then click on the **Settings** and on the top select **Flow Outcomes** and expand **Last Execution Status**. In the **Define key-value pairs to be sent to the AI Agent** select **Enter JSON**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.66.gif)
 
-4. We need to add the key-value pair to the existing JSON body. Add the comma after the last pair and insert ***"orderNumber": "$(n3.orderNumber)"***. Make sure there is no comma after the pair that you inserted. Then click on **Save**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.37.png) <br>
+4. We need to add the key-value pair to the existing JSON body. Add the comma after the last pair and insert ***<copy>"orderNumber": "$(n3.orderNumber)"</copy>***. Make sure there is no comma after the pair that you inserted. Then click on **Save**.
+   ![Profiles](../graphics/Lab1_AI_Agent/2.37a.png) <br>
    <br>
 Also see this change in action below. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.38.gif)
@@ -208,7 +212,7 @@ Also see this change in action below.
 3. Double click on the SMS block and configure the following:
 
      > Destination: ***<copy>$(n2.aiAgent.phoneNumber)</copy>***<br>
-     > From Number: ***<copy>12066478712</copy>***<br>
+     > From Number: ***<copy>447507201958</copy>***<br>
      >Message Type: **Text**<br>
      ><br>
      >Message as below:<br>
