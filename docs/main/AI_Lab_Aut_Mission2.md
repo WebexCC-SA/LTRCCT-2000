@@ -7,7 +7,7 @@ icon: material/medal
 
 # Mission 3: Configure Fulfilment Action and create an order.
 
- **<details><summary>What is Action? <span style="color: orange;">[Optional]</span></summary>**
+ **<details><summary>What is Fulfilment Action? <span style="color: orange;">[Optional]</span></summary>**
 
 
 
