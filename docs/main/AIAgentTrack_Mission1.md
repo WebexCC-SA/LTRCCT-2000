@@ -12,6 +12,7 @@ icon: material/medal
 Your mission is to:
 
 Create an AI agent and upload the knowledge base (KB) to enable the agent to provide answers about available flowers and assist customers with creating an order.
+    ![Profiles](../graphics/Lab1_AI_Agent/Untitled(9).jpg)
 
 ---
 
