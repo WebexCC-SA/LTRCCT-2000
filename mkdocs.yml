@@ -103,7 +103,7 @@ nav:
                 - "Mission 1: Create AI Autonomous Agent": ./main/AIAgentTrack_Mission1.md
                 - "Mission 2: Integrating the AI Agent with Flow for Voice Calls": ./main/AI_Lab_Aut_MissionX.md
                 - "Mission 3: Configure Fulfilment Action to create an order": ./main/AI_Lab_Aut_Mission2.md
-                - "Mission 4: Configure Transfer Action": ./main/AI_Lab_Aut_Mission2.md
+                - "Mission 4: Configure Transfer Action": ./main/AI_Lab_Aut_Mission_Transfer.md
                 - "Mission 5: Customize AI Agent Language": ./main/AI_Lab_Aut_Mission.Language.md
           - Conclusion: ./main/AI_Lab_Aut_Conclusion.md
   - AI Assistant:
