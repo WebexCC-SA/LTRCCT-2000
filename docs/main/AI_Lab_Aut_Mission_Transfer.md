@@ -21,7 +21,7 @@ Transfer Action is a task that an AI agent performs by understanding user intent
 ## Mission overview
 Your mission is to:
 
-Configure the Transfer action to transfer the call to the WxCC Voice flow for further processing if the call is from flower suppliers.
+Configure the Transfer action to transfer the call to WxCC Voice with custom settings for further processing if the caller wants to talk to the HR or Billing departments.
 
    ![Profiles](../graphics/Lab1_AI_Agent/Untitled(10).jpg)
 
@@ -29,7 +29,7 @@ Configure the Transfer action to transfer the call to the WxCC Voice flow for fu
 
 ## Build
 
-### Task 1. Create Service and AI Agent Flow in Webex Connect. 
+### Task 1. Create Transfer to flow action in AI Agent Studio portal. 
 
 1. From Control Hub, go to **Contact Center** > **Overview** and open up **Webex Connect** Portal. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.9.gif)
