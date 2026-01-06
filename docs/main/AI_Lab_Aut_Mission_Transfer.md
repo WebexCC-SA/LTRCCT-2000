@@ -31,5 +31,13 @@ Configure the Transfer action to transfer the call to WxCC Voice with custom set
 
 ### Task 1. Create Transfer to flow action in AI Agent Studio portal. 
 
-1. From Control Hub, go to **Contact Center** > **Overview** and open up **Webex Connect** Portal. 
-    ![Profiles](../graphics/Lab1_AI_Agent/2.9.gif)
+1. From Control Hub, go to **Contact Center** > **Overview** and open up **Webex AI Agent** Portal. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.1.png)
+
+2. Open you AI agent with name **<copy><w class="attendee"></w>_2000_AutoAI_Lab</copy>** and then click on **Actions**.
+    ![Profiles](../graphics/Lab1_AI_Agent/11.2.gif)
+
+3. Select **New action** option. Then click on **Creat new** and choose **Transfer** action. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.3.png)
+
+4. 
