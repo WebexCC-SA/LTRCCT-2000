@@ -91,3 +91,26 @@ In the next steps, we will add the **Set Variable** block to see the MetaData in
 
 11. <span style="color: red;">[Read Only]</span>. To parse the value in the flow, we need to determine the JSON path to retrieve the value. By using an open-source tool ([JSONPath Online Evaluator](https://jsonpath.com/){:target="_blank"}), you can ensure you are using the correct JSON path to extract the value you need. In our case, the JSON path is $.actions.Transfer_to_different_department[0].input.department to retrieve the value for the department entity.
     ![Profiles](../graphics/Lab1_AI_Agent/11.16.png)
+
+12. Click on Edit the flow and create new string variable with name **department**.
+    ![Profiles](../graphics/Lab1_AI_Agent/11.17.gif)
+
+13. Add **Parse** block to the flow and connect **Set Variable** block to the **Parse** block. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.18.gif)
+
+14. Configure the **Parse** block with the following:<br>
+Input Variable: **MetaData_AI**<br>
+Content Type: **JSON**<br>
+Output Variable: **department**<br>
+Path Expression: **<copy>$.actions.Transfer_to_different_department[0].input.department</copy>**<br>
+    ![Profiles](../graphics/Lab1_AI_Agent/11.19.png)
+
+15. Add **Case** node to the flow and connect the **Parse** node to the **Case** node. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.20.gif)
+
+16. Configure the **Case** node with the following:<br>
+Variable: **department**<br>
+LINK Description: **<copy>HR</copy>**<br>
+LINK Description: **<copy>Billing</copy>**<br>
+    ![Profiles](../graphics/Lab1_AI_Agent/11.21.png)
+
