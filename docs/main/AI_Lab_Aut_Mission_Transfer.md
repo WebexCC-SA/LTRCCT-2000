@@ -114,3 +114,23 @@ LINK Description: **<copy>HR</copy>**<br>
 LINK Description: **<copy>Billing</copy>**<br>
     ![Profiles](../graphics/Lab1_AI_Agent/11.21.png)
 
+17. Bring two **Queue Contact** nodes to the flow. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.21.gif)
+
+18. Configure one **Queue node** with **2000_HR_Queue** and the other one with **2000_Billing_Queue**. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.22.gif)
+
+19. Connect **HR** output from **Case** node to the **HR Queue** node. Connect **HR Queue** node to the **Play Music** node. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.23.gif)
+
+20. Connect **Billing** output from **Case** node to the **Billing Queue** node. Connect **Billing Queue** node to the **Play Music** node. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.24.gif)
+
+21. Connect **Default** output from **Case** node to the **<copy><w class="attendee"></w>_2000_Voice_Queue</copy>** Queue node. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.25.gif)
+
+22. Validate and Publish the flow. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.26.gif)
+
+23. Place test call to the number that is related to you Channel **<copy><w class="attendee"></w>_2000_Channel</copy>**. During the conversation with AI Agent ask to transfer you to the HR department. The call should park to a queue. After the call is completed. Go to Debug, find the call to make sure it goes to the HR Queue. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.27.gif)
