@@ -96,6 +96,12 @@ nav:
 #            - "Lab overview": ./main/AI_Lab_Topic_Overview.md
 #            - "Mission 1: Explore Topic Analytics": ./main/AI_Lab_Topic_Mission1.md
 #      - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
+  - Real Time Topic:
+      - Real Time Topic Review:  
+          - Lab Guide:
+                - "Lab overview": ./main/AI_Lab_Real_Time_Topic_Overview.md
+                - "Mission 1": ./main/Real_Time_Topic_Mission1.md
+          - Conclusion: ./main/AI_Lab_Real_Time_Topic_Conclusion.md
   - Autonomous AI:
       - Autonomous AI Agent:
           - Lab Guide:
@@ -126,7 +132,7 @@ nav:
                 - "Mission 1": ./main/AI_Lab_Suggested_Responseds_Mission1.md
                 - "Mission 2": ./main/AI_Lab_Suggested_Responseds_Mission2.md
           - Conclusion: ./main/AI_Lab_Suggested_Responseds_Conclusion.md
-  - Supervisor experience with AI:
+  - AI QM:
       - Quality Managment:  
           - Lab Guide:
                 - "Lab overview": ./main/AI_Lab_QM_Overview.md

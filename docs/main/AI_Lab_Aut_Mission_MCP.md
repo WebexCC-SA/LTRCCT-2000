@@ -11,7 +11,7 @@ icon: material/medal
 
 
 
-Transfer Action is a task that an AI agent performs by understanding user intents and transferring the interaction back to the WxCC flow with custom data for further processing.
+MCP, or Model Context Protocol, is a standardized framework designed to facilitate the exchange of contextual information between AI models and external systems, enabling more dynamic and context-aware interactions. By using MCP, AI models can receive relevant context, allowing them to tailor responses and actions to the specific situation.
 
 
 </details>
