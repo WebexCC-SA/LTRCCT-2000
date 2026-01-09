@@ -127,6 +127,7 @@ nav:
                 - "Mission 2": ./main/AI_Lab_Suggested_Responseds_Mission2.md
           - Conclusion: ./main/AI_Lab_Suggested_Responseds_Conclusion.md
   - Supervisor experience with AI:
+      - Quality Managment:  
           - Lab Guide:
                 - "Lab overview": ./main/AI_Lab_QM_Overview.md
                 - "Mission 1": ./main/AI_Lab_QM_Mission1.md

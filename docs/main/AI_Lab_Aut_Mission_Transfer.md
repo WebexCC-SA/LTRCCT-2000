@@ -134,3 +134,5 @@ LINK Description: **<copy>Billing</copy>**<br>
 
 23. Place test call to the number that is related to you Channel **<copy><w class="attendee"></w>_2000_Channel</copy>**. During the conversation with AI Agent ask to transfer you to the HR department. The call should park to a queue. After the call is completed. Go to Debug, find the call to make sure it goes to the HR Queue. 
     ![Profiles](../graphics/Lab1_AI_Agent/11.27.gif)
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
