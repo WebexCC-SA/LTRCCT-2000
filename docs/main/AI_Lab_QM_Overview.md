@@ -9,6 +9,8 @@ individual interaction level and as aggregated data for each agent, offering cle
 into performance trends. This streamlines quality assurance, providing consistent and
 objective feedback and helps maintain high service standards
 
+[AI QM](https://blog.webex.com/customer-experience/webexone-2025-connected-intelligence-redefining-cx-with-new-innovations/?_gl=1*1rky23m*_gcl_au*MTM2OTI2NzQyNS4xNzU4MTI5MjI2&utm_medium=Organic_Social&utm_source=LinkedIn&team=Social){:target="_blank"}
+
 
 ## Story
 

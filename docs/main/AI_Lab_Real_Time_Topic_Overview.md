@@ -1,23 +1,10 @@
-### Quality Managment Feature Overview
+### Topic Analytics: Near Real-time Discovery and Labeling.
 
-The Evaluations feature lets supervisors create customized evaluation forms to assess agent
-interactions automatically. Using AI, agent’s interactions are analysed and evaluation scores
-are generated against the pre-defined criteria set by the supervisors. Supervisors have the
-ability to manually adjust scores if necessary. When scores are adjusted, this informaMon is
-subsequently used to improve the AI models. Evaluation scores are available both at the
-individual interaction level and as aggregated data for each agent, offering clear insights
-into performance trends. This streamlines quality assurance, providing consistent and
-objective feedback and helps maintain high service standards
+The all-new topic analytics empowers you to discover emerging topics as customer interactions occur, providing instant visibility into evolving trends and concerns. By automatically labeling each interaction, you gain immediate, actionable insights that enable faster, data-driven decisions. This dynamic approach ensures your team can quickly adapt to changing customer needs, optimize operations, and stay ahead of potential issues.
 
 
 ## Story
 
-The supervisor requires agents to always ask for the customer’s name and the occasion for the flowers. Based on these criteria, the agents will be evaluated and additional training will be provided.
+Using the Analyzer report, review the available topics that could help you make a decision about implementing an AI Agent solution to automate some of the call flow processes.
 
 
-## Call Flow Overview
-
-1. The supervisor logged in to the Supervisor Dashboard, which is configured with the Evaluation Form.
-2. A new call enters the voice flow; the caller asks the AI agent to be connected to a human agent.
-3. The agent talks to the customer about the flower order.
-4. After the call is completed, the supervisor checks if the agent completed the questions based on the Evaluation Form.

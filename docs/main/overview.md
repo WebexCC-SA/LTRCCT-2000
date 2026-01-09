@@ -53,6 +53,9 @@ icon: material/bullseye-arrow
 
 Designing a **Webex AI Agent** for a flower shop to assist customers via **voice and digital channels**.
 
+[Webex AI Agent](https://blog.webex.com/customer-experience/announcing-general-availability-of-webex-ai-agent-paving-way-new-era-cx/){:target="_blank"}
+
+
 ### AI Agent Capabilities
 
 - **Recommending flowers** based on customer preferences or occasions  
@@ -60,16 +63,19 @@ Designing a **Webex AI Agent** for a flower shop to assist customers via **voice
 - **Calculating total price** in real time  
 - **Gathering delivery information**, including **address** and **delivery date**  
 - **order confirmations via SMS**  
-- **Providing order status updates** upon request  
-- **Sharing store hours** and relevant **business information**  
+- **Providing order status updates** upon request   
 - **Transferring to a human agent** when needed for complex inquiries  
 
 ### Human Agent Support
 
 - **Human agents** are equipped with **AI-powered tools** to ensure:
-  - **Fast issue resolution**  
-  - **Personalized service**  
-  - **Exceptional customer experience** across all interactions
+  - **Provide the agent with a summary of the call**  
+  - **Suggest a response to the agent based on the knowledge base**  
+  - **Provide live transcripts to improve the understanding of the customer's request**
+
+### Supervisor Support
+- **Evaluate agent's quality of service using Evaluation form**  
+
 
 
 ## Learning Objectives
