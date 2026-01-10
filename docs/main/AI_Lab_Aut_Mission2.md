@@ -7,7 +7,7 @@ icon: material/medal
 
 # Mission 3: Configure Fulfilment Action and create an order.
 
- **<details><summary>What is Fulfilment Action? <span style="color: orange;">[Optional]</span></summary>**
+ **<details><summary>What is Fulfilment Action? <span style="color: orange;"></span></summary>**
 
 
 
@@ -25,7 +25,7 @@ Your mission is to:
 
 Configure Fulfilment action to collect order details from the customer and send them to a third-party application via APIs.
 
-   ![Profiles](../graphics/Lab1_AI_Agent/Untitled(8).jpg)
+   ![Profiles](../graphics/Lab1_AI_Agent/Fulfilment.png)
 
 ---
 

@@ -7,11 +7,11 @@ icon: material/medal
 
 # Mission 3: Configure Fulfilment Action and create an order.
 
- **<details><summary>What is Transfer Action? <span style="color: orange;">[Optional]</span></summary>**
+ **<details><summary>What is Transfer to Webex AI Agent Action? <span style="color: orange;"></span></summary>**
 
 
 
-Transfer Action is a task that an AI agent performs by understanding user intents and transferring the interaction back to the WxCC flow with custom data for further processing.
+Transfer to Webex AI Agent Action is a task that an AI agent performs by understanding user intents and transferring the to another Webex AI agent for further processing. 
 
 
 </details>
@@ -21,15 +21,14 @@ Transfer Action is a task that an AI agent performs by understanding user intent
 ## Mission overview
 Your mission is to:
 
-Configure the Transfer action to transfer the call to the WxCC Voice flow for further processing if the call is from flower suppliers.
-
-   ![Profiles](../graphics/Lab1_AI_Agent/Untitled(10).jpg)
+Configure the Transfer action to transfer the call another Webex AI Agent to do 
+   ![Profiles](../graphics/Lab1_AI_Agent/TransfertoAI.png)
 
 ---
 
 ## Build
 
-### Task 1. Create Service and AI Agent Flow in Webex Connect. 
+### Task 1. Create Transfer to flow action in AI Agent Studio portal. 
 
-1. From Control Hub, go to **Contact Center** > **Overview** and open up **Webex Connect** Portal. 
-    ![Profiles](../graphics/Lab1_AI_Agent/2.9.gif)
+1. From Control Hub, go to **Contact Center** > **Overview** and open up **Webex AI Agent** Portal. 
+    ![Profiles](../graphics/Lab1_AI_Agent/11.1.png)

@@ -7,7 +7,7 @@ icon: material/medal
 
 # Mission 3: Configure Fulfilment Action and create an order.
 
- **<details><summary>What is Transfer Action? <span style="color: orange;">[Optional]</span></summary>**
+ **<details><summary>What is Transfer Action? <span style="color: orange;"></span></summary>**
 
 
 
@@ -23,7 +23,7 @@ Your mission is to:
 
 Configure the Transfer action to transfer the call to WxCC Voice with custom settings for further processing if the caller wants to talk to the HR or Billing departments.
 
-   ![Profiles](../graphics/Lab1_AI_Agent/Untitled(10).jpg)
+   ![Profiles](../graphics/Lab1_AI_Agent/TransferToFlow.png)
 
 ---
 
