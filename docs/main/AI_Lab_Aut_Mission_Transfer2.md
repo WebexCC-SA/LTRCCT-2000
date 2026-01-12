@@ -11,7 +11,8 @@ icon: material/medal
 
 
 
-Transfer to Webex AI Agent Action is a task that an AI agent performs by understanding user intents and transferring the to another Webex AI agent for further processing. 
+Transfer Action is a task that an AI agent performs by understanding user intents and transferring the interaction back to the WxCC flow with custom data for further processing.
+
 
 
 </details>
@@ -21,7 +22,7 @@ Transfer to Webex AI Agent Action is a task that an AI agent performs by underst
 ## Mission overview
 Your mission is to:
 
-Configure the Transfer action to transfer the call another Webex AI Agent to do 
+For this mission, the proctor has created an AI Agent named **Flower_Wholesale**. The goal of this mission is to transfer the call from your AI agent to **Flower_Wholesale** using the Transfer operation.
    ![Profiles](../graphics/Lab1_AI_Agent/TransfertoAI.png)
 
 ---
@@ -30,5 +31,10 @@ Configure the Transfer action to transfer the call another Webex AI Agent to do
 
 ### Task 1. Create Transfer to flow action in AI Agent Studio portal. 
 
-1. From Control Hub, go to **Contact Center** > **Overview** and open up **Webex AI Agent** Portal. 
-    ![Profiles](../graphics/Lab1_AI_Agent/11.1.png)
+1. Open your AI agent with name **<copy><w class="attendee"></w>_2000_AutoAI_Lab</copy>** and then click on **Actions**.Action**. 
+    ![Profiles](../graphics/Lab1_AI_Agent/14.1.png)
+
+2. Select **Transfer_to_different_department** action. 
+    ![Profiles](../graphics/Lab1_AI_Agent/14.2.png)
+
+3. Adjust the Transfer condition by adding 
