@@ -37,4 +37,11 @@ For this mission, the proctor has created an AI Agent named **Flower_Wholesale**
 2. Select **Transfer_to_different_department** action. 
     ![Profiles](../graphics/Lab1_AI_Agent/14.2.png)
 
-3. Adjust the Transfer condition by adding 
+3. Adjust the Transfer condition by adding **or Wholesale** as the department option. 
+    ![Profiles](../graphics/Lab1_AI_Agent/14.3.gif)
+
+4. Adjust entiry example by adding **Wholesale**. 
+    ![Profiles](../graphics/Lab1_AI_Agent/14.4.gif)
+
+5. **Save** and **Publish** the changies. 
+    ![Profiles](../graphics/Lab1_AI_Agent/14.5.gif)
