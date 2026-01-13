@@ -7,11 +7,11 @@ icon: material/medal
 
 # Mission 3: Configure Fulfilment Action and create an order.
 
- **<details><summary>What is Transfer Action? <span style="color: orange;">[Optional]</span></summary>**
+ **<details><summary>What is A2A? <span style="color: orange;"></span></summary>**
 
 
 
-Transfer Action is a task that an AI agent performs by understanding user intents and transferring the interaction back to the WxCC flow with custom data for further processing.
+A2A, or Agent-to-Agent protocol, refers to a standardized method that enables direct communication and collaboration between different AI agents or systems. This protocol allows multiple agents—potentially developed by different organizations or for various functions—to exchange information, coordinate actions, and work together efficiently. In the context of AI, A2A protocols help create more integrated, flexible, and scalable ecosystems by ensuring that agents can share context, delegate tasks, and leverage each other's capabilities to deliver more intelligent and effective solutions.
 
 
 </details>
@@ -21,15 +21,35 @@ Transfer Action is a task that an AI agent performs by understanding user intent
 ## Mission overview
 Your mission is to:
 
-Configure the Transfer action to transfer the call to the WxCC Voice flow for further processing if the call is from flower suppliers.
+A2A Action is still in development and is currently available only for customer demos. In this mission, you will not be creating a complete A2A integration for the Webex AI Agent and the Third Party AI Agent, as this functionality is not yet available to customers. The A2A integration has already been created and added to the tenant for this lab. Your task is to create an action using this A2A integration and test how it works.
 
-   ![Profiles](../graphics/Lab1_AI_Agent/Untitled(10).jpg)
+For this mission, you will utilize the integration with the Infermedica AI Agent. This third-party AI agent is designed to support medical triage, symptom assessment, and patient intake by analyzing user-provided health information and symptoms.
+
+Image an unfortinute situation when a customer ordering flowers over the phone and while driving and got an excedent. The customer can be shocked and don't know what to do. AI agent should help direct the customer to call 911. 
+
+   ![Profiles](../graphics/Lab1_AI_Agent/A2AAction.png)
 
 ---
 
 ## Build
 
-### Task 1. Create Service and AI Agent Flow in Webex Connect. 
+### Task 1. Create A2A Action. 
 
-1. From Control Hub, go to **Contact Center** > **Overview** and open up **Webex Connect** Portal. 
-    ![Profiles](../graphics/Lab1_AI_Agent/2.9.gif)
+1. Open up your AI Agent **<copy><w class="attendee"></w>_2000_AutoAI_Lab</copy>** and start creating the new Action. 
+   ![Profiles](../graphics/Lab1_AI_Agent/16.1.gif)
+
+2. From the list select **medical-triage-agent** A2A option. 
+   ![Profiles](../graphics/Lab1_AI_Agent/16.2.png)
+
+3. You can see that another Action was created, and some of the configurations, such as Description and Entity, were transferred from the A2A integration. This new Action essentially adds functionality to the AI Agent, enabling it to provide customers with health symptom analysis and suggest appropriate actions.
+   ![Profiles](../graphics/Lab1_AI_Agent/16.3.png)
+
+4. Publish the changies. 
+   ![Profiles](../graphics/Lab1_AI_Agent/16.4.png)
+
+### Task 2. Test A2A Action. 
+
+1. You can test the functionality using the chat **Preview** option. 
+   ![Profiles](../graphics/Lab1_AI_Agent/16.5.png)
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
