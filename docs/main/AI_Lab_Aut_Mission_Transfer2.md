@@ -22,7 +22,7 @@ Transfer Action is a task that an AI agent performs by understanding user intent
 ## Mission overview
 Your mission is to:
 
-For this mission, the proctor has created an AI Agent named **Flower_Wholesale**. The goal of this mission is to transfer the call from your AI agent to **Flower_Wholesale** using the Transfer operation.
+For this mission, the proctor has created Webex AI Agent named **Flower_Wholesale**. The goal of this mission is to transfer the call from your AI agent to **Flower_Wholesale** using the Transfer operation.
    ![Profiles](../graphics/Lab1_AI_Agent/TransfertoAI.png)
 
 ---
