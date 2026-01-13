@@ -15,14 +15,11 @@ In this mission, you will change the language of your AI agent for the voice cha
 
 ### Task 1. Configure Global Varialbes in voice flow. 
 
-1. Go to Flows and open up your voice flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** and click **Create Flow**
-   ![Profiles](../graphics/Lab1_AI_Agent/2.76.gif)
+1. Go to Flows and open up your voice flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** and click **Edit Flow**
+   ![Profiles](../graphics/Lab1_AI_Agent/17.1.gif)
 
-2. Edit the flow.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.77.gif)
-
-3. Click anywhere on the grey field and then, on the right side, select **Add Global Variables**.
-   ![Profiles](../graphics/Lab1_AI_Agent/2.78.gif)
+2. Click anywhere on the grey field and then, on the right side, select **Add Global Variables**.
+   ![Profiles](../graphics/Lab1_AI_Agent/17.2.gif)
 
 4. Add Global Variables with name: **Global_VoiceName** and **Global_Language**. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.79.gif)
