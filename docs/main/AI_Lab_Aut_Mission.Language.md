@@ -13,7 +13,7 @@ In this mission, you will change the language of your AI agent for the voice cha
 
 ## Build
 
-### Task 1. Configure Global Varialbes in voice flow. 
+### Task 1. Configure language related Global Varialbes in voice flow. 
 
 1. Go to Flows and open up your voice flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** and click **Edit Flow**
    ![Profiles](../graphics/Lab1_AI_Agent/17.1.gif)
@@ -21,22 +21,32 @@ In this mission, you will change the language of your AI agent for the voice cha
 2. Click anywhere on the grey field and then, on the right side, select **Add Global Variables**.
    ![Profiles](../graphics/Lab1_AI_Agent/17.2.gif)
 
-4. Add Global Variables with name: **Global_VoiceName** and **Global_Language**. 
+3. Add Global Variables with name: **Global_VoiceName** and **Global_Language**. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.79.gif)
 
-5. Review documentation with available languages and voices. <br/>
+4. Review documentation with available languages and voices. <br/>
 [Supported-languages-and-voices-for-AI-agents](https://help.webex.com/en-us/article/pdef2d/Supported-languages-and-voices-for-AI-agents){:target="_blank"}
 
-6. Add **SetVariable** node. Select Variable as **Global_Language** and put the value of the language that you want to test. For example, to set up the AI agent to speak Spanish, you can enter **<copy>es-US</copy>**. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.80.gif)
+5. Add **SetVariable** node in front of the **NewPhoneContact node**. Select Variable as **Global_Language** and put the value of the language that you want to test. For example, to set up the AI agent to speak Spanish, you can enter **<copy>es-US</copy>**. 
+   ![Profiles](../graphics/Lab1_AI_Agent/17.3.gif)
 
-7. Add one more **SetVariable** node. Select Variable as **Global_VoiceName**. Select the appropriate voice from the documentation. For example **<copy>es-US-Alonso</copy>**
-   ![Profiles](../graphics/Lab1_AI_Agent/2.81.gif)
+6. Add one more **SetVariable** node. Select Variable as **Global_VoiceName**. Select the appropriate voice from the documentation. For example **<copy>es-US-Alonso</copy>**
+   ![Profiles](../graphics/Lab1_AI_Agent/17.4.gif)
 
-8. Connect the nodes in series. Validate and Publish the flow. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.82.gif)
+7. Connect the nodes in series. Validate and Publish the flow. 
+   ![Profiles](../graphics/Lab1_AI_Agent/17.5.gif)
 
-9. Call the number that is related to your channel. You should hear the AI agent speaking still play the Welcom message in English but after you can continue the conversation in Spanish.
+8. Call the number that is related to your channel. You should hear the AI agent speaking still play the Welcom message in English but after you can continue the conversation in Spanish.
 
 
+### Task 2. Change the Welcome message.
 
+The AI Agent Welcome message is currently a static value. If you want to change the Welcome message to a different one, you can update it in the AI Agent Studio portal.
+
+1. Open up your AI Agent **<copy><w class="attendee"></w>_2000_AutoAI_Lab</copy>**. 
+   ![Profiles](../graphics/Lab1_AI_Agent/17.6.gif)
+
+2. Update the Welcome message with the one in different lenguage. **Save Changies** and **Publish** the flow. 
+   ![Profiles](../graphics/Lab1_AI_Agent/17.7.gif)
+
+3. Call the number associated with your channel. You should hear the Welcome message and be able to have a conversation with the AI Agent in a different language.
