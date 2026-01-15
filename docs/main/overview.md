@@ -58,20 +58,20 @@ Designing a **Webex AI Agent** for a flower shop to assist customers via **voice
 
 ### AI Agent Capabilities
 
-- **Recommending flowers** based on customer preferences or occasions  
-- **Collecting order details** for both **standard and custom bouquets**  
-- **Calculating total price** in real time  
-- **Gathering delivery information**, including **address** and **delivery date**  
-- **order confirmations via SMS**  
-- **Providing order status updates** upon request   
-- **Transferring to a human agent** when needed for complex inquiries  
+- **Recommending flowers based on customer preferences or occasions**
+- **Collecting order details for both standard and custom bouquets**  
+- **Calculating total price in real time**
+- **Gathering delivery information, including address and delivery date**  
+- **order confirmations via SMS**   
+- **Transferring to a specific queue with human agents, when needed for complex inquiries**
 
 ### Human Agent Support
 
-- **Human agents** are equipped with **AI-powered tools** to ensure:
   - **Provide the agent with a summary of the call**  
-  - **Suggest a response to the agent based on the knowledge base**  
   - **Provide live transcripts to improve the understanding of the customer's request**
+  - **Suggest a response to the agent based on the knowledge base**  
+  - **Generate Post Call Summery**
+
 
 ### Supervisor Support
 - **Evaluate agent's quality of service using Evaluation form**  
@@ -89,9 +89,7 @@ In this lab, participants will: <br><br>
  **• Integrate Intelligent AI Agents:** Utilize Cisco Autonomous and Scripted AI Agents to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. <br><br>
 **• Seamless AI-to-Human Collaboration:** Experience smooth transitions from AI agents to human agents, ensuring continuous context and interaction summaries for effective issue resolution. <br><br>
 **• Enhance In-Interaction Insights:** Experience AI-driven call summarisation to enhance agent productivity and service quality. <br><br>
-**• Predict Customer Sentiment:** Learn to leverage AI to forecast customer satisfaction (CSAT) based on interaction data, enabling proactive service adjustments and how to use this for proactive customer engagement. <br><br>
-**• Utilize Proactive Campaign:** Proactively engage customers through intelligent outreach and dynamic self-service using Webex AI Agents.
-
+**• Predict Customer Sentiment:** Learn to leverage AI to forecast customer satisfaction (CSAT) based on interaction data, enabling proactive 
     
 ## Disclaimer
 The lab design and configuration examples provided are for educational purposes. For production design queries, please consult your Cisco representative or an authorized Cisco partner.

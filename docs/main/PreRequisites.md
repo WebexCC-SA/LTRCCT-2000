@@ -13,7 +13,7 @@ icon: material/bullseye-arrow
 2. The majority of the configuration in Control Hub is already set up, allowing you to focus primarily on configuration Webex AI Virtual Agent and other AI features. Of course, there may still be some elements to adjust, but these should be minimal, letting you concentrate on building and refining the flow logic rather than spending time on initial setup.
 3. The Human Agent have been configured for you. You will be performing the rest of the configurations for AI Agent and integartion with channels.
 4. Please ask for help when you need it. You can do so by:<br>
-Dropping your question in the LAB Space **WebexOne LAB-2342** from Webex App in your Lab PC. <br>
+Dropping your question in the LAB Space **Cisco Live LTRCCT-2000** from Webex App in your Lab PC. </br>
 Or you can do it by raising your hand and calling the proctor.<br>
 ---
 
@@ -27,9 +27,11 @@ Or you can do it by raising your hand and calling the proctor.<br>
 
 > Admin:   **<copy>wxcclabs+admin_ID<w class="attendee"></w>@gmail.com</copy>**
 
+> Supervisor:  **<copy>wxcclabs+supvr_ID<w class="attendee"></w>@gmail.com</copy>**
+
 > Webex App has been pre-installed on your Lab PC
 
-> Assigned Inbound Channel Number: **Provided by Lab Instructor**
+> Inbound Phone Number: Assigned to your Channel **<copy><w class="attendee"></w>_2000_Channel</copy>**
 
 More pre-configured entities will be mentioned during the lab missions if they have any.
 
