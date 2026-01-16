@@ -20,7 +20,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 ### Task 1. Creating new AI Agent with Knowladge Base.
 
-1. <span style="color: red;">[IMPORTANT]</span> Download .xlsx the file [Flowrs_Catalog](https://docs.google.com/spreadsheets/d/1QjbL58okbEfl-ODgyv_ohIIPUiPBP34n/edit?usp=sharing&ouid=100862210011127627593&rtpof=true&sd=true){:target="_blank"}.
+1. <span style="color: red;">[IMPORTANT]</span> Download .xlsx the file [Flowrs_Catalog](https://docs.google.com/spreadsheets/d/1A5d1ZEPWmPE_38Bi8bVULKLhCH0wyGX4/edit?usp=sharing&ouid=100862210011127627593&rtpof=true&sd=true){:target="_blank"}.
     ![Profiles](../graphics/Lab1_AI_Agent/2.74.png)
     
     > 
@@ -33,7 +33,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 3. Go to [Webex Control Hub](https://admin.webex.com){:target="_blank"}
 
-4. Open Contact Center from the left side navigation panel, and under Quick Links, click on **Webex AI Agent**
+4. Open **Contact Center** from the left side navigation panel, and under **Overview > Quick Links**, click on **Webex AI Agent**
 
     ![Profiles](../graphics/Lab1_AI_Agent/L1M6_OpenWebexAI1.gif)
 
@@ -51,7 +51,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
     <span style="color: red;">[Read Only]</span> : You can also natively create a Knowledge Base document by Clicking **Documents** then **Create Document** and paste the content. **Save** it. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.75KBDocument.gif)
     
-8. Navigate to **Dashboard** from the right-hand side menu panel and click **Create Agent**
+8. Navigate to **AI Agents** from the left-hand side menu panel and click **Create Agent**
     ![Profiles](../graphics/Lab1_AI_Agent/2.58.gif)
 9. Select **Start from Scratch** and click **Next**
 10. On **Create an AI agent** page select the following select the type of agent: **Autonomous**
@@ -122,16 +122,16 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 14.  Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<copy><w class="attendee"></w>_2000_AI_KB</copy>**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.5.gif)
 
-15.  Click **Publish**. Provide any version name in popped up window (ex. "1.0").<br>
+15.  Click on **Save changes** and **Publish** the flow. Provide any version name in popped up window (ex. "1.0").<br>
     ![Profiles](../graphics/Lab1_AI_Agent/2.6.gif)
 
 
 ### Task 2. Test your AI Agent
 
-1. Click on **Preview** and testing the AI Agent to understnad how it behaives using Chat channel. You can start the conversation with: **<copy>I need flower for my friend</copy>**. And try to ask what is the flower availabiliyt and prices and what would be the total for some floewr that you select. 
+1. Click on **Preview** and testing the AI Agent to understnad how it behaives using **Chat channel**. You can start the conversation with: **<copy>I need flower for my friend</copy>**. And try to ask what is the flower availabiliyt and prices and what would be the total for some floewr that you select. 
 ![Profiles](../graphics/Lab1_AI_Agent/2.59.gif)
 
-2. Click on **Preview** and testing the AI Agent to understnad how it behaives using Voice channel. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
+2. Click on **Preview** and testing the AI Agent to understnad how it behaives using **Voice channel**. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
 > **Note:** This Lab is being conducted in a classroom with approximately 30 attendees.  
 > Environmental factors, such as background noise and other attendees speaking next to you, may affect the response accuracy.  
 > For best results, it is **strongly recommended to use computer headphones**, if available.

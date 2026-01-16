@@ -19,7 +19,7 @@ Integrate the AI Agent with the Voice Flow.
 2.  Name the new flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** and click **Create Flow**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.48.png)
 
-3. Make sure the **Edit** mode at the top is set to **ON**. Then, drag and drop the **Virtual Agent V2** and **DisconnectContact** activities from the left panel onto the canvas.
+3. Make sure the **Edit** mode at the top is set to **ON**. Then, drag and drop the **Virtual Agent V2** and **Disconnect Contact** activities from the left panel onto the Design field.
 
     !!! Note
         Please make sure to use **VirtualAgentV2** activity and <span style="color: red;">**NOT**</span> **VirtualAgent** also present on the Activity Library for Backward Compatability.
@@ -56,11 +56,11 @@ Integrate the AI Agent with the Voice Flow.
     - **Play Music**
 
       >
-      > Create a loop by connecting the Play Music activity back to itself - to create a music loop, following the diagram provided.
+      > Create a loop by connecting the Play Music activity back to itself - to create a music loop, following the example provided below.
       >
       > Connect the **Failure** path from the **Play Music** activity to the **Disconnect Contact** activity.
       > 
-      > Music File: **defaultmusic_on_hold_cisco_opus_no_1.wav**
+      > Click on the **Play Music** node and select Music File: **defaultmusic_on_hold_cisco_opus_no_1.wav**
       >
     ![Profiles](../graphics/Lab1_AI_Agent/2.50.gif)  
 
@@ -79,11 +79,12 @@ Integrate the AI Agent with the Voice Flow.
     ![Profiles](../graphics/Lab1_AI_Agent/2.53.gif)
 
 9. Dial Support Number assigned to your **<w class="attendee"></w>_2000_Channel** to test the Autonomous AI Agent over a voice call.
-
+    ![Profiles](../graphics/Lab1_AI_Agent/2.84.png)
 
 ### Task 2. Test Agent Handoff Configurations.
 
-1. From the browser start logging in to [Agent Desktop](https://desktop.wxcc-us1.cisco.com){:target="_blank"} with the same credentials that you use to login to Control Hub. You will see another login screen with SSO process where you may need to enter the email address again and the password provided to you. 
+1. Go to **Control Hub** and from **Overview > Quick Links** select **Desktop** option. 
+    ![Profiles](../graphics/Lab1_AI_Agent/2.83.gif)
 2. Select **Desktop** endpoint option and choose the team. **<copy><w class="attendee"></w>_2000_Team</copy>**. Click **Submit**. Allow browser to access Microphone by clicking **Allow** on every visit.
 3. Make your agent ***Available*** and you're ready to make a call.
 
