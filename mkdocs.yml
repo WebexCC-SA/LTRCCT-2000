@@ -1,8 +1,8 @@
 ---
-site_name: "LAB-2342: Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights" # This must begin with the session ID, e.g. LABXXX-1234 This is my Cisco Live Lab
-site_description: "Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights" # must be same as "site_name"
-site_author: Kevin Simpson, Shrishail Doddalinganavar
-copyright: Copyright &copy; 2025 Cisco
+site_name: "LTRCCT-2000: Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights" # This must begin with the session ID, e.g. LABXXX-1234 This is my Cisco Live Lab
+site_description: "LTRCCT-2000: Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights" # must be same as "site_name"
+site_author: Kevin Simpson, Mykola Danylchuk
+copyright: Copyright &copy; 2026 Cisco
 theme:
   name: material
   features:
@@ -31,8 +31,8 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  logo: template_assets/webexLogo91.png
-  favicon: template_assets/webex75.png
+  logo: template_assets/cisco_logo.png
+  favicon: template_assets/cisco_logo.png
 extra:
   generator: false
   repo: "https://github.com/WebexCC-SA/LAB-2342.git"
