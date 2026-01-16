@@ -69,7 +69,7 @@ Entity example: **<copy>Billing**</copy><br>
 In the next steps, we will add the **Set Variable** block to see the MetaData in JSON format, and then we will add the **Parse** and **Case** nodes to handle the logic and distribute the call to the appropriate queue.
     ![Profiles](../graphics/Lab1_AI_Agent/11.11.png)
 
-4. Create new flow varilable with name **MetaData_AI**. Select type as **string**.
+4. Create new flow varilable with name **<copy>MetaData_AI</copy>**. Select type as **string** and then click **Save**.
     ![Profiles](../graphics/Lab1_AI_Agent/11.9.gif)
 
 5. Add **Set Variable** node to the flow and connect **Escalated** output of the **VirtualAgentV2** block to the **Set Variable** node. 
@@ -78,10 +78,10 @@ In the next steps, we will add the **Set Variable** block to see the MetaData in
 6. Click on **Set Variable** node, select Variable as **MetaData_AI**. For the Variable Value, first click on **VirtualAgentV2** block and copy the name of the MetaData Activity Output Variable. Then post this value inside of the {{}} to the Variable Value field. 
     ![Profiles](../graphics/Lab1_AI_Agent/11.12.gif)
 
-7. Connect Set Variable block to the Queue node for now. Validate and Publish the Flow. 
+7. Connect **Set Variable** block to the **Queue** node for now. Validate and Publish the Flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/11.13.gif)
 
-8. Place test call to the number that is related to you Channel **<copy><w class="attendee"></w>_2000_Channel</copy>**. During the conversation with AI Agent ask to transfer you to the HR department. The call should go to the only Queue that is currently configured in the flow. 
+8. Place test call to the number that is related to you Channel **<copy><w class="attendee"></w>_2000_Channel</copy>**. During the conversation with AI Agent ask to **transfer you to the HR department**. The call should go to the only Queue that is currently configured in the flow. 
 
 9. After the call is completed, click on Debug and review the metadata in the Set Variable block. 
     ![Profiles](../graphics/Lab1_AI_Agent/11.14.gif)
@@ -89,7 +89,7 @@ In the next steps, we will add the **Set Variable** block to see the MetaData in
 10. <span style="color: red;">[Read Only]</span> From MetaData we can see the value of the department entity is "HR"
     ![Profiles](../graphics/Lab1_AI_Agent/11.15.png)
 
-11. <span style="color: red;">[Read Only]</span>. To parse the value in the flow, we need to determine the JSON path to retrieve the value. By using an open-source tool ([JSONPath Online Evaluator](https://jsonpath.com/){:target="_blank"}), you can ensure you are using the correct JSON path to extract the value you need. In our case, the JSON path is $.actions.Transfer_to_different_department[0].input.department to retrieve the value for the department entity.
+11. <span style="color: red;">[Read Only]</span>. To parse the value in the flow, we need to determine the JSON path to retrieve the value. By using an open-source tool ([JSONPath Online Evaluator](https://jsonpath.com/){:target="_blank"}), you can ensure you are using the correct JSON path to extract the value you need. In our case, the JSON path is **$.actions.Transfer_to_different_department[0].input.department** to retrieve the value for the department entity.
     ![Profiles](../graphics/Lab1_AI_Agent/11.16.png)
 
 12. Click on Edit the flow and create new string variable with name **department**.

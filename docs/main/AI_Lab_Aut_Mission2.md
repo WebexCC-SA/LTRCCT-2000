@@ -33,7 +33,7 @@ Configure Fulfilment action to collect order details from the customer and send 
 
 ### Task 1. Create Service and AI Agent Flow in Webex Connect. 
 
-1. From Control Hub, go to **Contact Center** > **Overview** and open up **Webex Connect** Portal. 
+1. From **Control Hub**, go to **Contact Center** > **Overview** and open up **Webex Connect** Portal. 
     ![Profiles](../graphics/Lab1_AI_Agent/2.9.gif)
 
 
@@ -53,7 +53,7 @@ Configure Fulfilment action to collect order details from the customer and send 
 
 ### Task 2. Configure Action in the AI Studio.
 
-1. If not logged-in in AI Agent Studio, login to the AI Studio Portal.
+1. Go to AI Studio Portal.
     ![Profiles](../graphics/Lab1_AI_Agent/2.14.gif)
 
 2. Select your AI agent with name **<copy><w class="attendee"></w>_2000_AutoAI_Lab</copy>** that we created earlier, go to **Actions**. You will see one Action is already created by default for the Agent Handoff. We will be creating more actions.
@@ -120,7 +120,7 @@ Required: <b>Yes</b>
 
 ### Task 3. Deliver collected order information to Webex Connect for fulfillment.
 
-1. Login to the Webex Connect, go to the Service **<copy><w class="attendee"></w>_2000_Service</copy>** and click on <b>Manage</b> the flow that you have created earlier.
+1. Go to the Webex Connect, select the Service **<copy><w class="attendee"></w>_2000_Service</copy>** and click on <b>Manage</b> the flow that you have created earlier.
    ![Profiles](../graphics/Lab1_AI_Agent/2.24.gif)
 
 2. Click on **Edit** the flow on the right top. Then double click on the AI Agent event.
@@ -207,14 +207,10 @@ Also see this change in action below.
 
 ### Task 5. Configure SMS confirmation. 
 
-1. If it is not open, navigate to **Webex Connect** portal. Find your Service **<copy><w class="attendee"></w>_2000_Service</copy>**, navigate to the flow and click on **Manage** the flow. 
-   ![Profiles](../graphics/Lab1_AI_Agent/2.39.gif)
-
-
-2. On the right top click on **Edit**. Then from the available Utilities on the left side find the **SMS** and drag and drop the block to the flow. Connect **HTTP Request** node to the **SMS** node. 
+1. On the right top click on **Edit**. Then from the available Utilities on the left side find the **SMS** and drag and drop the block to the flow. Connect **HTTP Request** node to the **SMS** node. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.68.gif)
 
-3. Double click on the SMS block and configure the following:
+2. Double click on the SMS block and configure the following:
 
      > Destination: ***<copy>$(n2.aiAgent.phoneNumber)</copy>***<br>
      > From Number: ***<copy>447507201958</copy>***<br>
@@ -235,7 +231,7 @@ Also see this change in action below.
      >
    ![Profiles](../graphics/Lab1_AI_Agent/2.69.gif)
 
-4. Save and Click on **Make Live**. 
+3. Save and Click on **Make Live**. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.70.gif)
 
 
