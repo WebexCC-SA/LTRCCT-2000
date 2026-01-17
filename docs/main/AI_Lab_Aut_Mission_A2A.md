@@ -19,13 +19,13 @@ A2A, or Agent-to-Agent protocol, refers to a standardized method that enables di
 
 
 ## Mission overview
-Your mission is to:
+
 
 A2A Action is still in development and is currently available only for customer demos. In this mission, you will not be creating a complete A2A integration for the Webex AI Agent and the Third Party AI Agent, as this functionality is not yet available to customers. The A2A integration has already been created and added to the tenant for this lab. Your task is to create an action using this A2A integration and test how it works.
 
 For this mission, you will utilize the integration with the Infermedica AI Agent. This third-party AI agent is designed to support medical triage, symptom assessment, and patient intake by analyzing user-provided health information and symptoms.
 
-Image an unfortinute situation when a customer ordering flowers over the phone and while driving and got an excedent. The customer can be shocked and don't know what to do. AI agent should help direct the customer to call 911. 
+Imagine an unfortunate situation where a customer is ordering flowers over the phone while driving and gets into an accident. The customer may be in shock and not know what to do. The AI agent should help direct the customer to call emergency service.
 
    ![Profiles](../graphics/Lab1_AI_Agent/A2AAction.png)
 
@@ -49,7 +49,7 @@ Image an unfortinute situation when a customer ordering flowers over the phone a
 
 ### Task 2. Test A2A Action. 
 
-1. You can test the functionality using the chat **Preview** option. 
+1. You can test the functionality using the chat **Preview** option. Type to the AI Agent for example this: **<copy>Oh my God, I just got into a car crash and my head is bleeding. What should I do?</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/16.5.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

@@ -33,10 +33,10 @@ In this mission, you will change the language of your AI agent for the voice cha
 6. Add one more **SetVariable** node. Select Variable as **Global_VoiceName**. Select the appropriate voice from the documentation. For example **<copy>es-US-Alonso</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/17.4.gif)
 
-7. Connect the nodes in series. Validate and Publish the flow. 
+7. Connect the nodes in series. **Validate** and **Publish** the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/17.5.gif)
 
-8. Call the number that is related to your channel. You should hear the AI agent speaking still play the Welcom message in English but after you can continue the conversation in Spanish.
+8. Call the number that is related to your channel. You should hear the AI agent play the Welcome message in English with an accent, but afterward, you can continue the conversation in the language that you configured in the flow.
 
 
 ### Task 2. Change the Welcome message.
@@ -46,7 +46,10 @@ The AI Agent Welcome message is currently a static value. If you want to change 
 1. Open up your AI Agent **<copy><w class="attendee"></w>_2000_AutoAI_Lab</copy>**. 
    ![Profiles](../graphics/Lab1_AI_Agent/17.6.gif)
 
-2. Update the Welcome message with the one in different lenguage. **Save Changies** and **Publish** the flow. 
+2. Update the Welcome message with the one in different lenguage. For example for Spanish you can update it to: **<copy>Hola, mi nombre es Blossom, el Agente de IA. ¿Cómo puedo ayudarle?</copy>**. **Save Changies** and **Publish** the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/17.7.gif)
 
-3. Call the number associated with your channel. You should hear the Welcome message and be able to have a conversation with the AI Agent in a different language.
+3. Call the number associated with your channel. You should hear the Welcome message and be able to have a conversation with the AI Agent in a different language. All functionality, such as transferring to the HR department or to another AI agent, will still function in different languages without adjusting any further configurations.
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
+
