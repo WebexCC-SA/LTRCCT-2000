@@ -19,8 +19,6 @@ MCP, or Model Context Protocol, is a standardized framework designed to facilita
 
 
 ## Mission overview
-Your mission is to:
-
 
 MCP Action is still in development and is currently available only for customer demos. In this mission, you will not be creating an MCP server or adding it to the tenant, as this functionality is not yet available to customers. The MCP server has already been created and added to the tenant for this lab. Your task is to create an action using this MCP server and test how it works.
 
@@ -42,11 +40,13 @@ For this mission, the MCP server was created to search external database for Flo
 3. You can see that another Action was created, and some of the configurations, such as Description and Entity, were transferred from the MCP server. This new Action essentially adds functionality to the AI Agent, enabling it to provide customers with store locations. These location details are stored in a third-party database and are accessed through the MCP integration.
    ![Profiles](../graphics/Lab1_AI_Agent/15.3.png)
 
-4. Publish the changies. 
+4. **Publish** the changies. 
    ![Profiles](../graphics/Lab1_AI_Agent/15.4.png)
 
 
 ### Task 2. Test MCP Action. 
 
-1. You can test the functionality using the chat **Preview** option. 
+1. You can test the functionality using the chat **Preview** option. Ask the AI agent **What are the store locations?**. The information that the AI agent will respond with will be retrieved from the external database over the MCP.
    ![Profiles](../graphics/Lab1_AI_Agent/15.5.png)
+
+<p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

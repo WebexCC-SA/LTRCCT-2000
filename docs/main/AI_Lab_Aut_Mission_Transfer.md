@@ -81,7 +81,7 @@ In the next steps, we will add the **Set Variable** block to see the MetaData in
 7. Connect **Set Variable** block to the **Queue** node for now. Validate and Publish the Flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/11.13.gif)
 
-8. Place test call to the number that is related to you Channel **<copy><w class="attendee"></w>_2000_Channel</copy>**. During the conversation with AI Agent ask to **transfer you to the HR department**. The call should go to the only Queue that is currently configured in the flow. 
+8. Place test call to the number that is related to you Channel **<copy><w class="attendee"></w>_2000_Channel</copy>**. During the conversation with AI Agent **ask to transfer you to the HR department**. The call should go to the only Queue that is currently configured in the flow. 
 
 9. After the call is completed, click on Debug and review the metadata in the Set Variable block. 
     ![Profiles](../graphics/Lab1_AI_Agent/11.14.gif)
@@ -92,7 +92,7 @@ In the next steps, we will add the **Set Variable** block to see the MetaData in
 11. <span style="color: red;">[Read Only]</span>. To parse the value in the flow, we need to determine the JSON path to retrieve the value. By using an open-source tool ([JSONPath Online Evaluator](https://jsonpath.com/){:target="_blank"}), you can ensure you are using the correct JSON path to extract the value you need. In our case, the JSON path is **$.actions.Transfer_to_different_department[0].input.department** to retrieve the value for the department entity.
     ![Profiles](../graphics/Lab1_AI_Agent/11.16.png)
 
-12. Click on Edit the flow and create new string variable with name **department**.
+12. Move from the Debug to Design field and click on Edit the flow. Create new flow string variable with name **<copy>department</copy>**.
     ![Profiles](../graphics/Lab1_AI_Agent/11.17.gif)
 
 13. Add **Parse** block to the flow and connect **Set Variable** block to the **Parse** block. 
@@ -132,7 +132,7 @@ LINK Description: **<copy>Billing</copy>**<br>
 22. Validate and Publish the flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/11.26.gif)
 
-23. Place test call to the number that is related to you Channel **<copy><w class="attendee"></w>_2000_Channel</copy>**. During the conversation with AI Agent ask to transfer you to the HR department. The call should park to a queue. After the call is completed. Go to Debug, find the call to make sure it goes to the HR Queue. 
+23. Place test call to the number that is related to you Channel **<copy><w class="attendee"></w>_2000_Channel</copy>**. During the conversation with AI Agent **ask to transfer you to the HR department**. The call should park to a queue. After the call is completed. Go to Debug, find the call to make sure it goes to the HR Queue. 
     ![Profiles](../graphics/Lab1_AI_Agent/11.27.gif)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
