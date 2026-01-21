@@ -30,6 +30,8 @@ Your mission is to:
 
 ### Task 1 <span style="color: red;">[READ ONLY]</span>. Order Provisioning & Control Hub Settings
 
+<span style="color: red;">[This task is read only]</span>
+
 1. You should purchase the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW.
 
 2. Once you purchase the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the **Real-time Transcriptions** from the Control Hub.
@@ -49,7 +51,7 @@ Your mission is to:
 
 ### Task 2. Configure Flow for real-time transcripts
 
-1. Open up your voice flow **<span class="attendee-id-container">AutonomousAI_Flow_2000_<span class="attendee-id-placeholder" data-prefix="AutonomousAI_Flow_2000_">Your_Attendee_ID</span><span class="copy" title="Click to copy!"></span></span>** and click on **Edit**.
+1. Open up your voice flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** and click on **Edit**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.12.gif) 
 
 2. Click on the **Event Flow**.
@@ -62,15 +64,12 @@ Your mission is to:
 
 ### Task 3. Test Real-Time Transcript feature
 
-1. Login to the Agent Desktop.
+1. Make your agent **Available**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.15.png)
 
-2. Confirm that your Channel **<copy><w class="attendee"></w>_2000_Channel</copy>** is still configured with the flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.7.gif)
+2. Place the test call to the number that is assosiated with you Channel **<w class="attendee"></w>_2000_Channel**, and ask to talk to an agent. 
 
-3. Place a test call and ask to talk to an agent. 
-
-4. Become Available on the Agent Desktop and answer the call. You will see the Live Transcripts window with the latest live transcripts between the caller and the human agent.
+3. Aanswer the call. You will see the Live Transcripts window with the latest live transcripts between the caller and the human agent.
    ![Profiles](../graphics/Lab1_AI_Agent/3.16.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

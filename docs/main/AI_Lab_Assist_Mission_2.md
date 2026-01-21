@@ -16,7 +16,7 @@ Understand the provisioning process and Control Hub settings required to activat
 
 ## Build
 
-### Task 1 <span style="color: red;">[READ ONLY]</span>. Order Provisioning & Control Hub Settings
+### Task 1. Order Provisioning & Control Hub Settings
 
 1. You should purchase the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW.
 

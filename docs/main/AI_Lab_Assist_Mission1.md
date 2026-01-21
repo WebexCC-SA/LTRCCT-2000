@@ -20,6 +20,8 @@ Your mission is to:
 
 ### Task 1 <span style="color: red;">[READ ONLY]</span>. Order Provisioning & Control Hub Settings
 
+<span style="color: red;">[This task is read only]</span>
+
 1. You should purchase the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW.
 
 2. Once you purchase the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. After purchasing the offer, the customer can enable/disable the **Virtual Agent Transfer Summary** features from the Control Hub.
@@ -33,7 +35,7 @@ Your mission is to:
     <br/>Desktop Layout:
    ![Profiles](../graphics/Lab1_AI_Agent/3.43.png) 
     <br/>Desktop Layout file: </br>
-     Make sure **ai-assistant** is configured under the **advancedHeader**.
+     Make sure **ai-assistant** is configured under the **advancedHeader** in case you are using a custom Layout file.
    ![Profiles](../graphics/Lab1_AI_Agent/3.5.png)
     <br/>You can download preconfigured desktop layout here.
    [Desktop Layout](https://drive.google.com/file/d/1EnM-2r9XOVm2EcE6ND4fL3L62qZesm5_/view?usp=sharing){:target="_blank"} 
@@ -50,15 +52,12 @@ Your mission is to:
 3. Make sure you can see Agent Assistant widget.
    ![Profiles](../graphics/Lab1_AI_Agent/3.6.png)
 
-4. Confirm that your Channel **<w class="attendee"></w>_2000_Channel** is still configured with the flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.7.gif)
+4. Place a test call to the number that is assosiated with you Channel **<w class="attendee"></w>_2000_Channel**, and, for example, mention that you need some flowers for a wedding party. **Allow the AI Agent to complete its response before requesting to transfer the call to a live human agent**. Then ask the AI Agent to transfer you to the human agent. 
 
-5. Place a test call and, for example, mention that you need some flowers for a wedding party. **Allow the AI Agent to complete its response before requesting to transfer the call to a live human agent**. 
-
-6. Become Available on the Agent Desktop and answer the call. You will see a window with the message **AI agent transfer summary is ready** pops up. You can click on View Summary from the window.
+5. Become Available on the Agent Desktop and answer the call. You will see a window with the message **AI agent transfer summary is ready** pops up. You can click on View Summary from the window.
    ![Profiles](../graphics/Lab1_AI_Agent/3.8.png)
 
-7. The **AI agent transfer summary is ready** notification will disappear after a few seconds. However, you can always reopen it by clicking on the AI Assistant widget.
+6. The **AI agent transfer summary is ready** notification will disappear after a few seconds. However, you can always reopen it by clicking on the AI Assistant widget.
    ![Profiles](../graphics/Lab1_AI_Agent/3.9.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

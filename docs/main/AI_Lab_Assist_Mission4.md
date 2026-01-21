@@ -45,7 +45,10 @@ Your mission is to:
 1. Make sure the agent is in the availabe status.
    ![Profiles](../graphics/Lab1_AI_Agent/3.47.png)
 
-2. Place a call to your channel. While connecting to the AI Agent, request a transfer to a human agent. Answer the call on the alpha Agent Desktop and engage in small talk about flower ordering. After disconnecting the call, the Wrap Up Summary window should appear, displaying a summary of the call between the caller and the agent.
+2. Place a call to your channel. Answer the call by the agent and put the agent on mute if you are using a Webex phone to place the call, as we use one microphone for both the caller and agent. As the customer say that you ordered flowers but didn't receive a delivery. 
    ![Profiles](../graphics/Lab1_AI_Agent/3.49.png)
+
+3. Disconnect the call. You should see the wrap up summery of the call. 
+   ![Profiles](../graphics/Lab1_AI_Agent/3.50.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

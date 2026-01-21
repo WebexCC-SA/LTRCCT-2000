@@ -6,8 +6,10 @@ In this lab, you explored key AI features in Webex Contact Center that enhance c
 
 - **Agent Transfer Summary**: Gives agents context from Virtual Agent interactions.
 - **Real-Time Transcription**: Improves accuracy and response time.
+- **Wrap Up Summery**: This feature automatically generates the conversations summaries based on the interactions.
 - **Dropped-Call Summary**: Helps agents resume conversations smoothly.
 - **Auto CSAT**: Uses AI to predict satisfaction for every interaction, beyond traditional surveys.
+
 
 ### Takeaway
 
