@@ -2,4 +2,3 @@ By completing these bonus labs in your own time, you will gain practical experie
 
 
 Additionally, you will explore topic analytics to gain valuable insights from customer interactions. These labs will help you deepen your understanding of how AI and digital integration can enhance customer experiences and improve operational efficiency within WxCC.
-
