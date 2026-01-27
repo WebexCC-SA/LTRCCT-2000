@@ -51,7 +51,7 @@ To activate post-call survey functionality, historical customer data is required
 3. In the report you can see AutoCSAT that were generated for the calls, based on the Queue. You can see AutoCSAT information related to specific calls by drill-down into the AutoCSAT fields. 
     ![Profiles](../graphics/Lab1_AI_Agent/3.24.gif)
 
-4. <span style="color: red;">[READ ONLY]</span> When you log in to the Supervisor Dashboard, you can view the AutoCSAT score for specific calls and listen to the call recordings directly from the supervisor desktop. (The Supervisor user account is not configured for this lab. Please refer to the screenshot below to understand the experience of viewing the AutoCSAT from the Supervisor desktop.)
+4. When you log in to the Supervisor Dashboard, you can view the AutoCSAT score for specific calls and listen to the call recordings directly from the supervisor desktop. (The Supervisor user account is not configured for this lab. Please refer to the screenshot below to understand the experience of viewing the AutoCSAT from the Supervisor desktop.)
     ![Profiles](../graphics/Lab1_AI_Agent/3.25.png)
 
 
