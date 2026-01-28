@@ -26,7 +26,7 @@ Configure the fulfillment flow to track the status of existing orders. This func
 2. Navigate to the Service that you have created in the previous lab - **<copy><w class="attendee"></w>_Service</copy>**
     ![Profiles](../graphics/Lab1_AI_Agent/9.17.gif)
 
-3. Creat new flow. Name it **<copy>Track_Order_Flowers</copy>**.
+3. Create new flow. Name it **<copy>Track_Order_Flowers</copy>**.
     ![Profiles](../graphics/Lab1_AI_Agent/9.18.gif)
 
 4. Select **Integration** as **AI Agent**. **Parse** the values in the AI Agent block and click on **Save**. Then **Make Live** the flow. We will configure it in a later Task. For now, we just need to create the flow that will be used to complete the Action Configuration on the AI Studio side.
@@ -56,7 +56,7 @@ Configure the fulfillment flow to track the status of existing orders. This func
 6. Add **New input entity**. Configure it with the following: <br>
 Name: **<copy>orderNumber</copy>**. <br>
 Entity type: **String**. <br>
-Entiry description: **<copy>If the customer wants to track an order, collect the order number to this entity. </copy>**. <br>
+Entity description: **<copy>If the customer wants to track an order, collect the order number to this entity. </copy>**. <br>
 Entity example: **<copy>17</copy>**. <br>
 Required: **Yes**
 Input field display name: **orderNumber**
@@ -65,18 +65,18 @@ Input field display name: **orderNumber**
 7. For the fulfillment flow select the Service **<copy><w class="attendee"></w>_Service</copy>** and the flow **<copy>Track_Order_Flowers</copy>**, that you have created in the previous Tasks. Then click **Add**.
     ![Profiles](../graphics/Lab1_AI_Agent/9.25.png)
 
-8. Publish the recent changies of the Skill. 
+8. Publish the recent changes of the Skill. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.26.png)
 
 ### Task 3. Configure Fulfillment flow in Webex Connect. 
 
-1. Open up Webex Connect. Findthe service **<w class="attendee"></w>_Service** and open up flow: **Track_Order_Flowers**. Click on **Edit** the flow. 
+1. Open up Webex Connect. Find the service **<w class="attendee"></w>_Service** and open up flow: **Track_Order_Flowers**. Click on **Edit** the flow. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.27.gif)
 
 2. Add **HTTP Request** node to the flow and connect **Configure AI Agent Event** node to this **HTTP Reqeust** node. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.28.gif)
 
-3. Open up **Configure AI Agent Event** node and replace the Sample JSON body with the following. Then click on **Parse** and **Save** the changies of the node. 
+3. Open up **Configure AI Agent Event** node and replace the Sample JSON body with the following. Then click on **Parse** and **Save** the changes of the node. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.29.gif)
 
     ``` JSON
@@ -101,7 +101,7 @@ Input field display name: **orderNumber**
     > 
     >    ![Profiles](../graphics/Lab1_AI_Agent/9.30.png)
 
-5. Save changies and click on **Make Live**.
+5. Save changes and click on **Make Live**.
     ![Profiles](../graphics/Lab1_AI_Agent/9.31.gif)
 
 ### Task 4. Deliver data from Webex Connect to AI studio for the response to the customer. 
@@ -114,13 +114,13 @@ Input field display name: **orderNumber**
 
 ### Task 5. Test the Suggested Responses feature with fulfillment. 
 
-1. Login to **Agent Deskop**.
+1. Login to **Agent Desktop**.
 
 2. Please the call to the number that is related to you Channel - <w class="attendee"></w>_2000_Channel
 
 3. Ask the AI Agent to transfer the call to the human agent. 
 
-4. Once the call is connected to the Agent Desktop, select the AI widgit and then click on Get suggestions. 
+4. Once the call is connected to the Agent Desktop, select the AI widget and then click on Get suggestions. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.34.png)
 
 5. As the caller say that you would like to track an order. You will see the suggestion will come up to ask for the order number. 
@@ -132,7 +132,7 @@ Input field display name: **orderNumber**
 7.  For this lab, all order statuses are "new," so you should see that the AI responds that the order status is "new."
     ![Profiles](../graphics/Lab1_AI_Agent/9.36a.png)
 
-7. (Optional) To see all order infomations you can by placing this URL in your browser. <br>
+7. (Optional) To see all order information you can by placing this URL in your browser. <br>
 https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder  <br>
     ![Profiles](../graphics/Lab1_AI_Agent/9.37.png)
 

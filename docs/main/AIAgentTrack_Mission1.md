@@ -74,7 +74,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
     ![Profiles](../graphics/Lab1_AI_Agent/2.16.png)
 
 
-13. In the instructions add additional specific guidlines that you would like the AI Agent to follow. Just **copy the text below and paste it to the Instractions section**: <br>
+13. In the instructions add additional specific guidelines that you would like the AI Agent to follow. Just **copy the text below and paste it to the Instructions section**: <br>
 
 
     >Always first check what is the event for the flowers so you can provide the best option. 
@@ -128,10 +128,10 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 ### Task 2. Test your AI Agent
 
-1. Click on **Preview** and testing the AI Agent to understnad how it behaives using **Chat channel**. You can start the conversation with: **<copy>I need flower for my friend</copy>**. And try to ask what is the flower availabiliyt and prices and what would be the total for some floewr that you select. 
+1. Click on **Preview** and testing the AI Agent to understand how it behaves using **Chat channel**. You can start the conversation with: **<copy>I need flower for my friend</copy>**. And try to ask what is the flower availability and prices and what would be the total for some floewr that you select. 
 ![Profiles](../graphics/Lab1_AI_Agent/2.59.gif)
 
-2. Click on **Preview** and testing the AI Agent to understnad how it behaives using **Voice channel**. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
+2. Click on **Preview** and testing the AI Agent to understand how it behaves using **Voice channel**. You can start the conversation with: **"I need flower for my friend"**<span class="copy-static" title="Click to copy!" data-copy-text="I need flower for my friend"><span class="copy"></span></span> and try to customize you order. 
 > **Note:** This Lab is being conducted in a classroom with approximately 30 attendees.  
 > Environmental factors, such as background noise and other attendees speaking next to you, may affect the response accuracy.  
 > For best results, it is **strongly recommended to use computer headphones**, if available.

@@ -1,9 +1,9 @@
 ### Quality Managment Feature Overview
 
 The Evaluations feature lets supervisors create customized evaluation forms to assess agent
-interactions automatically. Using AI, agent’s interactions are analysed and evaluation scores
+interactions automatically. Using AI, agent’s interactions are analyzed and evaluation scores
 are generated against the pre-defined criteria set by the supervisors. Supervisors have the
-ability to manually adjust scores if necessary. When scores are adjusted, this informaMon is
+ability to manually adjust scores if necessary. When scores are adjusted, this information is
 subsequently used to improve the AI models. Evaluation scores are available both at the
 individual interaction level and as aggregated data for each agent, offering clear insights
 into performance trends. This streamlines quality assurance, providing consistent and

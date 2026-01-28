@@ -42,7 +42,7 @@ Your mission is to:
 ### Task 2. Test Wrap-up Summary feature.
 
 
-1. Make sure the agent is in the availabe status.
+1. Make sure the agent is in the available status.
    ![Profiles](../graphics/Lab1_AI_Agent/3.47.png)
 
 2. Place a call to your channel. Answer the call by the agent and put the agent on mute if you are using a Webex phone to place the call, as we use one microphone for both the caller and agent. As the customer say that you ordered flowers but didn't receive a delivery. 

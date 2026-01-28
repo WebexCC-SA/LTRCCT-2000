@@ -24,7 +24,7 @@ In this mission, you will download the Webex Connect flow and configure it to wo
 4. Name the flow as **<copy>Chat_App_<w class="attendee"></w>_2000</copy>** and select **Upload flow** option from the list.
    ![Profiles](../graphics/Lab1_AI_Agent/4.29.png)
 
-5. Click on **Choose File**, select the fild that you have downloaded in the step 1, then click on **Create**.
+5. Click on **Choose File**, select the field that you have downloaded in the step 1, then click on **Create**.
    ![Profiles](../graphics/Lab1_AI_Agent/4.30.png)
 
 6. On the following page click on **Save**
@@ -47,7 +47,7 @@ In this mission, you will download the Webex Connect flow and configure it to wo
 5. Go to your Webex Connect Flow, open up **Flow Settings**, click on **Custom Variables** and adjust the appID with the one you copied in the previous step. 
    ![Profiles](../graphics/Lab1_AI_Agent/4.36.gif)
 
-6. For better tracking purposes, also change the **liveChatDomain** in the **Custom Variables** settings from *.glitch.me to the website that is associated with your user account. For example for my test account it is shine-rapid-freesia.glitch.me. For your account please refare the table below. <span style="color: red;">[NEED to Add Table]</span> 
+6. For better tracking purposes, also change the **liveChatDomain** in the **Custom Variables** settings from *.glitch.me to the website that is associated with your user account. For example for my test account it is shine-rapid-freesia.glitch.me. For your account please refer the table below. <span style="color: red;">[NEED to Add Table]</span> 
    ![Profiles](../graphics/Lab1_AI_Agent/4.41.gif)
 
 

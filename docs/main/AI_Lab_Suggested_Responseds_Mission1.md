@@ -42,10 +42,10 @@ Create a Knowledge Base for the AI Assistant skill to use. This knowledge base w
 2. Select **Start from scretch** and click **Next**.
     ![Profiles](../graphics/Lab1_AI_Agent/9.7.gif)
 
-3. Name the skill as **<copy><w class="attendee"></w>_Suggested_Responses_Skill</copy>**. Discribe the goals as **<copy>Answer question about flower suggestion, flower availability, prices, delivery cost and order status.</copy>**. And then click on **Creat**.
+3. Name the skill as **<copy><w class="attendee"></w>_Suggested_Responses_Skill</copy>**. Describe the goals as **<copy>Answer question about flower suggestion, flower availability, prices, delivery cost and order status.</copy>**. And then click on **Create**.
     ![Profiles](../graphics/Lab1_AI_Agent/9.8.gif)
 
-4. Link the knowledge base to the skill in the **Knowledge** section. **Save** and **Publish** the changies. 
+4. Link the knowledge base to the skill in the **Knowledge** section. **Save** and **Publish** the changes. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.9.gif)
 
 ### Task 3. Assigned AI skills to your queue.  
@@ -65,7 +65,7 @@ Create a Knowledge Base for the AI Assistant skill to use. This knowledge base w
     ![Profiles](../graphics/Lab1_AI_Agent/9.13.png)
 
 
-### Task 5. Test Suggested Respondes Feature.
+### Task 5. Test Suggested Responses Feature.
 
 1. Log in to the Agent Desktop. If you were previously logged in, the suggestion is to re-login, as we did a lot of configurations related to the Queue and the Team.
     ![Profiles](../graphics/Lab1_AI_Agent/9.15.png)

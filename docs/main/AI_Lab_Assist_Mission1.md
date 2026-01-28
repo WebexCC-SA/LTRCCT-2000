@@ -52,7 +52,7 @@ Your mission is to:
 3. Make sure you can see Agent Assistant widget.
    ![Profiles](../graphics/Lab1_AI_Agent/3.6.png)
 
-4. Place a test call to the number that is assosiated with you Channel **<w class="attendee"></w>_2000_Channel**, and, for example, mention that you need some flowers for a wedding party. **Allow the AI Agent to complete its response before requesting to transfer the call to a live human agent**. Then ask the AI Agent to transfer you to the human agent. 
+4. Place a test call to the number that is associated with you Channel **<w class="attendee"></w>_2000_Channel**, and, for example, mention that you need some flowers for a wedding party. **Allow the AI Agent to complete its response before requesting to transfer the call to a live human agent**. Then ask the AI Agent to transfer you to the human agent. 
 
 5. Become Available on the Agent Desktop and answer the call. You will see a window with the message **AI agent transfer summary is ready** pops up. You can click on View Summary from the window.
    ![Profiles](../graphics/Lab1_AI_Agent/3.8.png)

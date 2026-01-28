@@ -13,7 +13,7 @@ In this mission, you will change the language of your AI agent for the voice cha
 
 ## Build
 
-### Task 1. Configure language related Global Varialbes in voice flow. 
+### Task 1. Configure language related Global Variables in voice flow. 
 
 1. Go to Flows and open up your voice flow **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>** and click **Edit Flow**
    ![Profiles](../graphics/Lab1_AI_Agent/17.1.gif)
@@ -46,7 +46,7 @@ The AI Agent Welcome message is currently a static value. If you want to change 
 1. Open up your AI Agent **<copy><w class="attendee"></w>_2000_AutoAI_Lab</copy>**. 
    ![Profiles](../graphics/Lab1_AI_Agent/17.6.gif)
 
-2. Update the Welcome message with the one in different lenguage. For example for Spanish you can update it to: **<copy>Hola, mi nombre es Blossom, el Agente de IA. ¿Cómo puedo ayudarle?</copy>**. **Save Changies** and **Publish** the flow. 
+2. Update the Welcome message with the one in different language. For example for Spanish you can update it to: **<copy>Hola, mi nombre es Blossom, el Agente de IA. ¿Cómo puedo ayudarle?</copy>**. **Save changes** and **Publish** the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/17.7.gif)
 
 3. Call the number associated with your channel. You should hear the Welcome message and be able to have a conversation with the AI Agent in a different language. All functionality, such as transferring to the HR department or to another AI agent, will still function in different languages without adjusting any further configurations.

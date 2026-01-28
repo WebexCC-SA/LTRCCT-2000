@@ -44,7 +44,7 @@ Imagine an unfortunate situation where a customer is ordering flowers over the p
 3. You can see that another Action was created, and some of the configurations, such as Description and Entity, were transferred from the A2A integration. This new Action essentially adds functionality to the AI Agent, enabling it to provide customers with health symptom analysis and suggest appropriate actions.
    ![Profiles](../graphics/Lab1_AI_Agent/16.3.png)
 
-4. Publish the changies. 
+4. Publish the changes. 
    ![Profiles](../graphics/Lab1_AI_Agent/16.4.png)
 
 ### Task 2. Test A2A Action. 

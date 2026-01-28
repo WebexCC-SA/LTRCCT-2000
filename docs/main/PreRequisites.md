@@ -11,7 +11,7 @@ icon: material/bullseye-arrow
 1. We will be using a shared lab tenant for simulations, meaning all attendees will work within the same Webex Contact Center environment. To avoid conflicts, ensure that any entities you configure are tagged with the Attendee ID assigned to you.
     
 2. The majority of the configuration in Control Hub is already set up, allowing you to focus primarily on configuration Webex AI Virtual Agent and other AI features. Of course, there may still be some elements to adjust, but these should be minimal, letting you concentrate on building and refining the flow logic rather than spending time on initial setup.
-3. The Human Agent have been configured for you. You will be performing the rest of the configurations for AI Agent and integartion with channels.
+3. The Human Agent have been configured for you. You will be performing the rest of the configurations for AI Agent and integration with channels.
 4. Please ask for help when you need it. You can do so by:<br>
 Dropping your question in the LAB Space **LTRCCT-2000 Hands-On AI in Action** from Webex App in your Lab PC. </br>
 Or you can do it by raising your hand and calling the proctor.<br>
@@ -55,7 +55,7 @@ More pre-configured entities will be mentioned during the lab missions if they h
 2. **Sign in** using Admin credentials. (The same credentials you used to login to the Contorl Hub)
    ![Profiles](../graphics/Lab1_AI_Agent/18.2.gif)
 
-3. If you receive a promt to add Address, click **Cancel**
+3. If you receive a prompt to add Address, click **Cancel**
    ![Profiles](../graphics/Lab1_AI_Agent/18.4.gif)
 
 

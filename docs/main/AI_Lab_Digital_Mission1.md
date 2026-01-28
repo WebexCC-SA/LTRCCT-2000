@@ -140,7 +140,7 @@ Go to **Services** and look for the service that you have created earlier. The n
 1. In this lab, we are using the glitch.com platform to test our chat functionality on a sample website. Using your personal gmail plesae login to glitch.com and create your own custom website where you can embed the chat widget. Open index.html file to see the structure of the website. 
      ![Profiles](../graphics/Lab1_AI_Agent/4.45.gif)
 
-2. While having index.html file open, copy the script that you have save in notepad in the prevouse Task and paste it between ***footer*** and ***body*** tags. 
+2. While having index.html file open, copy the script that you have save in notepad in the previous Task and paste it between ***footer*** and ***body*** tags. 
      ![Profiles](../graphics/Lab1_AI_Agent/4.25.gif)
 
 4. Click on the website preview, and you should see the chat bubble appear in the bottom-right corner.

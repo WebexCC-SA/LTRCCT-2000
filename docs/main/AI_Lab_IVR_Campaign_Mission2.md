@@ -12,7 +12,7 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 
 1. Login to [Control Hub](https://admin.webex.com){:target="_blank"}
 
-2. Go to Contact Center > Flows, click on **Creat Flow**.
+2. Go to Contact Center > Flows, click on **Create Flow**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.3.png)
 
 3. Click on **Start Fresh**.
@@ -52,37 +52,37 @@ Your mission is to create a new campaign that will deliver call to your cellphon
 2. Click on **Campaign groups** and select **2000_Campaign_Group**. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.43.png)
 
-3. Click on **Creat campaign**.
+3. Click on **Create campaign**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.13.png)
 
-4. Click on Dialer **Configuration**. Select Channel (Entry Point) that you have created in the previous Task. Dialer mode select as **Progressive IVR**. Then **Save changies**.
+4. Click on Dialer **Configuration**. Select Channel (Entry Point) that you have created in the previous Task. Dialer mode select as **Progressive IVR**. Then **Save changes**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.14.png)
 
 5. Click on **Contact list source**, select **Manual file upload**. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.45.png)
 
-6. Select preconfigured field mapping with name **2000_Lab**. Select experation value to **30** days. Then click on **Save changies**.
+6. Select preconfigured field mapping with name **2000_Lab**. Select expiration value to **30** days. Then click on **Save changes**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.16.png)
 
-7. Select **Daily schedule**. Configure the start day and active hours during the day. Then **Save changies**
+7. Select **Daily schedule**. Configure the start day and active hours during the day. Then **Save changes**
    ![Profiles](../graphics/Lab1_AI_Agent/8.46.png)
 
-8. Click on **Schedule exlusion dates** and just **Save changies**.
+8. Click on **Schedule exclusion dates** and just **Save changes**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.18.png)
 
-9. Select **Contact attampt strategy** and click on **Configure**.
+9. Select **Contact attempt strategy** and click on **Configure**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.19.png)
 
-10. Change the Cycle internval to **1** minute and click on **Save**.
+10. Change the Cycle interval to **1** minute and click on **Save**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.20.png)
 
-11. Once the attempts strategy is configurd, click on **Save changies**.
+11. Once the attempts strategy is configured, click on **Save changes**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.21.png)
 
 12. Click on **Suppression rule sets**. Then select **Suppression rule not require** option. **Save changes**.
    ![Profiles](../graphics/Lab1_AI_Agent/8.22.png)
 
-13. Confirm that you would like to **Continue without supression rules**. 
+13. Confirm that you would like to **Continue without suppression rules**. 
    ![Profiles](../graphics/Lab1_AI_Agent/8.23.png)
 
 14. Click on **Save & exit** the Campaign configuration. 

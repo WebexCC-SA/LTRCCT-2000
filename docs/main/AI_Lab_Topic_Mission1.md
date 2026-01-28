@@ -30,7 +30,7 @@ Enter your administrator login user, if prompted.
 Click on **Edit Topics** on the top-right corner.
    ![Profiles](../graphics/Lab1_AI_Agent/1.7.png)
 
-2. In the Name Copy screen, edit the topic collection name. By default, Copy of existing collection name appears in the Topic collection name field. For this lab you can call it with any name you prefare. 
+2. In the Name Copy screen, edit the topic collection name. By default, Copy of existing collection name appears in the Topic collection name field. For this lab you can call it with any name you prepare. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.8.png)
 
 3.  Optionally, topics can be merged or deleted. **Please do not do it while working on this lab**. 
@@ -59,7 +59,7 @@ Click on **Edit Topics** on the top-right corner.
 8. <span style="color: red;">[Read Only]</span>  On the next Windows you would see that new collection is creating.
    ![Profiles](../graphics/Lab1_AI_Agent/1.13.png)
 
-9. <span style="color: red;">[Read Only]</span>  From Topic Analytytics you would see that a new Topic collection will be creating, and if you have enough calls with the provided reason, the data will show up in the Topic.
+9. <span style="color: red;">[Read Only]</span>  From Topic Analytics you would see that a new Topic collection will be creating, and if you have enough calls with the provided reason, the data will show up in the Topic.
    ![Profiles](../graphics/Lab1_AI_Agent/1.14.png)
 
 10. For this lab open up topic with name **Flower Delivery_2** to see the expected results.
@@ -71,7 +71,7 @@ Click on **Edit Topics** on the top-right corner.
 1. From [Control Hub](https://admin.webex.com){:target="_blank"} login to Analyzer. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.18.png)
 
-2. Click on Dashboard and search for the Dashboard with name ***<copy>AI Assistant Dashboard</copy>***. Open the Deshboard with ID -1284.
+2. Click on Dashboard and search for the Dashboard with name ***<copy>AI Assistant Dashboard</copy>***. Open the Dashboard with ID -1284.
    ![Profiles](../graphics/Lab1_AI_Agent/1.20.png)
 
 3. Scroll down and select the duration as **This Year**

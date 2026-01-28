@@ -7,7 +7,7 @@ icon: material/medal
 
 You will explore the Webex Campaign User Interface and understand how to configure its key components, including business days, contact modes, DNC lists, suppression rules, telephony outcomes, and more. These configurations will help you implement and optimize a Campaign Voice Flow effectively.
 
-## Featurs Overview.
+## Features Overview.
 
 ### Task 1 Create new Google Profile
 
@@ -31,7 +31,7 @@ You will explore the Webex Campaign User Interface and understand how to configu
 2. You will see a welcome message along with a list of required configurations that need to be completed to set up the Campaign Voice Flow. Click on Got it. 
    ![Profiles](../graphics/Lab1_AI_Agent/7.1.png) 
 
-3. Navitate to **Voice campaigns administration** module.
+3. Navigate to **Voice campaigns administration** module.
    ![Profiles](../graphics/Lab1_AI_Agent/7.2.png) 
 
 4. Click on Business Days. You can select the swipe button of the required business day to enable or disable it. The campaign will be paused if it identifies a disabled business day and resumes on the next business day.

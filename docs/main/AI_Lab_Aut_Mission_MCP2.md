@@ -21,7 +21,7 @@ MCP, or Model Context Protocol, is a standardized framework designed to facilita
 ## Mission overview
 Your mission is to:
 
-Configure the Action with MCP Server that use API for AWS Bedrock AI agent in order to cunsult about procies for wholsale orders.
+Configure the Action with MCP Server that use API for AWS Bedrock AI agent in order to consult about process for wholesale orders.
 
    ![Profiles](../graphics/Lab1_AI_Agent/Untitled(10).jpg)
 

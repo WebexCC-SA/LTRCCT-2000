@@ -22,7 +22,7 @@ Integrate the AI Agent with the Voice Flow.
 3. Make sure the **Edit** mode at the top is set to **ON**. Then, drag and drop the **Virtual Agent V2** and **Disconnect Contact** activities from the left panel onto the Design field.
 
     !!! Note
-        Please make sure to use **VirtualAgentV2** activity and <span style="color: red;">**NOT**</span> **VirtualAgent** also present on the Activity Library for Backward Compatability.
+        Please make sure to use **VirtualAgentV2** activity and <span style="color: red;">**NOT**</span> **VirtualAgent** also present on the Activity Library for Backward Compatibility.
 
     > Connect the **New Phone Contact** output node edge to this **VirtualAgentV2** node
     >
@@ -91,7 +91,7 @@ Integrate the AI Agent with the Voice Flow.
     ![profiles](../graphics/Lab1_AI_Agent/5-Agent_Login.gif)
 
 
-4. Dial the support number assigned to your **<w class="attendee"></w>_2000_Channel** channel, and during the conversation with the AI agent, ask to talk to a representetive or live agent. 
+4. Dial the support number assigned to your **<w class="attendee"></w>_2000_Channel** channel, and during the conversation with the AI agent, ask to talk to a representative or live agent. 
 
 5. By default, the **Conversation Transcripts** setting is enabled in VirtualAgentV2 block.
     ![Profiles](../graphics/Lab1_AI_Agent/2.54.png)

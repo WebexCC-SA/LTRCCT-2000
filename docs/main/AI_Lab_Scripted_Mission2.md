@@ -33,7 +33,7 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 6. Click on Entities and review **order_number** Entity configuration. 
      ![Profiles](../graphics/Lab1_AI_Agent/6.73.gif) 
 
-7. Click on **Responces** and seach for **order_number** responce and review it for responce message  
+7. Click on **Responses** and seach for **order_number** response and review it for response message  
      ![Profiles](../graphics/Lab1_AI_Agent/scriptedOrdernumber6.91.gif) 
 
 #### Task 2. Send the data from AI Agent to Voice Flow​.
@@ -76,7 +76,7 @@ Your mission is to review preconfigured Scripted AI Agent for tracking existing 
 2. Go to AI Studio and open AI Agent with name ***180_Scripted_AI_Agent***<span class="copy-static" title="Click to copy!" data-copy-text="180_Scripted_AI_Agent"><span class="copy"></span></span>. **Please do not make any changes to this agent, as this lab is for review purposes only for the entire group.**
     ![Profiles](../graphics/Lab1_AI_Agent/6.69.png) 
 
-3. Open the response with the name **order_status**. The same name was specifed in the VirtualAgentV2 block as the **Event Name**. 
+3. Open the response with the name **order_status**. The same name was specified in the VirtualAgentV2 block as the **Event Name**. 
      ![Profiles](../graphics/Lab1_AI_Agent/6.85.png) 
 
 4. Open up the response and you can see that data will be returned using the following format: **${eventStore.status}**.

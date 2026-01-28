@@ -40,7 +40,7 @@ For this mission, the MCP server was created to search external database for Flo
 3. You can see that another Action was created, and some of the configurations, such as Description and Entity, were transferred from the MCP server. This new Action essentially adds functionality to the AI Agent, enabling it to provide customers with store locations. These location details are stored in a third-party database and are accessed through the MCP integration.
    ![Profiles](../graphics/Lab1_AI_Agent/15.3.png)
 
-4. **Publish** the changies. 
+4. **Publish** the changes. 
    ![Profiles](../graphics/Lab1_AI_Agent/15.4.png)
 
 

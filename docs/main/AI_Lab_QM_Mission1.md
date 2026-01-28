@@ -28,7 +28,7 @@ Create an Evaluation Form with requirements to ask the caller's name and the occ
 3. Login with your Supervisor credentials. In the **Set your interaction preferences** select role as **Supervisor** and Handle calls using **Desktop**. Allow using microphone. 
     ![Profiles](../graphics/Lab1_AI_Agent/12.3.gif)
 
-4. Click on **Configurations** and then select to **Creat a form**.
+4. Click on **Configurations** and then select to **Create a form**.
     ![Profiles](../graphics/Lab1_AI_Agent/12.4.png)
 
 5. In the Form title field enter **<copy><w class="attendee"></w>_2000_Flower_Form</copy>**. In the Section name field enter **<copy>Initial_Questions</copy>**
@@ -44,7 +44,7 @@ Question: **<copy>Was the agent asked what the occasion for the flowers was?</co
 Context: **<copy>The agent needs to ask the occasion for the flowers to better assist the customer.</copy>**<br>
     ![Profiles](../graphics/Lab1_AI_Agent/12.7.gif)
 
-8. Scroll up and click on **Add assigment**. From the list of queues select your queue **<copy><w class="attendee"></w>_2000_Voice_Queue</copy>**. And click on **Assign**.
+8. Scroll up and click on **Add assignment**. From the list of queues select your queue **<copy><w class="attendee"></w>_2000_Voice_Queue</copy>**. And click on **Assign**.
     ![Profiles](../graphics/Lab1_AI_Agent/12.8.gif)
 
 9. Publish the form. 
@@ -61,7 +61,7 @@ Context: **<copy>The agent needs to ask the occasion for the flowers to better a
 3. Open you Incognito Window with https://alpha-desktop.wxcc-us1.cisco.com/interactions, click on **Interactions** and select **Completed**.
     ![Profiles](../graphics/Lab1_AI_Agent/12.12.png)
 
-4. Find the **Customise** option and add **Automated evaluation** column. 
+4. Find the **customize** option and add **Automated evaluation** column. 
     ![Profiles](../graphics/Lab1_AI_Agent/12.13.png)
 
 5. Review your call and you should see the evaluation as 50%, as you only answered one of the two questions.

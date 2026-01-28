@@ -43,7 +43,7 @@ For this mission, the proctor has created Webex AI Agent named **Flower_Wholesal
 4. Adjust entiry example by adding **<copy>Wholesale</copy>**. 
     ![Profiles](../graphics/Lab1_AI_Agent/14.4.gif)
 
-5. **Save** and **Publish** the changies. 
+5. **Save** and **Publish** the changes. 
     ![Profiles](../graphics/Lab1_AI_Agent/14.5.gif)
 
 ### Task 2. Configure Voice flow to Transfer the call to **Flower_Wholesale** AI Agent. 

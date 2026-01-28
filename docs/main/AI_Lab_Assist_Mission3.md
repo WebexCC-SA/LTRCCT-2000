@@ -38,7 +38,7 @@ Your mission is to:
    ![Profiles](../graphics/Lab1_AI_Agent/3.10.png)
 
 
-3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has Agent Assistance features configured. Default desktop layout already incude the AI Agent Assistance widget.
+3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has Agent Assistance features configured. Default desktop layout already include the AI Agent Assistance widget.
     <br/>Agents Team:
    ![Profiles](../graphics/Lab1_AI_Agent/3.41.png)    
     <br/>Desktop Layout:
@@ -67,9 +67,9 @@ Your mission is to:
 1. Make your agent **Available**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.15.png)
 
-2. Place the test call to the number that is assosiated with you Channel **<w class="attendee"></w>_2000_Channel**, and ask to talk to an agent. 
+2. Place the test call to the number that is associated with you Channel **<w class="attendee"></w>_2000_Channel**, and ask to talk to an agent. 
 
-3. Aanswer the call. You will see the Live Transcripts window with the latest live transcripts between the caller and the human agent.
+3. Answer the call. You will see the Live Transcripts window with the latest live transcripts between the caller and the human agent.
    ![Profiles](../graphics/Lab1_AI_Agent/3.16.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

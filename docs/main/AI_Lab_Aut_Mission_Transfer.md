@@ -69,7 +69,7 @@ Entity example: **<copy>Billing**</copy><br>
 In the next steps, we will add the **Set Variable** block to see the MetaData in JSON format, and then we will add the **Parse** and **Case** nodes to handle the logic and distribute the call to the appropriate queue.
     ![Profiles](../graphics/Lab1_AI_Agent/11.11.png)
 
-4. Create new flow varilable with name **<copy>MetaData_AI</copy>**. Select type as **string** and then click **Save**.
+4. Create new flow variable with name **<copy>MetaData_AI</copy>**. Select type as **string** and then click **Save**.
     ![Profiles](../graphics/Lab1_AI_Agent/11.9.gif)
 
 5. Add **Set Variable** node to the flow and connect **Escalated** output of the **VirtualAgentV2** block to the **Set Variable** node. 

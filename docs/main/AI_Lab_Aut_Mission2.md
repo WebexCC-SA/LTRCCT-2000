@@ -7,7 +7,7 @@ icon: material/medal
 
 # Mission 3: Configure Fulfilment Action and create an order.
 
- **<details><summary>What is Fulfilment Action? <span style="color: orange;"></span></summary>**
+ **<details><summary>What is fulfilment Action? <span style="color: orange;"></span></summary>**
 
 
 
@@ -83,28 +83,28 @@ Required: <b>Yes</b>
 
 7. By following the same pattern, create an entity to collect the customer's phone number.<br>
 Entity Name: ***<copy>phoneNumber</copy>***<br>
-Entity Typs: <b>string</b> <br>
+Entity Type: <b>string</b> <br>
 Description: ***<copy>Collect customer's phone number. Before the customer complete the order, ask if they would like to receive confirmation over the SMS. If so, collect the phone number.</copy>***<br>
 Example: ***<copy>3477579861</copy>***<br>
 Required: <b>Yes</b>
 
 8. By following the same pattern, create an entity to collect the customer's order details.<br>
 Entity Name: ***<copy>orderDetails</copy>***<br>
-Entity Typs: <b>string</b> <br>
+Entity Type: <b>string</b> <br>
 Description: ***<copy>Collect the flowers and bouquets information that customer orders. Make sure to do correct math. If one rose is 20 dollars and the customer would like buy 9 roses then the price should be 180 dollars. Don't use double quotes (") in the generated responses.</copy>***<br>
 Example: ***<copy>Romantic Roses standard bouquet and one more bouquet with 9 roses</copy>***<br>
 Required: <b>Yes</b>
 
 9. By following the same pattern, create an entity to store the total price information of the order.<br>
 Entity Name: ***<copy>orderTotal</copy>***<br>
-Entity Typs: <b>string</b> <br>
+Entity Type: <b>string</b> <br>
 Description: ***<copy>After the customer inform if they need delivery or not, and confirm that they would like to proceed with completing the order, collect the Total information and assigned it to this slot.</copy>***<br>
 Example: ***<copy>150 dollars, 70 dollars</copy>***<br>
 Required: <b>Yes</b>
 
 10. By following the same pattern, create an entity to store the order status information.<br>
 Entity Name: ***<copy>status</copy>***<br>
-Entity Typs: <b>string</b> <br>
+Entity Type: <b>string</b> <br>
 Description: ***<copy>Always create it as "new"</copy>***<br>
 Example: ***<copy>new</copy>***<br>
 Required: <b>Yes</b>
@@ -176,7 +176,7 @@ Required: <b>Yes</b>
     >    ![Profiles](../graphics/Lab1_AI_Agent/2.63.gif)
 
 
-6. Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. Make sure you **Save** the changies. 
+6. Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. Make sure you **Save** the changes. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.29.png)
 
 

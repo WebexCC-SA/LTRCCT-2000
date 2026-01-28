@@ -15,7 +15,7 @@ In this mission, you will test the conversation with an AI Agent over the Chat D
 1. Open up website that is related to your account and initiate the chant. Order flowers with delivery and email confirmation.
    ![Profiles](../graphics/Lab1_AI_Agent/4.42.png)
 
-2. You should also receive the confirmation email to the specifed email address. 
+2. You should also receive the confirmation email to the specified email address. 
    ![Profiles](../graphics/Lab1_AI_Agent/4.43.png)
 
 ### Task 2. Test the handoff to a human agent.
