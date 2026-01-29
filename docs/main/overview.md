@@ -21,7 +21,10 @@ icon: material/bullseye-arrow
 5. Select the pod that is associated with the number tag attached to your screen.
    ![Profiles](../graphics/Lab1_AI_Agent/Login4.png) 
 
-6. 
+6. Use this Attendee ID and login details to follow the lab. You can copy and paste them into a notepad if this would be convenient for you.
+   ![Profiles](../graphics/Lab1_AI_Agent/Login5.png) 
+
+
 <style>
     /* Style for the button */
     button {
@@ -56,10 +59,7 @@ icon: material/bullseye-arrow
 
 ## Overview of the lab's Use Case 
 
-## Webex AI Agent Design for Flower Shop
-
-Designing a **Webex AI Agent** for a flower shop to assist customers via **voice and digital channels**.
-
+You are designing **Webex AI Agent** for a flower shop to assist customers with answering questions and ordering flowers. To support agents and supervisors with the latest AI tools, you will configure **AI Assistant** features.
 
 ### AI Agent Capabilities
 
@@ -67,7 +67,7 @@ Designing a **Webex AI Agent** for a flower shop to assist customers via **voice
 - **Collecting order details for both standard and custom bouquets**  
 - **Calculating total price in real time**
 - **Gathering delivery information, including address and delivery date**  
-- **order confirmations via SMS**   
+- **Order confirmations via SMS**   
 - **Transferring to a specific queue with human agents, when needed for complex inquiries**
 
 ### Human Agent Support
