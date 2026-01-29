@@ -70,7 +70,7 @@ Integrate the AI Agent with the Voice Flow.
 6. Assign the Flow to your **Channel (Entry Point)** - Do this by first going to **Channel**, search for your channel **<copy><w class="attendee"></w>_2000_Channel</copy>**.
 7. Click on **<copy><w class="attendee"></w>_2000_Channel</copy>**
     ![Profiles](../graphics/Lab1_AI_Agent/2.52.png)  
-8. In **Channel** settings section change the following:
+8. In **Channel** settings section change the following and then **Save** the changes. 
 
     > Routing Flow: **<copy>AutonomousAI_Flow_2000_<w class="attendee"></w></copy>**
 

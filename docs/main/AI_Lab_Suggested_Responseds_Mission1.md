@@ -34,12 +34,12 @@ Create a Knowledge Base for the AI Assistant skill to use. This knowledge base w
 5. Process the file. 
     ![Profiles](../graphics/Lab1_AI_Agent/9.5.png)
 
-### Task 2. Creat AI Assistant skills.
+### Task 2. Create AI Assistant skills.
 
-1. Select **AI Assistant skills** and click on **Creat skills**.
+1. Select **AI Assistant skills** and click on **Create skills**.
     ![Profiles](../graphics/Lab1_AI_Agent/9.6.png)
 
-2. Select **Start from scretch** and click **Next**.
+2. Select **Start from scratch** and click **Next**.
     ![Profiles](../graphics/Lab1_AI_Agent/9.7.gif)
 
 3. Name the skill as **<copy><w class="attendee"></w>_Suggested_Responses_Skill</copy>**. Describe the goals as **<copy>Answer question about flower suggestion, flower availability, prices, delivery cost and order status.</copy>**. And then click on **Create**.
