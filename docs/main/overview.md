@@ -9,7 +9,7 @@ icon: material/bullseye-arrow
 
 1. In the Chrome browser open the lab access page https://lab-assistant.com
 
-2. Enter the access code and press **Enter**. 
+2. Enter the access code **<copy>462397</copy>** and press **Enter**. 
     ![Profiles](../graphics/Lab1_AI_Agent/Login1.png) 
 
 3. Navigate to the **POD** section.
