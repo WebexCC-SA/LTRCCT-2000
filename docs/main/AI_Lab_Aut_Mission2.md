@@ -42,7 +42,7 @@ Configure Fulfilment action to collect order details from the customer and send 
     ![Profiles](../graphics/Lab1_AI_Agent/2.10.gif)
 
 
-3. Click on **Flows** and create new flow with the name ***<copy>Create_Ordedr_Flowers</copy>***
+3. Click on **Flows** and create new flow with the name ***<copy>Create_Order_Flowers</copy>***
     ![Profiles](../graphics/Lab1_AI_Agent/2.11.gif)
 
 4. From the Integrations list select AI Agent. 
@@ -68,7 +68,7 @@ Configure Fulfilment action to collect order details from the customer and send 
 
 5. Scroll down and click to create **New input entity**. Fill up the table with the following and then click on **Add**. <br>
 Entity Name: ***<copy>address</copy>*** <br>
-Entity Typs: <b>string</b> <br>
+Entity Type: <b>string</b> <br>
 Description: ***<copy>Collect the customer's delivery address</copy>***<br>
 Example: ***<copy>548 Catalina Drive, Cary, NC 27515</copy>*** <br>
 Required: <b>Yes</b>
@@ -76,9 +76,10 @@ Required: <b>Yes</b>
 
 6. By following the same pattern, create an entity that specifies whether the customer requires delivery. <br>
 Entity Name: ***<copy>delivery</copy>***<br>
-Entity Types: <b>string</b> <br>
+Entity Type: <b>string</b> <br>
 Description: ***<copy>Check if the customer needs delivery or not. Event if they want to proceed with order without specifying the delivery details. If the customer wants to confirm the order but didn't specify if they need delivery or not, ask one more time if they need the delivery or not.</copy>***<br>
-Example: ***<copy>Yes,No</copy>***<br>
+Example: ***<copy>Yes</copy>***<br>
+Example: ***<copy>No</copy>***<br>
 Required: <b>Yes</b>
 
 7. By following the same pattern, create an entity to collect the customer's phone number.<br>
@@ -205,6 +206,9 @@ Also see this change in action below.
 5. Click on **Make Live** to publish the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/2.67.gif)
 
+6. Wait until the flow become **Live** if you want to do any tests. 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.85.png)
+
 ### Task 5. Configure SMS confirmation. 
 
 1. On the right top click on **Edit**. Then from the available Utilities on the left side find the **SMS** and drag and drop the block to the flow. Connect **HTTP Request** node to the **SMS** node. 
@@ -237,7 +241,7 @@ Also see this change in action below.
 
 ### Task 6. Test the order creating and details delivery over SMS. 
 
-1. In the Webex AI Agent Studio, click on preview and order flowers for you friend. 
+1. In the Webex AI Agent Studio, click on preview and order flowers for you friend. Try to order flowers with or without delivery. When asking for you number, **provide your cellphone number without +**. Complete the order.
    ![Profiles](../graphics/Lab1_AI_Agent/2.72.gif)
 
 2. Check if the confirmation SMS was received on your phone. </br>

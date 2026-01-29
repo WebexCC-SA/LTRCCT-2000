@@ -53,8 +53,6 @@ icon: material/bullseye-arrow
 
 Designing a **Webex AI Agent** for a flower shop to assist customers via **voice and digital channels**.
 
-[Webex AI Agent](https://blog.webex.com/customer-experience/announcing-general-availability-of-webex-ai-agent-paving-way-new-era-cx/){:target="_blank"}
-
 
 ### AI Agent Capabilities
 
@@ -80,16 +78,17 @@ Designing a **Webex AI Agent** for a flower shop to assist customers via **voice
 
 ## Learning Objectives
 
-Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights - LAB-2342"**
+Welcome to **"Hands-on AI in Action with Webex Contact Center: Enhancing Self-Service, Agent Assistance & Customer Insights - LTRCCT-2000"**
 
 ![Profiles](../graphics/NewLab/Overview/1.1.png)
 
 In this lab, participants will: <br><br>
  **• Uncover Trends & Opportunities:** Analyze customer conversation data to identify key themes, trends, and automation opportunities for improved service efficiency. <br><br>
- **• Integrate Intelligent AI Agents:** Utilize Cisco Autonomous and Scripted AI Agents to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. <br><br>
+ **• Integrate Intelligent AI Agents:** Utilize Cisco Autonomous AI Agent to build dynamic, context-aware self-service flows that adapt to customer needs in real-time. <br><br>
 **• Seamless AI-to-Human Collaboration:** Experience smooth transitions from AI agents to human agents, ensuring continuous context and interaction summaries for effective issue resolution. <br><br>
-**• Enhance In-Interaction Insights:** Experience AI-driven call summarisation to enhance agent productivity and service quality. <br><br>
-**• Predict Customer Sentiment:** Learn to leverage AI to forecast customer satisfaction (CSAT) based on interaction data, enabling proactive 
+**• Enhance In-Interaction Insights:** Experience AI-driven call summarisation to enhance agent productivity and service quality. 
+**• Predict Customer Sentiment:** Learn to leverage AI to forecast customer satisfaction (CSAT) based on interaction data, enabling proactive.<br><br>
+**• Evaluate Agent's performance:** Learn to leverage AI QM to evaluate the agent's quality of provided service based on the preconfigured template. 
     
 ## Disclaimer
 The lab design and configuration examples provided are for educational purposes. For production design queries, please consult your Cisco representative or an authorized Cisco partner.

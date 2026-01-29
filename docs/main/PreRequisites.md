@@ -52,15 +52,15 @@ More pre-configured entities will be mentioned during the lab missions if they h
 1. Open Webex App on your PC. 
    ![Profiles](../graphics/Lab1_AI_Agent/18.1.gif)
 
-2. **Sign in** using Admin credentials. (The same credentials you used to login to the Contorl Hub)
-   ![Profiles](../graphics/Lab1_AI_Agent/18.2.gif)
+2. **Sign in** using Admin credentials. (The same credentials you used to login to the Contorl Hub).
+   ![Profiles](../graphics/Lab1_AI_Agent/18.3.gif)
 
 3. If you receive a prompt to add Address, click **Cancel**
    ![Profiles](../graphics/Lab1_AI_Agent/18.4.gif)
 
 
 #### Calling to Contact Center
-Place test call to the test number +15206603129 to confirm that you Webex Phone is configured to place calls. If you are planning to use your cellphone for testing you can also try to call the number. 
+Place test call to the test number +15206603129 to confirm that you Webex Phone is configured to place calls. You will hear TTS response from the test flow. If you are planning to use your cellphone for testing you can also try to call the number. 
    ![Profiles](../graphics/Lab1_AI_Agent/18.5.gif)
 
 

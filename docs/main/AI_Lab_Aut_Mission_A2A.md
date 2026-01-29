@@ -52,4 +52,7 @@ Imagine an unfortunate situation where a customer is ordering flowers over the p
 1. You can test the functionality using the chat **Preview** option. Type to the AI Agent for example this: **<copy>Oh my God, I just got into a car crash and my head is bleeding. What should I do?</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/16.5.png)
 
+2. Open up the interaction transcripts in the **Session** to confirm that result came from the A2A integration.
+   ![Profiles](../graphics/Lab1_AI_Agent/16.6.png)
+
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

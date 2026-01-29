@@ -46,7 +46,10 @@ For this mission, the MCP server was created to search external database for Flo
 
 ### Task 2. Test MCP Action. 
 
-1. You can test the functionality using the chat **Preview** option. Ask the AI agent **What are the store locations?**. The information that the AI agent will respond with will be retrieved from the external database over the MCP.
+1. You can test the functionality using the chat **Preview** option. Ask the AI agent **<copy>What are the store locations?</copy>**. The information that the AI agent will respond with will be retrieved from the external database over the MCP.
    ![Profiles](../graphics/Lab1_AI_Agent/15.5.png)
+
+2. Open up the interaction transcripts in the **Session** to confirm that result came from the MCP tool.
+   ![Profiles](../graphics/Lab1_AI_Agent/15.6.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

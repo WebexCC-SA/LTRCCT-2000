@@ -36,7 +36,7 @@ In this mission, you will change the language of your AI agent for the voice cha
 7. Connect the nodes in series. **Validate** and **Publish** the flow. 
    ![Profiles](../graphics/Lab1_AI_Agent/17.5.gif)
 
-8. Call the number that is related to your channel. You should hear the AI agent play the Welcome message in English with an accent, but afterward, you can continue the conversation in the language that you configured in the flow.
+8. Call the number that is related to your channel. You should hear the AI agent play the Welcome message in English with an accent, but afterward, you can continue the conversation in the language that you configured in the flow. You will change the Welcome message in the next Task.
 
 
 ### Task 2. Change the Welcome message.
