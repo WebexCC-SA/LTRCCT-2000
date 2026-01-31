@@ -18,7 +18,7 @@ In the previous **Mission 3**, you created intents, entities, and responses to e
 
 3. Add **Custom Event** and configure it with the following: </br>
 Event Name: ***<copy>order_details</copy>***
-Event payload: **{"ordernumber":"${entity.order_number}"}**.</br>
+Event payload: **<copy>{"ordernumber":"${entity.order_number}"}</copy>**.</br>
 **Save** the updated response. 
     ![Profiles](../graphics/Lab1_AI_Agent/6.39.gif) 
 
@@ -38,9 +38,9 @@ Event payload: **{"ordernumber":"${entity.order_number}"}**.</br>
     ![Profiles](../graphics/Lab1_AI_Agent/6.42.gif) 
 
 3. Create 3 empty String Variables with names:</br>
-***<copy>order_id</copy>***
-***<copy>MetaData_Scripted_Agent</copy>***
-***<copy>order_status</copy>***
+***<copy>order_id</copy>***</br>
+***<copy>MetaData_Scripted_Agent</copy>***</br>
+***<copy>order_status</copy>***</br>
     ![Profiles](../graphics/Lab1_AI_Agent/6.43.gif) 
 
 4. The fulfillment will go over the Handled output. So in your Voice flow, remove the **Disconnect Contact** block and add **SetVariable block**. Connect Handled output to the SetVariable block. 

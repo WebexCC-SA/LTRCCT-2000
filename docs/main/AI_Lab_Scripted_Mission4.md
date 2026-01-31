@@ -16,8 +16,7 @@ Your mission is to configure intents, entities, and responses to check the statu
 
 #### Task 2. Configure intents, entities, and responses.
 
-1. While on the **Script** configuration page, switch to **Entities** tab and click on the **Create entity** option. Provide the name as 
-. Entity type select as **Digits**. Provide **Length** as **2**
+1. While on the **Script** configuration page, switch to **Entities** tab and click on the **Create entity** option. Provide the name as **<copy>order_number</copy>**. Entity type select as **Digits**. Provide **Length** as **2**
     ![Profiles](../graphics/Lab1_AI_Agent/6.17.gif) 
 
 2. While on the **Script** configuration page, switch to **Intents** tab and click on the **Create Intent** button located in the top right corner.
@@ -55,7 +54,7 @@ Your mission is to configure intents, entities, and responses to check the statu
     ![Profiles](../graphics/Lab1_AI_Agent/6.25.gif) 
 
 
-13. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***<copy>I would like to track my order</copy>*** and provide an order number that you created earlier. 
+13. Click on the **Preview** button on the top right side to test the bot. Try the bot flow by typing ***<copy>I would like to track my order</copy>*** and provide an order number that you created earlier. The AI agent will not response with actual order status but it will provide the interim message.  
     ![Profiles](../graphics/Lab1_AI_Agent/6.26.png) 
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

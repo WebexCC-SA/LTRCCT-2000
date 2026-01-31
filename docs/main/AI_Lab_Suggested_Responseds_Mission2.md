@@ -116,7 +116,7 @@ Input field display name: **orderNumber**
 
 1. Login to **Agent Desktop**.
 
-2. Please the call to the number that is related to you Channel - <w class="attendee"></w>_2000_Channel
+2. Please the call to the number that is related to your Channel - <w class="attendee"></w>_2000_Channel
 
 3. Ask the AI Agent to transfer the call to the human agent. 
 
