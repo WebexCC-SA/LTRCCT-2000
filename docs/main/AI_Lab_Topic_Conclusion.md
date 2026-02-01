@@ -1,5 +1,4 @@
-By completing these bonus labs in your own time, you will gain practical experience with some of the most innovative features of Webex Contact Center (WxCC). You will learn how to set up IVR campaigns powered by AI agents, script custom AI agent behaviors, and integrate digital channels like chat and social messaging into your contact center environment.
+The WxCC Topic Analytics lab offers practical experience with Cisco Webex Contact Center’s AI-powered Topic Analytics feature, which uses machine learning and large language models to automatically cluster and label customer contact reasons from call transcripts. Participants learn how to access and analyze topic collections to identify common customer issues and opportunities for automation, enabling organizations to prioritize automation candidates and enhance customer self-service capabilities.
 
 
-Additionally, you will explore topic analytics to gain valuable insights from customer interactions. These labs will help you deepen your understanding of how AI and digital integration can enhance customer experiences and improve operational efficiency within WxCC.
-
+This lab serves as a foundational step in the AI-driven automation journey within Webex Contact Center, aimed at improving customer experience and operational efficiency. By understanding and utilizing Topic Analytics, participants are better equipped to leverage AI for actionable business insights and drive continuous improvement in contact center operations.

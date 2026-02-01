@@ -18,7 +18,7 @@ Enter your administrator login user, if prompted.
 4. Click on **Topic**. There are various **Topics** for which customers are contacting the Contact Center. Knowing this information gives the opportunities for automation and enhanced self-service through virtual agents. For example, one such topic could be **Flower Delivery**. As a CX Architect/Business leader, you might consider implementing an AI agent capable of creating an order and scheduling deliveries.
    ![Profiles](../graphics/Lab1_AI_Agent/1.4.png)
 
-5. There is option for you to download the Topics with details. 
+5. There is option for you to download the Topics with details. Click on **Export**.
    ![Profiles](../graphics/Lab1_AI_Agent/1.6.png)
 
 6. Next, click on the **Flower Delivery** topic. This will take you to the **Contact Record** tab, which shows all the contacts associated with this topic, along with the date/time of those calls and the contact reason. If you open any of them, you can view details of the contact, the contact reason, transcripts, and even listen to the call recording.
@@ -33,7 +33,7 @@ Click on **Edit Topics** on the top-right corner.
 2. In the Name Copy screen, edit the topic collection name. By default, Copy of existing collection name appears in the Topic collection name field. For this lab you can call it with any name you prepare. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.8.png)
 
-3.  Optionally, topics can be merged or deleted. **Please do not do it while working on this lab**. 
+3.  Optionally, topics can be merged or deleted. <span style="color: red;">[Please do not do it while working on this lab]</span>.
    ![Profiles](../graphics/Lab1_AI_Agent/1.17.png)
 
 4. Click on Add New
@@ -74,7 +74,7 @@ Click on **Edit Topics** on the top-right corner.
 2. Click on Dashboard and search for the Dashboard with name ***<copy>AI Assistant Dashboard</copy>***. Open the Dashboard with ID -1284.
    ![Profiles](../graphics/Lab1_AI_Agent/1.20.png)
 
-3. Scroll down and select the duration as **This Year**
+3. Scroll down and select the duration as **Last Month**
    ![Profiles](../graphics/Lab1_AI_Agent/1.21.png)
 
 4. To check the graph for flower-related topics, uncheck all other topics, leaving only **Inquiry on Flower and Costs** and **Inquiry on Flower Order and Prices**.

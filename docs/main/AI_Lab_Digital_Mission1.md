@@ -48,10 +48,10 @@ Go to **Services** and look for the service that you have created earlier. The n
    ![Profiles](../graphics/Lab1_AI_Agent/4.8.png)
 
 
-2.  Input ***Name*** as **<span class="attendee-id-container"><span class="attendee-id-placeholder" data-suffix="_2000_Chat_Channel">Your_Attendee_ID</span>_2000_Chat_Channel<span   class="copy" title="Click to copy!"></span></span>**
+2.  Input ***Name*** as **<copy><w class="attendee"></w>_2000_Chat_Channel</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/4.9.png)
 
-3. Select **Chat** from the ***Channel Type*** drop-down list. Select **Chat_App_<span class="attendee-id-placeholder">Your_Attendee_ID</span>_2000** as an ***Asset Name***. Set ***Service Level Threshold*** as **`360`** and click on **Save**.
+3. Select **Chat** from the ***Channel Type*** drop-down list. Select **<copy>Chat_App_<w class="attendee"></w>_2000</copy>** as an ***Asset Name***. Set ***Service Level Threshold*** as **`360`** and click on **Save**.
    ![Profiles](../graphics/Lab1_AI_Agent/4.10.png)
 
 
@@ -137,7 +137,7 @@ Go to **Services** and look for the service that you have created earlier. The n
 
 ### Task 6. Paste the script to the test website. 
 
-1. In this lab, we are using the glitch.com platform to test our chat functionality on a sample website. Using your personal gmail plesae login to glitch.com and create your own custom website where you can embed the chat widget. Open index.html file to see the structure of the website. 
+1. In this lab, we are using the glitch.com platform to test our chat functionality on a sample website. Using your personal gmail please login to glitch.com and create your own custom website where you can embed the chat widget. Open index.html file to see the structure of the website. 
      ![Profiles](../graphics/Lab1_AI_Agent/4.45.gif)
 
 2. While having index.html file open, copy the script that you have save in notepad in the previous Task and paste it between ***footer*** and ***body*** tags. 

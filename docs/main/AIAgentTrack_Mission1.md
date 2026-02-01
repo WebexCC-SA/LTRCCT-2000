@@ -20,7 +20,7 @@ Create an AI agent and upload the knowledge base (KB) to enable the agent to pro
 
 ### Task 1. Creating new AI Agent with Knowladge Base.
 
-1. <span style="color: red;">[IMPORTANT]</span> Download .xlsx the file [Flowrs_Catalog](https://docs.google.com/spreadsheets/d/1A5d1ZEPWmPE_38Bi8bVULKLhCH0wyGX4/edit?usp=sharing&ouid=100862210011127627593&rtpof=true&sd=true){:target="_blank"}.
+1. <span style="color: red;">[READ ONLY]</span> Download .xlsx the file [Flowrs_Catalog](https://docs.google.com/spreadsheets/d/1A5d1ZEPWmPE_38Bi8bVULKLhCH0wyGX4/edit?usp=sharing&ouid=100862210011127627593&rtpof=true&sd=true){:target="_blank"}.
     ![Profiles](../graphics/Lab1_AI_Agent/2.74.png)
     
     > 
