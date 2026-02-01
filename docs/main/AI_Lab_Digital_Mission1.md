@@ -101,13 +101,12 @@ Go to **Services** and look for the service that you have created earlier. The n
     | Button Text                   | Start Chat                 |
     | First message                 | Hello! Welcome to the chat |
     | PCI Compliance Banner Message | This chat is PCI compliant |
-    | Domain                        | *.glitch.me                |
+    | Domain                        | *.w3schools.com            |
     | Set wait time                 | Disabled                   |
     | Set Chat Announcement         | Enabled                    | 
 
 
 6. Review the configurations and **Save changes**
-   ![Profiles](../graphics/Lab1_AI_Agent/4.19.gif)
 
 
 7.  Scroll up, select ***Appearance*** and change the settings:
@@ -137,14 +136,15 @@ Go to **Services** and look for the service that you have created earlier. The n
 
 ### Task 6. Paste the script to the test website. 
 
-1. In this lab, we are using the glitch.com platform to test our chat functionality on a sample website. Using your personal gmail please login to glitch.com and create your own custom website where you can embed the chat widget. Open index.html file to see the structure of the website. 
-     ![Profiles](../graphics/Lab1_AI_Agent/4.45.gif)
+1. Open up <copy>https://www.w3schools.com/</copy> and click on HTML. 
+     ![Profiles](../graphics/Lab1_AI_Agent/4.46.gif)
 
-2. While having index.html file open, copy the script that you have save in notepad in the previous Task and paste it between ***footer*** and ***body*** tags. 
-     ![Profiles](../graphics/Lab1_AI_Agent/4.25.gif)
+2. Scroll down and click on **Try it Yourself**
+     ![Profiles](../graphics/Lab1_AI_Agent/4.48.gif)
 
-4. Click on the website preview, and you should see the chat bubble appear in the bottom-right corner.
-     ![Profiles](../graphics/Lab1_AI_Agent/4.26.gif)
+3. Delete the current HTML document details and past the HTML scrip that you saved to the clipboard. Then click on "RUN". You should see the chat bubble shows up on the right down corner. 
+     ![Profiles](../graphics/Lab1_AI_Agent/4.47.gif)
+
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>
 

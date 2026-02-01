@@ -41,13 +41,13 @@ In this mission, you will download the Webex Connect flow and configure it to wo
 3. Open up Queue Task and select the queue **<copy><w class="attendee"></w>_2000_Chat_Queue</copy>** from the list that is related to your config. 
    ![Profiles](../graphics/Lab1_AI_Agent/4.34.gif)
 
-4. Open up New Webex Connect Window, go to Applicaitons and find the AppID that is related to your Chat Application with name **<copy>Chat_App_<w class="attendee"></w>_2000</copy>**
+4. Open up New Webex Connect Window, go to Applications and find the AppID that is related to your Chat Application with name **<copy>Chat_App_<w class="attendee"></w>_2000</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/4.35.gif)
 
 5. Go to your Webex Connect Flow, open up **Flow Settings**, click on **Custom Variables** and adjust the appID with the one you copied in the previous step. 
    ![Profiles](../graphics/Lab1_AI_Agent/4.36.gif)
 
-6. For better tracking purposes, also change the **liveChatDomain** in the **Custom Variables** settings from *.glitch.me to the website that is associated with your user account. For example for my test account it is shine-rapid-freesia.glitch.me. For your account please refer the table below. <span style="color: red;">[NEED to Add Table]</span> 
+6. Click on **General Settings** > **Custom Variables** and update the liveChatDomain with <b>*.w3schools.com</b>. 
    ![Profiles](../graphics/Lab1_AI_Agent/4.41.gif)
 
 
