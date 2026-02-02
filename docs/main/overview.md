@@ -7,7 +7,7 @@ icon: material/bullseye-arrow
 
 ## Get your login credentials
 
-1. In the Chrome browser open the lab access page https://lab-assistant.com
+1. In the Chrome browser open the lab access page **<copy>https://lab-assistant.com</copy>**
 
 2. Enter the access code **<copy>462397</copy>** and press **Enter**. 
     ![Profiles](../graphics/Lab1_AI_Agent/Login1.png) 
@@ -21,7 +21,7 @@ icon: material/bullseye-arrow
 5. Select the pod that is associated with the number tag attached to your screen.
    ![Profiles](../graphics/Lab1_AI_Agent/Login4.png) 
 
-6. Use this Attendee ID and login details to follow the lab. You can copy and paste them into a notepad if this would be convenient for you.
+6. Use this Attendee ID and login details to follow the lab. You can copy and paste login credentials and other details into a notepad if this would be convenient for you.
    ![Profiles](../graphics/Lab1_AI_Agent/Login5.png) 
 
 
