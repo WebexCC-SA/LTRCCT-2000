@@ -33,37 +33,11 @@ Click on **Edit Topics** on the top-right corner.
 2. In the Name Copy screen, edit the topic collection name. By default, Copy of existing collection name appears in the Topic collection name field. For this lab you can call it with any name you prepare. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.8.png)
 
-3.  Optionally, topics can be merged or deleted. <span style="color: red;">[Please do not do it while working on this lab]</span>.
+3.  Optionally, topics can be merged. <span style="color: red;">[Please do not do it while working on this lab]</span>.
    ![Profiles](../graphics/Lab1_AI_Agent/1.17.png)
 
-4. Click on Add New
+4. Or you can add a new topic, and the AI module will analyze the transcript specifically for the keywords that you provide. We will not be adding a new collection in this lab, as it requires some time for the system to generate the new collection.
    ![Profiles](../graphics/Lab1_AI_Agent/1.9.png)
-
-5. Configure the tops with the contact reason examples.</br>
-    Add Topic Labol: ***<copy>Flower Reason</copy>***
-    
-    Contact Reasons: </br>
-    
-    ***<copy>I need flowers for the party</copy>***</br>
-    ***<copy>Need to order flower for Birthday</copy>***</br>
-   ***<copy>Anniversary</copy>***</br>
-    >
-   ![Profiles](../graphics/Lab1_AI_Agent/1.10.png)
-
-6. Click on **Next**.
-   ![Profiles](../graphics/Lab1_AI_Agent/1.11.png)
-
-7. <span style="color: red;">[Read Only]</span>  Review the **Edits** but for this lab overview **DO NOT click** on  **Create new topic collection**, as it would take some time for it to be created. 
-   ![Profiles](../graphics/Lab1_AI_Agent/1.12.png)
-
-8. <span style="color: red;">[Read Only]</span>  On the next Windows you would see that new collection is creating.
-   ![Profiles](../graphics/Lab1_AI_Agent/1.13.png)
-
-9. <span style="color: red;">[Read Only]</span>  From Topic Analytics you would see that a new Topic collection will be creating, and if you have enough calls with the provided reason, the data will show up in the Topic.
-   ![Profiles](../graphics/Lab1_AI_Agent/1.14.png)
-
-10. For this lab open up topic with name **Flower Delivery_2** to see the expected results.
-   ![Profiles](../graphics/Lab1_AI_Agent/1.30.png)
 
 
 #### Task 3. Review Topic Analytics reports in AI Assistant Dashboard. 
@@ -71,13 +45,13 @@ Click on **Edit Topics** on the top-right corner.
 1. From [Control Hub](https://admin.webex.com){:target="_blank"} login to Analyzer. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.18.png)
 
-2. Click on Dashboard and search for the Dashboard with name ***<copy>AI Assistant Dashboard</copy>***. Open the Dashboard with ID -1284.
+2. Click on **Dashboard** and search for the Dashboard with name ***<copy>AI Assistant Dashboard</copy>***. Open the Dashboard with ID -1284.
    ![Profiles](../graphics/Lab1_AI_Agent/1.20.png)
 
 3. Scroll down and select the duration as **Last Month**
    ![Profiles](../graphics/Lab1_AI_Agent/1.21.png)
 
-4. To check the graph for flower-related topics, uncheck all other topics, leaving only **Inquiry on Flower and Costs** and **Inquiry on Flower Order and Prices**.
+4. To check the graph for flower-related topics, uncheck all other topics, leaving only **Ordering Flowers for Friends** and **Ordering and Assistance Inquiries**. The Miscellaneous are the calls that were analyzed not related to any topic yet. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.24.png)
 
 
