@@ -1,17 +1,15 @@
 
 ## Story
 
-You are designing a Contact Center solution with Topic Analytics, Webex Autonomous AI Agent, and AI Assistant features for a flower store. The AI agent will recommend flowers to customers based on the occasion, collect order details, calculate the total price, update order information in a third-party application using APIs, and send a confirmation SMS with the order details.<br/>
-Topic Analytics provides an easy-to-use interface for Contact Center administrators to identify the reasons why customers are calling the contact center. This is accomplished by transcribing customer recordings and leveraging advanced AI technologies to extract contact reasons from these transcripts.
+Topic Analytics in Webex Contact Center (WxCC) serves to analyze and uncover the main reasons why customers contact the center by reviewing thousands of customer conversations. It uses AI to highlight the most common customer inquiry topics and organizes them into a manageable, prioritized list of topics.
+
+For example, in a flower shop scenario, the administrator can review these topics to understand frequent customer requests or issues. Based on this insight, the administrator can implement AI agents specifically designed to handle those requests autonomously.
 
 
 ## Capabilities
 
 - **Ability to filter interactions by Topics**
-- **View interaction details** including:
-    - **Transcripts**
-    - **Call recordings**
-    - **Contact details**
+- **View interaction details** 
 - **Improved coverage and accuracy** with enhanced **AI models**
 - **Customize Topics** to align with your **business needs**
 

@@ -11,7 +11,7 @@ icon: material/medal
 ## Mission overview
 Your mission is to:
 
-Create a Knowledge Base for the AI Assistant skill to use. This knowledge base will contain document will provide the necessary information for the AI Assistant to knowledgeably provide suggestions to the agent.
+Create a Knowledge Base for the AI Assistant skill to use. This Knowledge Base will contain documents that provide the necessary information for the AI Assistant to knowledgeably provide suggestions to the agent.
 
 ---
 
