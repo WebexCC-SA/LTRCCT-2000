@@ -3,7 +3,7 @@
 icon: material/medal
 ---
 
-#### Task 1. Review Flower Delivery Topic Collection.
+### Task 1. Review Flower Delivery Topic Collection.
 
 1. Go to <b>Contact centre overview</b>. Under Quick Links , click on **Topic Analytics**. 
 Enter your administrator login user, if prompted. 
@@ -24,7 +24,7 @@ Enter your administrator login user, if prompted.
 6. Next, click on the **Ordering Flowers for Friends** topic. This will take you to the **Contact Record** tab, which shows all the contacts associated with this topic, along with the date/time of those calls and the contact reason. If you open any of them, you can view details of the contact, the contact reason, transcripts, and even listen to the call recording.
    ![Profiles](../graphics/Lab1_AI_Agent/1.5.gif)
 
-#### Task 2. <span style="color: red;">[READ ONLY]</span> Review steps to edit Topic Collection.
+### Task 2. <span style="color: red;">[READ ONLY]</span> Review steps to edit Topic Collection.
 
 1. Topic Analytics enables you to modify your topic collections, allowing you to tailor the topics to better fit specific business needs, language, and terminology. You can rename topics, merge topics, delete topics, add new topics. </br> 
 Click on **Edit Topics** on the top-right corner.
@@ -40,7 +40,7 @@ Click on **Edit Topics** on the top-right corner.
    ![Profiles](../graphics/Lab1_AI_Agent/1.9.png)
 
 
-#### Task 3. Review Topic Analytics reports in AI Assistant Dashboard. 
+### Task 3. Review Topic Analytics reports in AI Assistant Dashboard. 
 
 1. From [Control Hub](https://admin.webex.com){:target="_blank"} login to Analyzer. 
    ![Profiles](../graphics/Lab1_AI_Agent/1.18.png)
@@ -58,9 +58,9 @@ Click on **Edit Topics** on the top-right corner.
 5. On the right side, you can see the **Topic Analytics Summary** card with additional information like Interactions, Avg Handle Time, and Average Auto CSAT. You can expand details about the interactions related to the topic by clicking on it.
    ![Profiles](../graphics/Lab1_AI_Agent/1.23.gif)
 
-#### Task 4. Review custom Analyzer report for Topic Analytics.
+### Task 4. Review custom Analyzer report for Topic Analytics.
 
-1. While in the Analyzer portal, click on Visualizations and search for the report **LAB-2342-Topic**. Open the report. You should see that there are two new profile variables in Analyzer that could be used to review the Topic details: **Topic Name** and **Contact Driver**.
+1. While in the Analyzer portal, click on Visualizations and search for the report **LTRCCT-2000**. Open the report. You should see that there are two new profile variables in Analyzer that could be used to review the Topic details: **Topic Name** and **Contact Driver**.
    ![Profiles](../graphics/Lab1_AI_Agent/1.26.png)
 
 2. You can filter the report to see specific topics. Select **Inquiry on Flower and Costs** and **Inquiry on Flower Order and Prices**

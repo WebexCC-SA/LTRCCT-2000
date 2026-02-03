@@ -100,6 +100,7 @@ nav:
     - Lab Guide:
         - "Lab overview": ./main/AI_Lab_Topic_Overview.md
         - "Mission 1: Explore Topic Analytics": ./main/AI_Lab_Topic_Mission1.md
+        - "(Read Only)Mission 2: Explore Real-Time Topic Analytics": ./main/AI_Lab_Real_Time_Topic_Mission1.md
     - Conclusion: ./main/AI_Lab_Topic_Conclusion.md
   #- Real Time Topic:
   #    - Real Time Topic Review:  
