@@ -20,7 +20,7 @@ Your mission is to:
 
 <span style="color: red;">[READ ONLY]</span>
 
-### (Read Only) Task 1 . Order Provisioning & Control Hub Settings
+### (Read Only) Task 1. Order Provisioning & Control Hub Settings
 
 1. You should have the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW provisioned in the tenant.
 
