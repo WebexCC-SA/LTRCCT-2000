@@ -54,7 +54,7 @@ Configure the fulfillment flow to track the status of existing orders. This func
 
    > Name: **<copy>orderNumber</copy>**. <br>
    > Entity type: **String** <br>
-   > Entity description: **<copy>If the customer wants to track an order, collect the order number to this entity. </copy>**. <br>
+   > Entity description: **<copy>If the customer wants to track an order, collect the order number to this entity. </copy>** <br>
    > Entity example: **<copy>17</copy>** <br>
    > Required: **Yes** <br>
    > Input field display name: **orderNumber**
