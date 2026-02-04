@@ -24,7 +24,9 @@ icon: material/medal
 6. Next, click on the **Ordering Flowers for Friends** topic. This will take you to the **Contact Records** tab, which shows all the contacts associated with this topic, along with the date/time of those calls and the contact reason. If you open any of them, you can view details of the contact, the contact reason, transcripts, and even listen to the call recording.
    ![Profiles](../graphics/Lab1_AI_Agent/1.5.gif)
 
-### Task 2. <span style="color: red;">[READ ONLY]</span> Review steps to edit Topic Collection
+<span style="color: red;">[READ ONLY]</span>
+
+### (Read Only) Task 2. Review steps to edit Topic Collection
 
 Topic Analytics enables you to modify your topic collections, allowing you to tailor the topics to better fit specific business needs, language, and terminology. You can rename topics, merge topics, delete topics or add new topics. </br>
 

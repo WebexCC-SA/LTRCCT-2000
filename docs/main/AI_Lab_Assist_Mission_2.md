@@ -2,6 +2,7 @@
 #icon: material/folder-open-outline
 icon: material/medal
 ---
+
 ## Feature Description
 
 Customers find it frustrating to repeat themselves, especially after a call drop. Now, agents can pick up where the call left off, reducing frustration and handling time, while empowering agents to work more efficiently.
@@ -12,47 +13,45 @@ The Cisco AI Assistant provides a summary of the recently dropped interaction, d
 
 Your mission is to:
 
-Understand the provisioning process and Control Hub settings required to activate this AI feature. Review the agent configurations with the correct desktop layout. Test the feature.
+1. Understand how **Call Drop Summary** feature is enabled.
+2. Test **Call Drop Summary** feature.
 
 ## Build
 
-### Task 1. Order Provisioning & Control Hub Settings
+<span style="color: red;">[READ ONLY]</span>
 
-1. You should purchase the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW.
+### (Read Only) Task 1 . Order Provisioning & Control Hub Settings
 
-2. Once you purchase the offer, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. Post purchasing the offer, the customer can enable/disable the **Call Drop Summary** features from the Control Hub.
+1. You should have the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW provisioned in the tenant.
+
+2. Once you have provisioned it, admins with the appropriate profile and access controls will be able to see the AI Assistant menu in Control Hub. From there, the customer can enable/disable the **Call Drop Summaries** features from the Control Hub.
    ![Profiles](../graphics/Lab1_AI_Agent/3.18.png)
 
-
-3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has Agent Assistance features configured.  
-    <br/>Agents Team:
-   ![Profiles](../graphics/Lab1_AI_Agent/3.41.png)    
+3. The Agent needs to logged in to the Team that is configured with Desktop Layout that has Agent Assistance features configured (**Note: Default desktop layout already incudes the AI Agent Assistance widget**). <br/>
+   <br/>Agents Team:
+   ![Profiles](../graphics/Lab1_AI_Agent/3.41.png)  
     <br/>Desktop Layout:
-   ![Profiles](../graphics/Lab1_AI_Agent/3.43.png) 
-    <br/>Desktop Layout file: Make sure **ai-assistant** is configured under the **advancedHeader**
+   ![Profiles](../graphics/Lab1_AI_Agent/3.43.png)
+   <br/>Desktop Layout file: Make sure **ai-assistant** is configured under the **advancedHeader**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.5.png)
-    <br/>You can download preconfigured desktop layout here.
-   [Desktop Layout](https://drive.google.com/file/d/1EnM-2r9XOVm2EcE6ND4fL3L62qZesm5_/view?usp=sharing){:target="_blank"}
-
+   <br/>You can download a preconfigured desktop layout here.<br/>
+   [Desktop Layout](https://drive.google.com/file/d/1EnM-2r9XOVm2EcE6ND4fL3L62qZesm5_/view?usp=sharing){:target="\_blank"}
 
 ### Task 2. Test Call Drop Summary Feature
 
-1. Login to the Agent Desktop.
+1. Make sure the agent is in the **Available** status.
    ![Profiles](../graphics/Lab1_AI_Agent/3.15.png)
 
-2. Confirm that your Channel **<w class="attendee"></w>_2000_Channel** is still configured with the flow **AutonomousAI_Flow_2000_<w class="attendee"></w>** that includes the Autonomous AI agent, and the **Escalated** output is connected to the Queue node. This configuration is expected to remain the same as in the Autonomous AI Agent lab.
-   ![Profiles](../graphics/Lab1_AI_Agent/3.7.gif)
+2. Place the test call to the number that is associated with you Channel **<w class="attendee"></w>\_2000_Channel**, and ask to talk to an agent.
 
-3. Place a test call and ask to talk to an agent. 
+3. Stay on the call for 35 - 45 seconds, as a customer ask questions such as that you want to order flowers for a friend.
 
-4. Become Available on the Agent Desktop and answer the call. 
-* Stay on the call for 35 - 45 seconds 
-* Have some conversation and then disconnect from the caller side. 
+4. After 35-45 seconds, end the call from the customer side.
    ![Profiles](../graphics/Lab1_AI_Agent/3.19.png)
 
-5. Call back from the same number. Ask to talk to an agent. 
+5. Call back from the same number. Ask to talk to an agent.
 
-6. Become Available on the Agent Desktop and answer the call. You will see AI Assistant Widget will have Call Drop Summary and the Agent Transfer Summary.
+6. Make sure you are **Available** on the Agent Desktop and answer the call. You will see AI Assistant Widget will have Call Drop Summary and the Agent Transfer Summary.
    ![Profiles](../graphics/Lab1_AI_Agent/3.20.png)
 
 <p style="text-align:center"><strong>Congratulations, you have officially completed this mission! 🎉🎉 </strong></p>

@@ -9,7 +9,7 @@ The all-new topic analytics empowers you to discover emerging topics as customer
 
 <span style="color: red;">[READ ONLY]</span>
 
-### Task 1 . Review the upcoming UI for the Real-Time Topic Dashboard for Supervisors
+### (Read Only) Task 1 . Review the upcoming UI for the Real-Time Topic Dashboard for Supervisors
 
 1. When the Administrator logs in the Agent Desktop, then can see the **Real Time Topic** module.
    ![Profiles](../graphics/Lab1_AI_Agent/1.31.png)
@@ -22,7 +22,7 @@ The all-new topic analytics empowers you to discover emerging topics as customer
 
 <span style="color: red;">[READ ONLY]</span>
 
-### Task 2 . Review Real-Time topic on the Supervisor's Dashboard
+### (Read Only) Task 2 . Review Real-Time topic on the Supervisor's Dashboard
 
 1. You can add **Topic Name** field the the **Completed Interactions** Dashboard.
    ![Profiles](../graphics/Lab1_AI_Agent/1.34.png)
