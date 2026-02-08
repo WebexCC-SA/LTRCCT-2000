@@ -35,7 +35,8 @@ Integrate the AI Agent with the Voice Flow.
    > Select Contact Center AI Config as **Webex AI Agent (Autonomous)**.
    >
    > Virtual Agent: **<copy><w class="attendee"></w>\_2000_AutoAI_Lab</copy>**
-   > ![Profiles](../graphics/Lab1_AI_Agent/2.49.gif)
+
+[Profiles](../graphics/Lab1_AI_Agent/2.49.gif)
 
 4. Drag and drop **Queue Contact** and **Play Music** nodes. Configure them as the following:
    - **Queue Contact**
@@ -66,14 +67,10 @@ Integrate the AI Agent with the Voice Flow.
 6. Assign the Flow to your **Channel (Entry Point)**. Do this by first going to **Channels** and search for your channel **<copy><w class="attendee"></w>\_2000_Channel</copy>**.
 7. Click on **<copy><w class="attendee"></w>\_2000_Channel</copy>**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.52.png)
-8. In **Channel** settings section, change the following and then **Save** the changes.
-
-   > Routing Flow: **<copy>AutonomousAI*Flow_2000*<w class="attendee"></w></copy>**
-
-   > Version Label: **Latest**
-
+8. In **Channel** settings section, change the following and then **Save** the changes.<br/>
+Routing Flow: **<copy>AutonomousAI*Flow_2000*<w class="attendee"></w></copy>**<br/>
+Version Label: **Latest**<br/>
    ![Profiles](../graphics/Lab1_AI_Agent/2.53.gif)
-
 9. Dial the support number assigned to your **<w class="attendee"></w>\_2000_Channel** to test the Autonomous AI Agent over a voice call.
    ![Profiles](../graphics/Lab1_AI_Agent/2.84.png)
 
@@ -83,7 +80,6 @@ Integrate the AI Agent with the Voice Flow.
    ![Profiles](../graphics/Lab1_AI_Agent/2.83.gif)
 2. Select **Desktop** endpoint option and choose the team **<copy><w class="attendee"></w>\_2000_Team</copy>**. Click **Submit**. Allow browser to access Microphone by clicking **Allow** on every visit.
 3. Make your agent **_Available_** and you're ready to make a call.
-
    ![profiles](../graphics/Lab1_AI_Agent/5-Agent_Login.gif)
 
 4. Dial the support number assigned to your **<w class="attendee"></w>\_2000_Channel** channel, and during the conversation with the AI agent, ask to **talk to a representative or live agent**.
