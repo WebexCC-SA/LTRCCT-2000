@@ -94,11 +94,11 @@ Configure Fulfilment action to collect order details from the customer and send 
    > Required: <b>Yes</b>
 
 10. By following the same pattern, create an entity to store the order status information.<br>
-    > Entity Name: **_<copy>status</copy>_**<br>
-    > Entity Type: <b>string</b> <br>
-    > Description: **_<copy>Always create it as "new"</copy>_**<br>
-    > Example: **_<copy>new</copy>_**<br>
-    > Required: <b>Yes</b>
+   > Entity Name: **_<copy>status</copy>_**<br>
+   > Entity Type: <b>string</b> <br>
+   > Description: **_<copy>Always create it as "new"</copy>_**<br>
+   > Example: **_<copy>new</copy>_**<br>
+   > Required: <b>Yes</b>
 
 11. At this point you should see 6 created entities. Please double check that your configuration matches the screenshot below.
     ![Profiles](../graphics/Lab1_AI_Agent/2.61.png)
@@ -119,16 +119,16 @@ Configure Fulfilment action to collect order details from the customer and send 
 
 3.  In the **PROVIDE SAMPLE JSON**, replace the standard JSON body with the following:
     <br>
-    `JSON
- {
-   "orderDetails": "ID",
-   "orderTotal": "Type",
-   "delivery": "Type",
-   "address": "Type",
-   "status": "Type",
-   "phoneNumber": "Type"
- }
-`
+    >    `JSON
+    > {
+    >   "orderDetails": "ID",
+    >   "orderTotal": "Type",
+    >   "delivery": "Type",
+    >   "address": "Type",
+    >   "status": "Type",
+    >   "phoneNumber": "Type"
+    > }
+    >`
 
 4.  Then click on **Parse** and **Save** the change.
     ![Profiles](../graphics/Lab1_AI_Agent/2.62.gif)
