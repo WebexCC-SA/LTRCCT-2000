@@ -39,7 +39,7 @@ Configure Fulfilment action to collect order details from the customer and send 
 4. From the Integrations list, select AI Agent.
    ![Profiles](../graphics/Lab1_AI_Agent/2.12.gif)
 
-5. For now, save the flow and **Make it live**. We will return to configuring this flow later. Creating it now is necessary to complete configurations in the AI Agent Studio Portal.
+5. For now, **Save** the flow and **Make it live**. We will return to configuring this flow later. Creating it now is necessary to complete configurations in the AI Agent Studio Portal.
    ![Profiles](../graphics/Lab1_AI_Agent/2.13.gif)
 
 ### Task 2. Configure Action in the AI Studio
@@ -199,7 +199,6 @@ Configure Fulfilment action to collect order details from the customer and send 
    ![Profiles](../graphics/Lab1_AI_Agent/2.68.gif)
 
 2. Double click on the SMS block and configure the following:
-
    > Destination: **_<copy>$(n2.aiAgent.phoneNumber)</copy>_**<br>
    > From Number: **_<copy>447507201958</copy>_**<br>
    > Message Type: **Text**<br>
@@ -215,7 +214,7 @@ Configure Fulfilment action to collect order details from the customer and send 
    >status: "$(n2.aiAgent.status)"<br>
    > phoneNumber: "$(n2.aiAgent.phoneNumber)"<br></b>
    >
-   > ![Profiles](../graphics/Lab1_AI_Agent/2.69.gif)
+   ![Profiles](../graphics/Lab1_AI_Agent/2.69.gif)
 
 3. Save and click on **Make Live**.
    ![Profiles](../graphics/Lab1_AI_Agent/2.70.gif)
