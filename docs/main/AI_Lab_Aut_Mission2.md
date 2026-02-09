@@ -48,7 +48,6 @@ Configure Fulfilment action to collect order details from the customer and send 
    ![Profiles](../graphics/Lab1_AI_Agent/2.14.gif)
 
 2. Select your AI agent with name **<copy><w class="attendee"></w>\_2000_AutoAI_Lab</copy>** that you created earlier and go to **Actions**. You will see one Action is already created by default for the Agent Handover. We will now create few more actions.
-
    ![Profiles](../graphics/Lab1_AI_Agent/2.17.gif)
 
 3. Click on create <b>New Action</b>. From the drop-down option, select **Fulfillment action**.
@@ -58,16 +57,14 @@ Configure Fulfilment action to collect order details from the customer and send 
    ![Profiles](../graphics/Lab1_AI_Agent/2.18a.gif)
 
 5. Scroll down and click to create **New input entity**. Fill up the table with the following and then click on **Add**. <br>
-
    > Entity Name: **_<copy>address</copy>_** <br>
    > Entity Type: <b>string</b> <br>
    > Description: **_<copy>Collect the customer's delivery address</copy>_**<br>
    > Example: **_<copy>548 Catalina Drive, Cary, NC 27515</copy>_** <br>
    > Required: <b>Yes</b>
-   > ![Profiles](../graphics/Lab1_AI_Agent/2.19.gif)
+   ![Profiles](../graphics/Lab1_AI_Agent/2.19.gif)
 
 6. By following the same pattern, create an entity that specifies whether the customer requires delivery. <br>
-
    > Entity Name: **_<copy>delivery</copy>_**<br>
    > Entity Type: <b>string</b> <br>
    > Description: **_<copy>Check if the customer needs delivery or not. Event if they want to proceed with order without specifying the delivery details. If the customer wants to confirm the order but didn't specify if they need delivery or not, ask one more time if they need the delivery or not.</copy>_**<br>
@@ -76,7 +73,6 @@ Configure Fulfilment action to collect order details from the customer and send 
    > Required: <b>Yes</b>
 
 7. By following the same pattern, create an entity to collect the customer's phone number.<br>
-
    > Entity Name: **_<copy>phoneNumber</copy>_**<br>
    > Entity Type: <b>string</b> <br>
    > Description: **_<copy>Collect customer's phone number. Before the customer complete the order, ask if they would like to receive confirmation over the SMS. If so, collect the phone number.</copy>_**<br>
@@ -84,7 +80,6 @@ Configure Fulfilment action to collect order details from the customer and send 
    > Required: <b>Yes</b>
 
 8. By following the same pattern, create an entity to collect the customer's order details.<br>
-
    > Entity Name: **_<copy>orderDetails</copy>_**<br>
    > Entity Type: <b>string</b> <br>
    > Description: **_<copy>Collect the flowers and bouquets information that customer orders. Make sure to do correct math. If one rose is 20 dollars and the customer would like buy 9 roses then the price should be 180 dollars. Don't use double quotes (") in the generated responses.</copy>_**<br>
@@ -92,7 +87,6 @@ Configure Fulfilment action to collect order details from the customer and send 
    > Required: <b>Yes</b>
 
 9. By following the same pattern, create an entity to store the total price information of the order.<br>
-
    > Entity Name: **_<copy>orderTotal</copy>_**<br>
    > Entity Type: <b>string</b> <br>
    > Description: **_<copy>After the customer inform if they need delivery or not, and confirm that they would like to proceed with completing the order, collect the Total information and assigned it to this slot.</copy>_**<br>
@@ -100,7 +94,6 @@ Configure Fulfilment action to collect order details from the customer and send 
    > Required: <b>Yes</b>
 
 10. By following the same pattern, create an entity to store the order status information.<br>
-
     > Entity Name: **_<copy>status</copy>_**<br>
     > Entity Type: <b>string</b> <br>
     > Description: **_<copy>Always create it as "new"</copy>_**<br>
