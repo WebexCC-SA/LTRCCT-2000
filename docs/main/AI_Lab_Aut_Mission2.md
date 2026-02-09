@@ -199,8 +199,8 @@ Configure Fulfilment action to collect order details from the customer and send 
    ![Profiles](../graphics/Lab1_AI_Agent/2.68.gif)
 
 2. Double click on the SMS block and configure the following:
-   > Destination: **_<copy>$(n2.aiAgent.phoneNumber)</copy>_**<br>
-   > From Number: **_<copy>447507201958</copy>_**<br>
+   > Destination: **<copy>$(n2.aiAgent.phoneNumber)</copy>**<br>
+   > From Number: **<copy>447507201958</copy>**<br>
    > Message Type: **Text**<br>
    > <br>
    > Message as below:<br>
