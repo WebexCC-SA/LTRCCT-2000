@@ -44,21 +44,17 @@ Configure the fulfillment flow to track the status of existing orders. This func
    ![Profiles](../graphics/Lab1_AI_Agent/SR.Fulfillment.png)
 
 5. Name the Action as **<copy>track_order</copy>**. <br>
-
    > In the **Action description** provide the following: **<copy>If the customer want to track and order, collect the order number. With the order number execute the fulfillment and return the customer the order status. </copy>** <br>
    > Select the **Action scope** as **Slot filling and fulfillment.**
-
    ![Profiles](../graphics/Lab1_AI_Agent/9.23.png)
 
 6. Add **New input entity**. Configure it with the following: <br>
-
    > Name: **<copy>orderNumber</copy>**. <br>
    > Entity type: **String** <br>
    > Entity description: **<copy>If the customer wants to track an order, collect the order number to this entity. </copy>** <br>
    > Entity example: **<copy>17</copy>** <br>
    > Required: **Yes** <br>
    > Input field display name: **orderNumber**
-
    ![Profiles](../graphics/Lab1_AI_Agent/9.24.png)
 
 7. For the fulfillment flow, select the Service **<copy><w class="attendee"></w>\_Service</copy>** and the flow **<copy>Track_Order_Flowers</copy>**, that you have created in the previous Tasks. Then click **Add**.
@@ -76,17 +72,14 @@ Configure the fulfillment flow to track the status of existing orders. This func
    ![Profiles](../graphics/Lab1_AI_Agent/9.28.gif)
 
 3. Open up **Configure AI Agent Event** node and replace the Sample JSON body with the following. Then click on **Parse** and **Save** the changes of the node.
-
    ```JSON
    {
      "orderNumber": "numbr"
    }
    ```
-
    ![Profiles](../graphics/Lab1_AI_Agent/9.29.gif)
 
 4. Open up **HTTP Request** node and configure it with the following:
-
    > Method: **GET**
    > <br>
    > Endpoint URL: **_<copy>https://67e9aa0bbdcaa2b7f5b9ed62.mockapi.io/customerOrder?id=$(n2.aiAgent.orderNumber)</copy>_**<br>
@@ -98,8 +91,7 @@ Configure the fulfillment flow to track the status of existing orders. This func
    > Output Variable Name: **_<copy>orderStatus</copy>_**<br>
    > Response Entity: **_Body_**<br>
    > Response Path **_<copy>$[0].status</copy>_**<br>
-   >
-   > ![Profiles](../graphics/Lab1_AI_Agent/9.30.png)
+   ![Profiles](../graphics/Lab1_AI_Agent/9.30.png)
 
 5. Save changes and click on **Make Live**.
    ![Profiles](../graphics/Lab1_AI_Agent/9.31.gif)

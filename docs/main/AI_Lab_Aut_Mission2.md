@@ -114,21 +114,20 @@ Configure Fulfilment action to collect order details from the customer and send 
 1.  Go to the Webex Connect, select the Service **<copy><w class="attendee"></w>\_2000_Service</copy>** and click on <b>Manage</b> the flow that you have created earlier.
     ![Profiles](../graphics/Lab1_AI_Agent/2.24.gif)
 
-2.  Click on **Edit** on the right top to edit the flow. Then double click on the AI Agent event.
-    ![Profiles](../graphics/Lab1_AI_Agent/2.62a.gif)
+2. Click on **Edit** the flow on the right top. Then double click on the AI Agent event. In the Provide Sample JSON, replace the standard JSON body with the following: 
+   ![Profiles](../graphics/Lab1_AI_Agent/2.62a.gif)
+<br>
+    ``` JSON
+    {
+      "orderDetails": "ID",
+      "orderTotal": "Type",
+      "delivery": "Type",
+      "address": "Type",
+      "status": "Type",
+      "phoneNumber": "Type"
+    }
+    ```
 
-3.  In the **PROVIDE SAMPLE JSON**, replace the standard JSON body with the following:
-    <br>
-    >    `JSON
-    > {
-    >   "orderDetails": "ID",
-    >   "orderTotal": "Type",
-    >   "delivery": "Type",
-    >   "address": "Type",
-    >   "status": "Type",
-    >   "phoneNumber": "Type"
-    > }
-    >`
 
 4.  Then click on **Parse** and **Save** the change.
     ![Profiles](../graphics/Lab1_AI_Agent/2.62.gif)
@@ -144,19 +143,16 @@ Configure Fulfilment action to collect order details from the customer and send 
     > Header: **_<copy>Content-Type</copy>_**: **_<copy>application/json</copy>_**
     > <br>
     > Body: <br>
-    > `JSON
-    > {
-
-        "orderDetails": "$(n2.aiAgent.orderDetails)",
-        "orderTotal": "$(n2.aiAgent.orderTotal)",
-        "delivery": "$(n2.aiAgent.delivery)",
-        "address": "$(n2.aiAgent.address)",
-        "status": "$(n2.aiAgent.status)",
-        "phoneNumber": "$(n2.aiAgent.phoneNumber)"
-
-    }
-    `
-
+    >       ``` JSON
+    >       {
+    >        "orderDetails": "$(n2.aiAgent.orderDetails)",
+    >        "orderTotal": "$(n2.aiAgent.orderTotal)",
+    >        "delivery": "$(n2.aiAgent.delivery)",
+    >        "address": "$(n2.aiAgent.address)",
+    >        "status": "$(n2.aiAgent.status)",
+    >        "phoneNumber": "$(n2.aiAgent.phoneNumber)"
+    >       }
+    >       ```   
     > <br>
     >
     > Output Variable Type: <b>JSON</b><br>
@@ -164,8 +160,7 @@ Configure Fulfilment action to collect order details from the customer and send 
     > Output Variable Name: **_<copy>orderNumber</copy>_**<br>
     > Response Entity: **_Body_**<br>
     > Response Path **_<copy>$.id</copy>_**<br>
-    >
-    > ![Profiles](../graphics/Lab1_AI_Agent/2.63.gif)
+     ![Profiles](../graphics/Lab1_AI_Agent/2.63.gif)
 
 7.  Compare your settings with the screenshot below to make sure you configured the HTTP Request correctly. Make sure you **Save** the changes.
     ![Profiles](../graphics/Lab1_AI_Agent/2.29.png)
@@ -213,11 +208,11 @@ Configure Fulfilment action to collect order details from the customer and send 
    > <br>
    > <b>Here is your order details:<br>
    > orderNumber: "$(n3.orderNumber)"<br>
-     >orderDetails: "$(n2.aiAgent.orderDetails)"<br>
+   >orderDetails: "$(n2.aiAgent.orderDetails)"<br>
    > orderTotal: "$(n2.aiAgent.orderTotal)"<br>
-     >delivery: "$(n2.aiAgent.delivery)"<br>
+   >delivery: "$(n2.aiAgent.delivery)"<br>
    > address: "$(n2.aiAgent.address)"<br>
-     >status: "$(n2.aiAgent.status)"<br>
+   >status: "$(n2.aiAgent.status)"<br>
    > phoneNumber: "$(n2.aiAgent.phoneNumber)"<br></b>
    >
    > ![Profiles](../graphics/Lab1_AI_Agent/2.69.gif)

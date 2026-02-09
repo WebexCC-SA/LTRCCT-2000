@@ -21,16 +21,15 @@ Your mission is to learn how to view the AutoCSAT score for customer interaction
 
 ## Build
 
-<span style="color: red;">[READ ONLY]</span>
 
-### (Read Only) Task 1. Order Provisioning & Control Hub Settings
+
+### <span style="color: red;">[READ ONLY]</span> Task 1. Order Provisioning & Control Hub Settings
 
 1. You should have the new AI Assistant SKU **A-FLEX-AI-ASST** from CCW provisioned in the tenant.
 
 2. Once you have provisioned it, admins with the appropriate profile and access controls will be able to view the **AI Assistant** menu in Control Hub.
    - You can enable or disable the **AutoCSAT** feature directly from the Control Hub.
    - AutoCSAT can be enabled for **all agents** or for **selected individual agents**.
-
 > **Note:**  
 > To activate post-call survey functionality, historical customer data is required to train the AutoCSAT model. There are two ways to collect this data:
 >
@@ -38,10 +37,9 @@ Your mission is to learn how to view the AutoCSAT score for customer interaction
 > 2. Capture customer survey responses using the **Global variable** within your flow.
 
 - In our lab, we are using **Global Variable** AutoCSAT_GV as the variable to train our Auto CSAT model.
-
   ![Profiles](../graphics/Lab1_AI_Agent/3.21.png)
 
-### (Read Only) Task 2. Explore AutoCSAT using Analyzer report and Supervisor Dashboard
+### <span style="color: red;">[READ ONLY]</span> Task 2. Explore AutoCSAT using Analyzer report and Supervisor Dashboard
 
 1. Under Contact Center in Control Hub, click **Overview** and from **Quick Links** open up **Analyzer**.
    ![Profiles](../graphics/Lab1_AI_Agent/3.22.gif)

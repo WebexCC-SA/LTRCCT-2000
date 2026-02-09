@@ -33,17 +33,13 @@ Create an Evaluation Form with requirements to ask the caller's name and the occ
    ![Profiles](../graphics/Lab1_AI_Agent/12.5.png)
 
 6. Configure the first question with the following:<br>
-
    > Question: **<copy>Was the caller's name asked?</copy>**<br>
    > Context: **<copy>The agent needs to ask the caller's name every time the conversation starts.</copy>**<br>
-
    ![Profiles](../graphics/Lab1_AI_Agent/12.6.png)
 
 7. **Add question** and configure the second question with the following:<br>
-
    > Question: **<copy>Was the caller asked what the occasion for the flowers was?</copy>**<br>
    > Context: **<copy>The agent needs to ask the occasion for the flowers to better assist the customer.</copy>**<br>
-
    ![Profiles](../graphics/Lab1_AI_Agent/12.7.gif)
 
 8. Scroll up and click on **Add assignment**. From the list of queues, select your queue **<copy><w class="attendee"></w>\_2000_Voice_Queue</copy>**. And click on **Assign**.
