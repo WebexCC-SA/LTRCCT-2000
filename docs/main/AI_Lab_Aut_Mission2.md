@@ -103,7 +103,7 @@ Configure Fulfilment action to collect order details from the customer and send 
 11. At this point you should see 6 created entities. Please double check that your configuration matches the screenshot below.
     ![Profiles](../graphics/Lab1_AI_Agent/2.61.png)
 
-12. In the **Webex Connect Builder Fulfillment**, select Service: **<copy><w class="attendee"></w>\_2000_Service</copy>** and Flow: <b>Create_Order_Flowers</b>. Click on **Add**.
+12. In the **Webex Connect Builder Fulfillment**, select Service: **<copy><w class="attendee"></w>\_2000_Service_</copy>** and Flow: <b>Create_Order_Flowers</b>. Click on **Add**.
     ![Profiles](../graphics/Lab1_AI_Agent/2.22.png)
 
 13. **Publish** the update of your AI Agent.
