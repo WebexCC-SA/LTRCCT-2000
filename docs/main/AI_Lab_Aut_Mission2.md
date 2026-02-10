@@ -30,7 +30,7 @@ Configure Fulfilment action to collect order details from the customer and send 
 1. From **Control Hub**, go to **Contact Center** > **Overview** and open up the **Webex Connect** Portal.
    ![Profiles](../graphics/Lab1_AI_Agent/2.9.gif)
 
-2. Create a new Service with name **<copy><w class="attendee"></w>\_2000_Service</copy>**
+2. Create a new Service with name **<copy><w class="attendee"></w>\_2000_Service_</copy>**
    ![Profiles](../graphics/Lab1_AI_Agent/2.10.gif)
 
 3. Click on **Flows** and create new flow with the name **_<copy>Create_Order_Flowers</copy>_**
